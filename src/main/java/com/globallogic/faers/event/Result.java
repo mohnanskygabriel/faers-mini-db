@@ -1,9 +1,20 @@
-
 package com.globallogic.faers.event;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
 
+@Entity
+@Table(name = "RESULT")
 public class Result {
 
+    private Long id;
     private String safetyreport;
     private String safetyreportversion;
     private String receivedate;
@@ -30,6 +41,17 @@ public class Result {
     private Primarysource primarysource;
     private Reportduplicate reportduplicate;
     private Receiver receiver;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", unique = true, nullable = false)
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getSafetyreport() {
         return safetyreport;
@@ -199,6 +221,7 @@ public class Result {
         this.companynumb = companynumb;
     }
 
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     public Patient getPatient() {
         return patient;
     }
@@ -207,6 +230,7 @@ public class Result {
         this.patient = patient;
     }
 
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     public Sender getSender() {
         return sender;
     }
@@ -215,6 +239,7 @@ public class Result {
         this.sender = sender;
     }
 
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     public Primarysource getPrimarysource() {
         return primarysource;
     }
@@ -223,6 +248,7 @@ public class Result {
         this.primarysource = primarysource;
     }
 
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     public Reportduplicate getReportduplicate() {
         return reportduplicate;
     }
@@ -231,6 +257,7 @@ public class Result {
         this.reportduplicate = reportduplicate;
     }
 
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     public Receiver getReceiver() {
         return receiver;
     }

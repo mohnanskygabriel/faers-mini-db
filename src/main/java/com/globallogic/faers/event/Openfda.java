@@ -1,9 +1,21 @@
-
 package com.globallogic.faers.event;
 
 import java.util.List;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Entity
+@Table(name = "OPENFDA")
 public class Openfda {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", updatable = false, nullable = false)
+    private Long id;
 
     private List<String> splId = null;
     private List<String> productNdc = null;
@@ -103,6 +115,14 @@ public class Openfda {
 
     public void setBrandName(List<String> brandName) {
         this.brandName = brandName;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
 }
