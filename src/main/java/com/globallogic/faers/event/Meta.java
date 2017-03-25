@@ -1,5 +1,6 @@
 package com.globallogic.faers.event;
 
+import java.io.Serializable;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,7 +13,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "META")
-public class Meta {
+public class Meta implements Serializable {
 
     private Long id;
     private String lastUpdated;

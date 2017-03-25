@@ -1,5 +1,6 @@
 package com.globallogic.faers.event;
 
+import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -77,6 +78,7 @@ public class Patient {
         this.patientdeath = patientdeath;
     }
 
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "id")
     public List<Drug> getDrug() {
         return drug;
     }
@@ -85,6 +87,7 @@ public class Patient {
         this.drug = drug;
     }
 
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "id")
     public List<Reaction> getReaction() {
         return reaction;
     }

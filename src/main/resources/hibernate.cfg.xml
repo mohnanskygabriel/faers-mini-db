@@ -14,7 +14,19 @@
         <property name="hibernate.connection.password">mnhb2016</property>
         <property name="hibernate.hbm2ddl.auto">create-drop</property>   
         <property name="show_sql">true</property>
+        <mapping class="com.globallogic.faers.event.Drug" />
+        <mapping class="com.globallogic.faers.event.Event" />
         <mapping class="com.globallogic.faers.event.Meta" />
+        <mapping class="com.globallogic.faers.event.Openfda" />
+        <mapping class="com.globallogic.faers.event.Patient" />
+        <mapping class="com.globallogic.faers.event.Patientdeath" />
+        <mapping class="com.globallogic.faers.event.Primarysource" />
+        <mapping class="com.globallogic.faers.event.Reaction" />
+        <mapping class="com.globallogic.faers.event.Receiver" />
+        <mapping class="com.globallogic.faers.event.Reportduplicate" />
+        <mapping class="com.globallogic.faers.event.Result" />
         <mapping class="com.globallogic.faers.event.Results" />
+        <mapping class="com.globallogic.faers.event.Sender" />
+        
     </session-factory>
 </hibernate-configuration>

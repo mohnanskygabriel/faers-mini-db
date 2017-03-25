@@ -17,7 +17,6 @@ public class Results {
     private Long id;
     private Integer skip;
     private Integer total;
-    @Column(name = "lim")
     private Integer limit;
 
     @Id
@@ -47,6 +46,7 @@ public class Results {
         this.total = total;
     }
 
+    @Column(name = "lim")
     public Integer getLimit() {
         return limit;
     }

@@ -1,9 +1,7 @@
 package com.globallogic.faers.app;
 
 import com.globallogic.faers.event.Event;
-import com.globallogic.faers.event.Meta;
 import com.globallogic.faers.event.Result;
-import com.globallogic.faers.event.Results;
 import java.util.List;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
@@ -19,16 +17,11 @@ public class MainCLI {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       /* EventDAO eventDAO = new EventDAO();
+        EventDAO eventDAO = new EventDAO();
         Event event = eventDAO.getEventFromJSON();
         System.out.println("Result size: " + event.getResults().size());
         List<Result> results = event.getResults();
-        int i = 0;
-        for (Result result : results) {
-            System.out.println(result.getSeriousnessother());
-        }*/
 
-        
         try {
             factory = new Configuration().configure().buildSessionFactory();
         } catch (Throwable ex) {
@@ -39,17 +32,9 @@ public class MainCLI {
         Transaction tx = null;
         try {
             tx = session.beginTransaction();
-            Meta meta = new Meta();
-            meta.setDisclaimer("some disclaimer");
-            meta.setLastUpdated("lastUpdatedUpdate");
-            meta.setLicense("superLicence");
-            meta.setTerms("exampleTerm");
-            Results results = new Results();
-            results.setLimit(100);
-            results.setSkip(50);
-            results.setTotal(1000);
-            meta.setResults(results);
-            session.save(meta);            
+            for (Result result : results) {
+                session.save(result);
+            }
             tx.commit();
 
         } catch (HibernateException e) {
@@ -58,7 +43,10 @@ public class MainCLI {
             }
             e.printStackTrace();
         } finally {
+            /* Openfda first = session.get(Openfda.class, new Long(1));
+            System.out.println(first.getGenericName().get(2));*/
             session.close();
+            System.exit(0);
         }
     }
 }
