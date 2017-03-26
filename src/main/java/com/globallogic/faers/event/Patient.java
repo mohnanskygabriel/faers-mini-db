@@ -1,6 +1,5 @@
 package com.globallogic.faers.event;
 
-import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -9,13 +8,15 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "PATIENT")
-public class Patient {
+public class Patient{
 
     private Long id;
     private String patientonsetage;
@@ -78,7 +79,8 @@ public class Patient {
         this.patientdeath = patientdeath;
     }
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "id")
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinTable(name = "PATIENT_DRUG_MAPPING", joinColumns = @JoinColumn(name = "patientId"), inverseJoinColumns = @JoinColumn(name = "drugId"))
     public List<Drug> getDrug() {
         return drug;
     }
@@ -87,7 +89,8 @@ public class Patient {
         this.drug = drug;
     }
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "id")
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinTable(name = "PATIENT_REACTION_MAPPING", joinColumns = @JoinColumn(name = "patientId"), inverseJoinColumns = @JoinColumn(name = "reactionId"))
     public List<Reaction> getReaction() {
         return reaction;
     }

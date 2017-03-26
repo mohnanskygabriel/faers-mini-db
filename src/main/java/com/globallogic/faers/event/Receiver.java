@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "RECEIVER")
-public class Receiver {
+public class Receiver{
 
     private Long id;
     private String receivertype;

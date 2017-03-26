@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "PATIENTDEATH")
-public class Patientdeath {
+public class Patientdeath{
 
     private Long id;
     private String patientdeathdate;

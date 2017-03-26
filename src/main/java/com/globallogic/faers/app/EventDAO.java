@@ -1,6 +1,5 @@
 package com.globallogic.faers.app;
 
-import com.globallogic.faers.app.MainForm;
 import com.globallogic.faers.event.Event;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -14,9 +13,9 @@ import java.util.logging.Logger;
 
 public class EventDAO {
 
-    public Event getEventFromJSON() {
+    public Event getEventFromJSON() throws FileNotFoundException {
         try {
-            FileReader fR = new FileReader("E:\\NetBeans projects\\faersDb\\src\\main\\resources\\drug-event-0002-of-0005.json");
+            FileReader fR = new FileReader("src/main/resources/drug-event-0002-of-0005.json");
             Gson gson = new GsonBuilder().create();
             JsonReader jReader = new JsonReader(fR);
             jReader.setLenient(true);
@@ -28,8 +27,6 @@ public class EventDAO {
                 return gson.fromJson(jReader, Event.class);
             }
 
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(MainForm.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(EventDAO.class.getName()).log(Level.SEVERE, null, ex);
         }

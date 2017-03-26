@@ -12,7 +12,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "RESULT")
-public class Result {
+public class Result{
 
     private Long id;
     private String safetyreport;

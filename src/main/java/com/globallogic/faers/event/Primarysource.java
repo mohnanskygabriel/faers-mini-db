@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "PRIMARYSOURCE")
-public class Primarysource {
+public class Primarysource{
 
     private Long id;
     private String reportercountry;

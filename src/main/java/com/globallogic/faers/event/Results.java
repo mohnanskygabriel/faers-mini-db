@@ -1,7 +1,5 @@
 package com.globallogic.faers.event;
 
-import javax.persistence.Access;
-import javax.persistence.AccessType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,7 +10,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "RESULTS")
 
-public class Results {
+public class Results{
 
     private Long id;
     private Integer skip;

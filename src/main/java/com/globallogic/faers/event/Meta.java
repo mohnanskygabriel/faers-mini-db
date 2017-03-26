@@ -1,6 +1,5 @@
 package com.globallogic.faers.event;
 
-import java.io.Serializable;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,7 +12,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "META")
-public class Meta implements Serializable {
+public class Meta {
 
     private Long id;
     private String lastUpdated;
@@ -66,6 +65,7 @@ public class Meta implements Serializable {
         this.license = license;
     }
 
+    @Column(name = "disclaimer", length = 400)
     public String getDisclaimer() {
         return disclaimer;
     }
