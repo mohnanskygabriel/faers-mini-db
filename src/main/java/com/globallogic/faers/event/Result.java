@@ -1,7 +1,5 @@
 package com.globallogic.faers.event;
 
-import com.globallogic.faers.app.ReportDuplicate;
-import com.globallogic.faers.app.PrimarySource;
 import com.google.gson.annotations.SerializedName;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;

@@ -1,4 +1,4 @@
-package com.globallogic.faers.app;
+package com.globallogic.faers.event;
 
 import java.util.ArrayList;
 import javax.persistence.Column;
