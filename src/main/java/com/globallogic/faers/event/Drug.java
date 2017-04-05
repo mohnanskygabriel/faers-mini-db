@@ -1,5 +1,6 @@
 package com.globallogic.faers.event;
 
+import com.globallogic.faers.app.OpenFDA;
 import com.google.gson.annotations.SerializedName;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;

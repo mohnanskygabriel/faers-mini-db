@@ -1,4 +1,4 @@
-package com.globallogic.faers.event;
+package com.globallogic.faers.app;
 
 import com.google.gson.annotations.SerializedName;
 import javax.persistence.Column;

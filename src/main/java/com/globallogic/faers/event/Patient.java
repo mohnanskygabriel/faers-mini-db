@@ -1,5 +1,6 @@
 package com.globallogic.faers.event;
 
+import com.globallogic.faers.app.PatientDeath;
 import com.google.gson.annotations.SerializedName;
 import java.util.List;
 import javax.persistence.CascadeType;
