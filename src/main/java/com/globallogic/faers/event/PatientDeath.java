@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "PATIENT_DEATH")
-public class PatientDeathX {
+public class PatientDeath {
 
     private Long id;
     

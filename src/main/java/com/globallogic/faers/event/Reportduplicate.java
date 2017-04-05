@@ -1,5 +1,6 @@
 package com.globallogic.faers.event;
 
+import com.google.gson.annotations.SerializedName;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,12 +9,16 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "REPORTDUPLICATE")
-public class Reportduplicate{
+@Table(name = "REPORT_DUPLICATE")
+public class ReportDuplicate {
 
     private Long id;
-    private String duplicatesource;
-    private String duplicatenumb;
+    
+    @SerializedName("duplicatesource")
+    private String duplicateSource;
+    
+    @SerializedName("duplicatenumb")
+    private String duplicateNumb;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,20 +31,22 @@ public class Reportduplicate{
         this.id = id;
     }
 
-    public String getDuplicatesource() {
-        return duplicatesource;
+    @Column(name = "duplicate_source")
+    public String getDuplicateSource() {
+        return duplicateSource;
     }
 
-    public void setDuplicatesource(String duplicatesource) {
-        this.duplicatesource = duplicatesource;
+    public void setDuplicateSource(String duplicateSource) {
+        this.duplicateSource = duplicateSource;
     }
 
-    public String getDuplicatenumb() {
-        return duplicatenumb;
+    @Column(name = "duplicate_numb")
+    public String getDuplicateNumb() {
+        return duplicateNumb;
     }
 
-    public void setDuplicatenumb(String duplicatenumb) {
-        this.duplicatenumb = duplicatenumb;
+    public void setDuplicateNumb(String duplicateNumb) {
+        this.duplicateNumb = duplicateNumb;
     }
 
 }

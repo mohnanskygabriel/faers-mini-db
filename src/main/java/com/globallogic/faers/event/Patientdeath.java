@@ -1,5 +1,6 @@
 package com.globallogic.faers.event;
 
+import com.google.gson.annotations.SerializedName;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,12 +9,16 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "PATIENTDEATH")
-public class Patientdeath{
+@Table(name = "PATIENT_DEATH")
+public class PatientDeath {
 
     private Long id;
-    private String patientdeathdate;
-    private String patientdeathdateformat;
+    
+    @SerializedName("patientdeathdate")
+    private String patientDeathDate;
+    
+    @SerializedName("patientdeathdateformat")
+    private String patientDeathDateFormat;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,20 +31,22 @@ public class Patientdeath{
         this.id = id;
     }
 
-    public String getPatientdeathdate() {
-        return patientdeathdate;
+    @Column(name = "death_date")
+    public String getPatientDeathDate() {
+        return patientDeathDate;
     }
 
-    public void setPatientdeathdate(String patientdeathdate) {
-        this.patientdeathdate = patientdeathdate;
+    public void setPatientDeathDate(String patientDeathDate) {
+        this.patientDeathDate = patientDeathDate;
     }
 
-    public String getPatientdeathdateformat() {
-        return patientdeathdateformat;
+    @Column(name = "date_format")
+    public String getPatientDeathDateFormat() {
+        return patientDeathDateFormat;
     }
 
-    public void setPatientdeathdateformat(String patientdeathdateformat) {
-        this.patientdeathdateformat = patientdeathdateformat;
+    public void setPatientDeathDateFormat(String patientDeathDateFormat) {
+        this.patientDeathDateFormat = patientDeathDateFormat;
     }
 
 }

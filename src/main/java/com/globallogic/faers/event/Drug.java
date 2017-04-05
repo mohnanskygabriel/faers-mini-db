@@ -90,7 +90,7 @@ public class Drug {
     private String medicinalProduct;
     
     @SerializedName("openfda")
-    private OpenFDAX openFDA;
+    private OpenFDA openFDA;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -320,11 +320,11 @@ public class Drug {
     }
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    public OpenFDAX getOpenfda() {
+    public OpenFDA getOpenfda() {
         return openFDA;
     }
 
-    public void setOpenfda(OpenFDAX openfda) {
+    public void setOpenfda(OpenFDA openfda) {
         this.openFDA = openfda;
     }
 

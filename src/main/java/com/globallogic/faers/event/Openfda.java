@@ -9,8 +9,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "OPENFDA")
-public class Openfda{
+@Table(name = "OPENFDA_DRUG_INFO")
+public class OpenFDA{
 
     private Long id;
     private ArrayList<String> splId = null;
@@ -26,7 +26,7 @@ public class Openfda{
     private ArrayList<String> brandName = null;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false)
     public Long getId() {
         return id;

@@ -33,7 +33,7 @@ public class Patient {
     private String patientWeight;
     
     @SerializedName("patientdeath")
-    private PatientDeathX patientDeath;
+    private PatientDeath patientDeath;
     
     private List<Drug> drug = null;
     private List<Reaction> reaction = null;
@@ -86,11 +86,11 @@ public class Patient {
     }
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    public PatientDeathX getPatientDeath() {
+    public PatientDeath getPatientDeath() {
         return patientDeath;
     }
 
-    public void setPatientDeath(PatientDeathX patientDeath) {
+    public void setPatientDeath(PatientDeath patientDeath) {
         this.patientDeath = patientDeath;
     }
 

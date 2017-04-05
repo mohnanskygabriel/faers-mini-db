@@ -83,10 +83,10 @@ public class Result {
     private Sender sender;
 
     @SerializedName("primarysource")
-    private PrimarySourceX primarySource;
+    private PrimarySource primarySource;
 
     @SerializedName("reportduplicate")
-    private ReportDuplicateX reportDuplicate;
+    private ReportDuplicate reportDuplicate;
 
     private Receiver receiver;
 
@@ -308,20 +308,20 @@ public class Result {
     }
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    public PrimarySourceX getPrimarySource() {
+    public PrimarySource getPrimarySource() {
         return primarySource;
     }
 
-    public void setPrimarySource(PrimarySourceX primarySource) {
+    public void setPrimarySource(PrimarySource primarySource) {
         this.primarySource = primarySource;
     }
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    public ReportDuplicateX getReportDuplicate() {
+    public ReportDuplicate getReportDuplicate() {
         return reportDuplicate;
     }
 
-    public void setReportDuplicate(ReportDuplicateX reportDuplicate) {
+    public void setReportDuplicate(ReportDuplicate reportDuplicate) {
         this.reportDuplicate = reportDuplicate;
     }
 
