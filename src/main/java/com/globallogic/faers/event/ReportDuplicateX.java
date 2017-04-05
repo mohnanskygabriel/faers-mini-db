@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "REPORT_DUPLICATE")
-public class ReportDuplicate {
+public class ReportDuplicateX {
 
     private Long id;
     

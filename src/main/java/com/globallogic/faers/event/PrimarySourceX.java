@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "PRIMARY_SOURCE")
-public class PrimarySource {
+public class PrimarySourceX {
 
     private Long id;
     

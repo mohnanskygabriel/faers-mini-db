@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "OPENFDA_DRUG_INFO")
-public class OpenFDA{
+public class OpenFDAX{
 
     private Long id;
     private ArrayList<String> splId = null;
