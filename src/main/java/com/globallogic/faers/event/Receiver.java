@@ -1,5 +1,6 @@
 package com.globallogic.faers.event;
 
+import com.google.gson.annotations.SerializedName;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,11 +10,15 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "RECEIVER")
-public class Receiver{
+public class Receiver {
 
     private Long id;
-    private String receivertype;
-    private String receiverorganization;
+
+    @SerializedName("receivertype")
+    private String receiverType;
+
+    @SerializedName("receiverorganization")
+    private String receiverOrganization;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,20 +31,22 @@ public class Receiver{
         this.id = id;
     }
 
-    public String getReceivertype() {
-        return receivertype;
+    @Column(name = "type")
+    public String getReceiverType() {
+        return receiverType;
     }
 
-    public void setReceivertype(String receivertype) {
-        this.receivertype = receivertype;
+    public void setReceiverType(String receiverType) {
+        this.receiverType = receiverType;
     }
 
-    public String getReceiverorganization() {
-        return receiverorganization;
+    @Column(name = "organization")
+    public String getReceiverOrganization() {
+        return receiverOrganization;
     }
 
-    public void setReceiverorganization(String receiverorganization) {
-        this.receiverorganization = receiverorganization;
+    public void setReceiverOrganization(String receiverOrganization) {
+        this.receiverOrganization = receiverOrganization;
     }
 
 }

@@ -1,5 +1,6 @@
 package com.globallogic.faers.event;
 
+import com.google.gson.annotations.SerializedName;
 import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -16,14 +17,24 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "PATIENT")
-public class Patient{
+public class Patient {
 
     private Long id;
-    private String patientonsetage;
-    private String patientonsetageunit;
-    private String patientsex;
-    private String patientweight;
-    private Patientdeath patientdeath;
+    @SerializedName("patientonsetage")
+    private String patientOnsetAge;
+    
+    @SerializedName("patientonsetageunit")
+    private String patientOnsetAgeUnit;
+    
+    @SerializedName("patientsex")
+    private String patientSex;
+    
+    @SerializedName("patientweight")
+    private String patientWeight;
+    
+    @SerializedName("patientdeath")
+    private PatientDeath patientDeath;
+    
     private List<Drug> drug = null;
     private List<Reaction> reaction = null;
 
@@ -38,45 +49,49 @@ public class Patient{
         this.id = id;
     }
 
-    public String getPatientonsetage() {
-        return patientonsetage;
+    @Column(name = "onset_age")
+    public String getPatientOnsetAge() {
+        return patientOnsetAge;
     }
 
-    public void setPatientonsetage(String patientonsetage) {
-        this.patientonsetage = patientonsetage;
+    public void setPatientOnsetAge(String patientOnsetAge) {
+        this.patientOnsetAge = patientOnsetAge;
     }
 
-    public String getPatientonsetageunit() {
-        return patientonsetageunit;
+    @Column(name = "onset_age_unit")
+    public String getPatientOnsetAgeUnit() {
+        return patientOnsetAgeUnit;
     }
 
-    public void setPatientonsetageunit(String patientonsetageunit) {
-        this.patientonsetageunit = patientonsetageunit;
+    public void setPatientOnsetAgeUnit(String patientOnsetAgeUnit) {
+        this.patientOnsetAgeUnit = patientOnsetAgeUnit;
     }
 
-    public String getPatientsex() {
-        return patientsex;
+    @Column(name = "sex")
+    public String getPatientSex() {
+        return patientSex;
     }
 
-    public void setPatientsex(String patientsex) {
-        this.patientsex = patientsex;
+    public void setPatientSex(String patientSex) {
+        this.patientSex = patientSex;
     }
 
-    public String getPatientweight() {
-        return patientweight;
+    @Column(name = "weight")
+    public String getPatientWeight() {
+        return patientWeight;
     }
 
-    public void setPatientweight(String patientweight) {
-        this.patientweight = patientweight;
+    public void setPatientWeight(String patientWeight) {
+        this.patientWeight = patientWeight;
     }
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    public Patientdeath getPatientdeath() {
-        return patientdeath;
+    public PatientDeath getPatientDeath() {
+        return patientDeath;
     }
 
-    public void setPatientdeath(Patientdeath patientdeath) {
-        this.patientdeath = patientdeath;
+    public void setPatientDeath(PatientDeath patientDeath) {
+        this.patientDeath = patientDeath;
     }
 
     @OneToMany(cascade = CascadeType.ALL)

@@ -10,7 +10,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "RESULTS")
 
-public class Results{
+public class Results {
 
     private Long id;
     private Integer skip;

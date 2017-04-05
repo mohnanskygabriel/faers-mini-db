@@ -1,5 +1,6 @@
 package com.globallogic.faers.event;
 
+import com.google.gson.annotations.SerializedName;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -15,6 +16,7 @@ import javax.persistence.Table;
 public class Meta {
 
     private Long id;
+    @SerializedName("lastupdated")
     private String lastUpdated;
     private String terms;
     private Results results;
@@ -32,6 +34,7 @@ public class Meta {
         this.id = id;
     }
 
+    @Column(name = "last_updated")
     public String getLastUpdated() {
         return lastUpdated;
     }

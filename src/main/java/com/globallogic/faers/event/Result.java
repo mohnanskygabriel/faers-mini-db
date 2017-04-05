@@ -1,5 +1,6 @@
 package com.globallogic.faers.event;
 
+import com.google.gson.annotations.SerializedName;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,38 +13,85 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "RESULT")
-public class Result{
+public class Result {
 
     private Long id;
-    private String safetyreport;
-    private String safetyreportversion;
-    private String receivedate;
-    private String seriousnesscongenitalanomali;
-    private String seriousnessdeath;
-    private String seriousnessdisabling;
-    private String seriousnesshospitalization;
-    private String seriousnesslifethreatening;
-    private String seriousnessother;
-    private String receiptdate;
-    private String transmissiondate;
-    private String transmissiondateformat;
-    private String receiptdateformat;
+
+    @SerializedName("safetyreport")
+    private String safetyReport;
+
+    @SerializedName("safetyreportversion")
+    private String safetyReportversion;
+
+    @SerializedName("receivedate")
+    private String receiveDate;
+
+    @SerializedName("seriousnesscongenitalanomali")
+    private String seriousnessCongenitalAnomali;
+
+    @SerializedName("seriousnessdeath")
+    private String seriousnessDeath;
+
+    @SerializedName("seriousnessdisabling")
+    private String seriousnessDisabling;
+
+    @SerializedName("seriousnesshospitalization")
+    private String seriousnessHospitalization;
+
+    @SerializedName("seriousnesslifethreatening")
+    private String seriousnessLifeThreatening;
+
+    @SerializedName("seriousnessother")
+    private String seriousnessOther;
+
+    @SerializedName("receiptdate")
+    private String receiptDate;
+
+    @SerializedName("transmissiondate")
+    private String transmissionDate;
+
+    @SerializedName("transmissiondateformat")
+    private String transmissionDateFormat;
+
+    @SerializedName("receiptdateformat")
+    private String receiptDateFormat;
+
     private String serious;
-    private String receivedateformat;
-    private String fulfillexpeditecriteria;
-    private String safetyreportid;
+
+    @SerializedName("receivedateformat")
+    private String receiveDateFormat;
+
+    @SerializedName("fulfillexpeditecriteria")
+    private String fulfillExpediteCriteria;
+
+    @SerializedName("safetyreportid")
+    private String safetyReportID;
+
     private String duplicate;
-    private String occurcountry;
-    private String primarysourcecountry;
-    private String companynumb;
+
+    @SerializedName("occurcountry")
+    private String occurCountry;
+
+    @SerializedName("primarysourcecountry")
+    private String primarySourceCountry;
+
+    @SerializedName("companynumb")
+    private String companyNumb;
+
     private Patient patient;
+
     private Sender sender;
-    private Primarysource primarysource;
-    private Reportduplicate reportduplicate;
+
+    @SerializedName("primarysource")
+    private PrimarySource primarySource;
+
+    @SerializedName("reportduplicate")
+    private ReportDuplicate reportDuplicate;
+
     private Receiver receiver;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", unique = true, nullable = false)
     public Long getId() {
         return id;
@@ -53,110 +101,124 @@ public class Result{
         this.id = id;
     }
 
-    public String getSafetyreport() {
-        return safetyreport;
+    @Column(name = "safety_report")
+    public String getSafetyReport() {
+        return safetyReport;
     }
 
-    public void setSafetyreport(String safetyreport) {
-        this.safetyreport = safetyreport;
+    public void setSafetyReport(String safetyReport) {
+        this.safetyReport = safetyReport;
     }
 
-    public String getSafetyreportversion() {
-        return safetyreportversion;
+    @Column(name = "safety_report_version")
+    public String getSafetyReportversion() {
+        return safetyReportversion;
     }
 
-    public void setSafetyreportversion(String safetyreportversion) {
-        this.safetyreportversion = safetyreportversion;
+    public void setSafetyReportversion(String safetyReportversion) {
+        this.safetyReportversion = safetyReportversion;
     }
 
-    public String getReceivedate() {
-        return receivedate;
+    @Column(name = "receive_date")
+    public String getReceiveDate() {
+        return receiveDate;
     }
 
-    public void setReceivedate(String receivedate) {
-        this.receivedate = receivedate;
+    public void setReceiveDate(String receiveDate) {
+        this.receiveDate = receiveDate;
     }
 
-    public String getSeriousnesscongenitalanomali() {
-        return seriousnesscongenitalanomali;
+    @Column(name = "seriousness_congenital_anomali")
+    public String getSeriousnessCongenitalAnomali() {
+        return seriousnessCongenitalAnomali;
     }
 
-    public void setSeriousnesscongenitalanomali(String seriousnesscongenitalanomali) {
-        this.seriousnesscongenitalanomali = seriousnesscongenitalanomali;
+    public void setSeriousnessCongenitalAnomali(String seriousnessCongenitalAnomali) {
+        this.seriousnessCongenitalAnomali = seriousnessCongenitalAnomali;
     }
 
-    public String getSeriousnessdeath() {
-        return seriousnessdeath;
+    @Column(name = "seriousness_death")
+    public String getSeriousnessDeath() {
+        return seriousnessDeath;
     }
 
-    public void setSeriousnessdeath(String seriousnessdeath) {
-        this.seriousnessdeath = seriousnessdeath;
+    public void setSeriousnessDeath(String seriousnessDeath) {
+        this.seriousnessDeath = seriousnessDeath;
     }
 
-    public String getSeriousnessdisabling() {
-        return seriousnessdisabling;
+    @Column(name = "seriousness_disabling")
+    public String getSeriousnessDisabling() {
+        return seriousnessDisabling;
     }
 
-    public void setSeriousnessdisabling(String seriousnessdisabling) {
-        this.seriousnessdisabling = seriousnessdisabling;
+    public void setSeriousnessDisabling(String seriousnessDisabling) {
+        this.seriousnessDisabling = seriousnessDisabling;
     }
 
-    public String getSeriousnesshospitalization() {
-        return seriousnesshospitalization;
+    @Column(name = "seriousness_hospitalization")
+    public String getSeriousnessHospitalization() {
+        return seriousnessHospitalization;
     }
 
-    public void setSeriousnesshospitalization(String seriousnesshospitalization) {
-        this.seriousnesshospitalization = seriousnesshospitalization;
+    public void setSeriousnessHospitalization(String seriousnessHospitalization) {
+        this.seriousnessHospitalization = seriousnessHospitalization;
     }
 
-    public String getSeriousnesslifethreatening() {
-        return seriousnesslifethreatening;
+    @Column(name = "seriousness_life_threatening")
+    public String getSeriousnessLifeThreatening() {
+        return seriousnessLifeThreatening;
     }
 
-    public void setSeriousnesslifethreatening(String seriousnesslifethreatening) {
-        this.seriousnesslifethreatening = seriousnesslifethreatening;
+    public void setSeriousnessLifeThreatening(String seriousnessLifeThreatening) {
+        this.seriousnessLifeThreatening = seriousnessLifeThreatening;
     }
 
-    public String getSeriousnessother() {
-        return seriousnessother;
+    @Column(name = "seriousness_other")
+    public String getSeriousnessOther() {
+        return seriousnessOther;
     }
 
-    public void setSeriousnessother(String seriousnessother) {
-        this.seriousnessother = seriousnessother;
+    public void setSeriousnessOther(String seriousnessOther) {
+        this.seriousnessOther = seriousnessOther;
     }
 
-    public String getReceiptdate() {
-        return receiptdate;
+    @Column(name = "receipt_date")
+    public String getReceiptDate() {
+        return receiptDate;
     }
 
-    public void setReceiptdate(String receiptdate) {
-        this.receiptdate = receiptdate;
+    public void setReceiptDate(String receiptDate) {
+        this.receiptDate = receiptDate;
     }
 
-    public String getTransmissiondate() {
-        return transmissiondate;
+    @Column(name = "transmission_date")
+    public String getTransmissionDate() {
+        return transmissionDate;
     }
 
-    public void setTransmissiondate(String transmissiondate) {
-        this.transmissiondate = transmissiondate;
+    public void setTransmissionDate(String transmissionDate) {
+        this.transmissionDate = transmissionDate;
     }
 
-    public String getTransmissiondateformat() {
-        return transmissiondateformat;
+    @Column(name = "transmission_date_format")
+    public String getTransmissionDateFormat() {
+        return transmissionDateFormat;
     }
 
-    public void setTransmissiondateformat(String transmissiondateformat) {
-        this.transmissiondateformat = transmissiondateformat;
+    public void setTransmissionDateFormat(String transmissionDateFormat) {
+        this.transmissionDateFormat = transmissionDateFormat;
     }
 
-    public String getReceiptdateformat() {
-        return receiptdateformat;
+    @Column(name = "receipt_date_format")
+    public String getReceiptDateFormat() {
+        return receiptDateFormat;
     }
 
-    public void setReceiptdateformat(String receiptdateformat) {
-        this.receiptdateformat = receiptdateformat;
+    public void setReceiptDateFormat(String receiptDateFormat) {
+        this.receiptDateFormat = receiptDateFormat;
     }
 
+    @Column(name = "serious")
     public String getSerious() {
         return serious;
     }
@@ -165,28 +227,31 @@ public class Result{
         this.serious = serious;
     }
 
-    public String getReceivedateformat() {
-        return receivedateformat;
+    @Column(name = "receive_date_format")
+    public String getReceiveDateFormat() {
+        return receiveDateFormat;
     }
 
-    public void setReceivedateformat(String receivedateformat) {
-        this.receivedateformat = receivedateformat;
+    public void setReceiveDateFormat(String receiveDateFormat) {
+        this.receiveDateFormat = receiveDateFormat;
     }
 
-    public String getFulfillexpeditecriteria() {
-        return fulfillexpeditecriteria;
+    @Column(name = "fulfill_expedite_criteria")
+    public String getFulfillExpediteCriteria() {
+        return fulfillExpediteCriteria;
     }
 
-    public void setFulfillexpeditecriteria(String fulfillexpeditecriteria) {
-        this.fulfillexpeditecriteria = fulfillexpeditecriteria;
+    public void setFulfillExpediteCriteria(String fulfillExpediteCriteria) {
+        this.fulfillExpediteCriteria = fulfillExpediteCriteria;
     }
 
-    public String getSafetyreportid() {
-        return safetyreportid;
+    @Column(name = "safety_report_id")
+    public String getSafetyReportID() {
+        return safetyReportID;
     }
 
-    public void setSafetyreportid(String safetyreportid) {
-        this.safetyreportid = safetyreportid;
+    public void setSafetyReportID(String safetyReportID) {
+        this.safetyReportID = safetyReportID;
     }
 
     public String getDuplicate() {
@@ -197,28 +262,31 @@ public class Result{
         this.duplicate = duplicate;
     }
 
-    public String getOccurcountry() {
-        return occurcountry;
+    @Column(name = "occur_country")
+    public String getOccurCountry() {
+        return occurCountry;
     }
 
-    public void setOccurcountry(String occurcountry) {
-        this.occurcountry = occurcountry;
+    public void setOccurCountry(String occurCountry) {
+        this.occurCountry = occurCountry;
     }
 
-    public String getPrimarysourcecountry() {
-        return primarysourcecountry;
+    @Column(name = "primary_source_country")
+    public String getPrimarySourceCountry() {
+        return primarySourceCountry;
     }
 
-    public void setPrimarysourcecountry(String primarysourcecountry) {
-        this.primarysourcecountry = primarysourcecountry;
+    public void setPrimarySourceCountry(String primarySourceCountry) {
+        this.primarySourceCountry = primarySourceCountry;
     }
 
-    public String getCompanynumb() {
-        return companynumb;
+    @Column(name = "company_numb")
+    public String getCompanyNumb() {
+        return companyNumb;
     }
 
-    public void setCompanynumb(String companynumb) {
-        this.companynumb = companynumb;
+    public void setCompanyNumb(String companyNumb) {
+        this.companyNumb = companyNumb;
     }
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
@@ -240,21 +308,21 @@ public class Result{
     }
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    public Primarysource getPrimarysource() {
-        return primarysource;
+    public PrimarySource getPrimarySource() {
+        return primarySource;
     }
 
-    public void setPrimarysource(Primarysource primarysource) {
-        this.primarysource = primarysource;
+    public void setPrimarySource(PrimarySource primarySource) {
+        this.primarySource = primarySource;
     }
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    public Reportduplicate getReportduplicate() {
-        return reportduplicate;
+    public ReportDuplicate getReportDuplicate() {
+        return reportDuplicate;
     }
 
-    public void setReportduplicate(Reportduplicate reportduplicate) {
-        this.reportduplicate = reportduplicate;
+    public void setReportDuplicate(ReportDuplicate reportDuplicate) {
+        this.reportDuplicate = reportDuplicate;
     }
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
