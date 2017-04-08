@@ -1,6 +1,7 @@
 package com.globallogic.faers.event;
 
 import com.google.gson.annotations.SerializedName;
+import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,18 +11,20 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "PRIMARY_SOURCE")
-public class PrimarySource {
-
-    private Long id;
-    
-    @SerializedName("reportercountry")
-    private String reporterCountry;
-    
-    private String qualification;
+public class PrimarySource implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", unique = true, nullable = false)
+    private Long id;
+
+    @SerializedName("reportercountry")
+    @Column(name = "reporter_country")
+    private String reporterCountry;
+
+    @Column(columnDefinition = "smallint")
+    private Integer qualification;
+
     public Long getId() {
         return id;
     }
@@ -30,7 +33,6 @@ public class PrimarySource {
         this.id = id;
     }
 
-    @Column(name = "reporter_country")
     public String getReporterCountry() {
         return reporterCountry;
     }
@@ -39,12 +41,11 @@ public class PrimarySource {
         this.reporterCountry = reporterCountry;
     }
 
-    @Column(name = "qualification")
-    public String getQualification() {
+    public Integer getQualification() {
         return qualification;
     }
 
-    public void setQualification(String qualification) {
+    public void setQualification(Integer qualification) {
         this.qualification = qualification;
     }
 

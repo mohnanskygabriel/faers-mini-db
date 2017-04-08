@@ -1,6 +1,7 @@
 package com.globallogic.faers.event;
 
 import com.google.gson.annotations.SerializedName;
+import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,22 +11,25 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "REACTION")
-public class Reaction {
-
-    private Long id;
-
-    @SerializedName("reactionmeddrapt")
-    private String reactionMedDRAPT;
-
-    @SerializedName("reactionmeddraversionpt")
-    private String reactionMedDRAVersionPT;
-
-    @SerializedName("reactionoutcome")
-    private String reactionOutcome;
+public class Reaction implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", unique = true, nullable = false)
+    private Long id;
+
+    @SerializedName("reactionmeddrapt")
+    @Column(name = "meddra_pt")
+    private String reactionMedDRAPT;
+
+    @SerializedName("reactionmeddraversionpt")
+    @Column(name = "meddra_version_pt", columnDefinition = "real")
+    private Double reactionMedDRAVersionPT;
+
+    @SerializedName("reactionoutcome")
+    @Column(name = "outcome", columnDefinition = "smallint")
+    private Integer reactionOutcome;
+
     public Long getId() {
         return id;
     }
@@ -34,7 +38,6 @@ public class Reaction {
         this.id = id;
     }
 
-    @Column(name = "meddra_pt")
     public String getReactionMedDRAPT() {
         return reactionMedDRAPT;
     }
@@ -43,21 +46,19 @@ public class Reaction {
         this.reactionMedDRAPT = reactionMedDRAPT;
     }
 
-    @Column(name = "meddra_version_pt")
-    public String getReactionMedDRAVersionPT() {
+    public Double getReactionMedDRAVersionPT() {
         return reactionMedDRAVersionPT;
     }
 
-    public void setReactionMedDRAVersionPT(String reactionMedDRAVersionPT) {
+    public void setReactionMedDRAVersionPT(Double reactionMedDRAVersionPT) {
         this.reactionMedDRAVersionPT = reactionMedDRAVersionPT;
     }
 
-    @Column(name = "outcome")
-    public String getReactionOutcome() {
+    public Integer getReactionOutcome() {
         return reactionOutcome;
     }
 
-    public void setReactionOutcome(String reactionOutcome) {
+    public void setReactionOutcome(Integer reactionOutcome) {
         this.reactionOutcome = reactionOutcome;
     }
 

@@ -1,6 +1,7 @@
 package com.globallogic.faers.event;
 
 import com.google.gson.annotations.SerializedName;
+import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,19 +11,21 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "SENDER")
-public class Sender {
-
-    private Long id;
-
-    @SerializedName("sendertype")
-    private String senderType;
-
-    @SerializedName("senderorganization")
-    private String senderOrganization;
+public class Sender implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", unique = true, nullable = false)
+    private Long id;
+
+    @SerializedName("sendertype")
+    @Column(name = "type")
+    private String senderType;
+
+    @SerializedName("senderorganization")
+    @Column(name = "organization")
+    private String senderOrganization;
+
     public Long getId() {
         return id;
     }
@@ -31,7 +34,6 @@ public class Sender {
         this.id = id;
     }
 
-    @Column(name = "type")
     public String getSenderType() {
         return senderType;
     }
@@ -40,7 +42,6 @@ public class Sender {
         this.senderType = senderType;
     }
 
-    @Column(name = "organization")
     public String getSenderOrganization() {
         return senderOrganization;
     }

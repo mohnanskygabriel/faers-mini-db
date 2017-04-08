@@ -1,6 +1,8 @@
 package com.globallogic.faers.event;
 
 import com.google.gson.annotations.SerializedName;
+import java.io.Serializable;
+import java.util.Date;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,88 +15,113 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "DRUG")
-public class Drug {
-
-    private Long id;
-    
-    @SerializedName("actiondrug")
-    private String actionDrug;
-   
-    @SerializedName("drugadditional")
-    private String drugAdditional;
-   
-    @SerializedName("drugcumulativedosagenumb")
-    private String drugCumulativeDosageNumb;
-    
-    @SerializedName("drugcumulativedosageunit")
-    private String drugCumulativeDosageUnit;
-   
-    @SerializedName("drugdosageform")
-    private String drugDosageForm;
-   
-    @SerializedName("drugintervaldosagedefinition")
-    private String drugIntervalDosageDefinition;
-   
-    @SerializedName("drugintervaldosageunitnumb")
-    private String drugIntervalDosageUnitNumb;
-   
-    @SerializedName("drugrecurreadministration")
-    private String drugRecurreAdministration;
-   
-    @SerializedName("drugseparatedosagenumb")
-    private String drugSeparateDosageNumb;
-   
-    @SerializedName("drugstructuredosagenumb")
-    private String drugStructureDosageNumb;
-   
-    @SerializedName("drugstructuredosageunit")
-    private String drugStructureDosageUnit;
-   
-    @SerializedName("drugadministrationroute")
-    private String drugAdministrationRoute;
-   
-    @SerializedName("drugauthorizationnumb")
-    private String drugAuthorizationNumb;
-   
-    @SerializedName("drugbatchnumb")
-    private String drugBatchNumb;
-   
-    @SerializedName("drugcharacterization")
-    private String drugCharacterization;
-   
-    @SerializedName("drugdoseagetext")
-    private String drugDoseageText;
-    
-    @SerializedName("drugenddate")
-    private String drugEndDate;
-    
-    @SerializedName("drugenddateformat")
-    private String drugEndDateFormat;
-   
-    @SerializedName("drugindication")
-    private String drugIndication;
-   
-    @SerializedName("drugstartdate")
-    private String drugStartDate;
-    
-    @SerializedName("drugstartdateformat")
-    private String drugStartDateFormat;
-    
-    @SerializedName("drugtreatmentduration")
-    private String drugTreatmentDuration;
-    
-    @SerializedName("drugtreatmentdurationunit")
-    private String drugTreatmentDurationUnit;
-    
-    @SerializedName("medicinalproduct")
-    private String medicinalProduct;
-    
-    @SerializedName("openfda")
-    private OpenFDA openFDA;
+public class Drug implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", unique = true, nullable = false)
+    private Long id;
+
+    @SerializedName("actiondrug")
+    @Column(name = "action_drug", columnDefinition = "smallint")
+    private Integer actionDrug;
+
+    @SerializedName("drugadditional")
+    @Column(name = "additional", columnDefinition = "smallint")
+    private Integer drugAdditional;
+
+    @SerializedName("drugcumulativedosagenumb")
+    @Column(name = "cumulative_dosage_numb")
+    private Integer drugCumulativeDosageNumb;
+
+    @SerializedName("drugcumulativedosageunit")
+    @Column(name = "cumulative_dosage_unit", columnDefinition = "smallint")
+    private Integer drugCumulativeDosageUnit;
+
+    @SerializedName("drugdosageform")
+    @Column(name = "dosage_form")
+    private String drugDosageForm;
+
+    @SerializedName("drugintervaldosagedefinition")
+    @Column(name = "interval_dosage_definition", columnDefinition = "smallint")
+    private Integer drugIntervalDosageDefinition;
+
+    @SerializedName("drugintervaldosageunitnumb")
+    @Column(name = "interval_dosage_unit_numb")
+    private Integer drugIntervalDosageUnitNumb;
+
+    @SerializedName("drugrecurreadministration")
+    @Column(name = "recurre_administration", columnDefinition = "smallint")
+    private Integer drugRecurreAdministration;
+
+    @SerializedName("drugseparatedosagenumb")
+    @Column(name = "separate_dosage_numb")
+    private Integer drugSeparateDosageNumb;
+
+    @SerializedName("drugstructuredosagenumb")
+    @Column(name = "structure_dosage_numb")
+    private Integer drugStructureDosageNumb;
+
+    @SerializedName("drugstructuredosageunit")
+    @Column(name = "structure_dosage_unit", columnDefinition = "smallint")
+    private Integer drugStructureDosageUnit;
+
+    @SerializedName("drugadministrationroute")
+    @Column(name = "administration_route", columnDefinition = "smallint")
+    private Integer drugAdministrationRoute;
+
+    @SerializedName("drugauthorizationnumb")
+    @Column(name = "authorization_numb")
+    private String drugAuthorizationNumb;
+
+    @SerializedName("drugbatchnumb")
+    @Column(name = "batch_numb")
+    private String drugBatchNumb;
+
+    @SerializedName("drugcharacterization")
+    @Column(name = "characterization", columnDefinition = "smallint")
+    private Integer drugCharacterization;
+
+    @SerializedName("drugdoseagetext")
+    @Column(name = "doseage_text")
+    private String drugDoseageText;
+
+    @SerializedName("drugenddate")
+    @Column(name = "end_date", columnDefinition = "date")
+    private Date drugEndDate;
+
+    @SerializedName("drugenddateformat")
+    @Column(name = "end_date_format", columnDefinition = "smallint")
+    private Integer drugEndDateFormat;
+
+    @SerializedName("drugindication")
+    @Column(name = "indication")
+    private String drugIndication;
+
+    @SerializedName("drugstartdate")
+    @Column(name = "start_date", columnDefinition = "date")
+    private Date drugStartDate;
+
+    @SerializedName("drugstartdateformat")
+    @Column(name = "start_date_format", columnDefinition = "smallint")
+    private Integer drugStartDateFormat;
+
+    @SerializedName("drugtreatmentduration")
+    @Column(name = "treatment_duration")
+    private Integer drugTreatmentDuration;
+
+    @SerializedName("drugtreatmentdurationunit")
+    @Column(name = "treatment_duration_unit", columnDefinition = "smallint")
+    private Integer drugTreatmentDurationUnit;
+
+    @SerializedName("medicinalproduct")
+    @Column(name = "medicinal_product")
+    private String medicinalProduct;
+
+    @SerializedName("openfda")
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    private OpenFDA openFDA_Drug_Info;
+
     public Long getId() {
         return id;
     }
@@ -103,43 +130,38 @@ public class Drug {
         this.id = id;
     }
 
-    @Column(name = "action")
-    public String getActionDrug() {
+    public Integer getActionDrug() {
         return actionDrug;
     }
 
-    public void setActionDrug(String actionDrug) {
+    public void setActionDrug(Integer actionDrug) {
         this.actionDrug = actionDrug;
     }
 
-    @Column(name = "additional")
-    public String getDrugAdditional() {
+    public Integer getDrugAdditional() {
         return drugAdditional;
     }
 
-    public void setDrugAdditional(String drugAdditional) {
+    public void setDrugAdditional(Integer drugAdditional) {
         this.drugAdditional = drugAdditional;
     }
 
-    @Column(name = "cumulative_dosage_numb")
-    public String getDrugCumulativeDosageNumb() {
+    public Integer getDrugCumulativeDosageNumb() {
         return drugCumulativeDosageNumb;
     }
 
-    public void setDrugCumulativeDosageNumb(String drugCumulativeDosageNumb) {
+    public void setDrugCumulativeDosageNumb(Integer drugCumulativeDosageNumb) {
         this.drugCumulativeDosageNumb = drugCumulativeDosageNumb;
     }
 
-    @Column(name = "cumulative_dosage_unit")
-    public String getDrugCumulativeDosageUnit() {
+    public Integer getDrugCumulativeDosageUnit() {
         return drugCumulativeDosageUnit;
     }
 
-    public void setDrugCumulativeDosageUnit(String drugCumulativeDosageUnit) {
+    public void setDrugCumulativeDosageUnit(Integer drugCumulativeDosageUnit) {
         this.drugCumulativeDosageUnit = drugCumulativeDosageUnit;
     }
 
-    @Column(name = "dosage_form")
     public String getDrugDosageForm() {
         return drugDosageForm;
     }
@@ -148,70 +170,62 @@ public class Drug {
         this.drugDosageForm = drugDosageForm;
     }
 
-    @Column(name = "interval_dosage_definition")
-    public String getDrugIntervalDosageDefinition() {
+    public Integer getDrugIntervalDosageDefinition() {
         return drugIntervalDosageDefinition;
     }
 
-    public void setDrugIntervalDosageDefinition(String drugIntervalDosageDefinition) {
+    public void setDrugIntervalDosageDefinition(Integer drugIntervalDosageDefinition) {
         this.drugIntervalDosageDefinition = drugIntervalDosageDefinition;
     }
 
-    @Column(name = "interval_dosage_unit_numb")
-    public String getDrugIntervalDosageUnitNumb() {
+    public Integer getDrugIntervalDosageUnitNumb() {
         return drugIntervalDosageUnitNumb;
     }
 
-    public void setDrugIntervalDosageUnitNumb(String drugIntervalDosageUnitNumb) {
+    public void setDrugIntervalDosageUnitNumb(Integer drugIntervalDosageUnitNumb) {
         this.drugIntervalDosageUnitNumb = drugIntervalDosageUnitNumb;
     }
 
-    @Column(name = "recurre_administration")
-    public String getDrugRecurreAdministration() {
+    public Integer getDrugRecurreAdministration() {
         return drugRecurreAdministration;
     }
 
-    public void setDrugRecurreAdministration(String drugRecurreAdministration) {
+    public void setDrugRecurreAdministration(Integer drugRecurreAdministration) {
         this.drugRecurreAdministration = drugRecurreAdministration;
     }
 
-    @Column(name = "separate_dosage_numb")
-    public String getDrugSeparateDosageNumb() {
+    public Integer getDrugSeparateDosageNumb() {
         return drugSeparateDosageNumb;
     }
 
-    public void setDrugSeparateDosageNumb(String drugSeparateDosageNumb) {
+    public void setDrugSeparateDosageNumb(Integer drugSeparateDosageNumb) {
         this.drugSeparateDosageNumb = drugSeparateDosageNumb;
     }
 
-    @Column(name = "structure_dosage_numb")
-    public String getDrugStructureDosageNumb() {
+    public Integer getDrugStructureDosageNumb() {
         return drugStructureDosageNumb;
     }
 
-    public void setDrugStructureDosageNumb(String drugStructureDosageNumb) {
+    public void setDrugStructureDosageNumb(Integer drugStructureDosageNumb) {
         this.drugStructureDosageNumb = drugStructureDosageNumb;
     }
 
-    @Column(name = "structure_dosage_unit")
-    public String getDrugStructureDosageUnit() {
+    public Integer getDrugStructureDosageUnit() {
         return drugStructureDosageUnit;
     }
 
-    public void setDrugStructureDosageUnit(String drugStructureDosageUnit) {
+    public void setDrugStructureDosageUnit(Integer drugStructureDosageUnit) {
         this.drugStructureDosageUnit = drugStructureDosageUnit;
     }
 
-    @Column(name = "administration_route")
-    public String getDrugAdministrationRoute() {
+    public Integer getDrugAdministrationRoute() {
         return drugAdministrationRoute;
     }
 
-    public void setDrugAdministrationRoute(String drugAdministrationRoute) {
+    public void setDrugAdministrationRoute(Integer drugAdministrationRoute) {
         this.drugAdministrationRoute = drugAdministrationRoute;
     }
 
-    @Column(name = "authorization_numb")
     public String getDrugAuthorizationNumb() {
         return drugAuthorizationNumb;
     }
@@ -220,7 +234,6 @@ public class Drug {
         this.drugAuthorizationNumb = drugAuthorizationNumb;
     }
 
-    @Column(name = "batch_numb")
     public String getDrugBatchNumb() {
         return drugBatchNumb;
     }
@@ -229,16 +242,14 @@ public class Drug {
         this.drugBatchNumb = drugBatchNumb;
     }
 
-    @Column(name = "characterization")
-    public String getDrugCharacterization() {
+    public Integer getDrugCharacterization() {
         return drugCharacterization;
     }
 
-    public void setDrugCharacterization(String drugCharacterization) {
+    public void setDrugCharacterization(Integer drugCharacterization) {
         this.drugCharacterization = drugCharacterization;
     }
 
-    @Column(name = "doseage_text")
     public String getDrugDoseageText() {
         return drugDoseageText;
     }
@@ -247,25 +258,22 @@ public class Drug {
         this.drugDoseageText = drugDoseageText;
     }
 
-    @Column(name = "end_date")
-    public String getDrugEndDate() {
+    public Date getDrugEndDate() {
         return drugEndDate;
     }
 
-    public void setDrugEndDate(String drugEndDate) {
+    public void setDrugEndDate(Date drugEndDate) {
         this.drugEndDate = drugEndDate;
     }
 
-    @Column(name = "end_date_format")
-    public String getDrugEndDateFormat() {
+    public Integer getDrugEndDateFormat() {
         return drugEndDateFormat;
     }
 
-    public void setDrugEndDateFormat(String drugEndDateFormat) {
+    public void setDrugEndDateFormat(Integer drugEndDateFormat) {
         this.drugEndDateFormat = drugEndDateFormat;
     }
 
-    @Column(name = "indication")
     public String getDrugIndication() {
         return drugIndication;
     }
@@ -274,43 +282,38 @@ public class Drug {
         this.drugIndication = drugIndication;
     }
 
-    @Column(name = "start_date")
-    public String getDrugStartDate() {
+    public Date getDrugStartDate() {
         return drugStartDate;
     }
 
-    public void setDrugStartDate(String drugStartDate) {
+    public void setDrugStartDate(Date drugStartDate) {
         this.drugStartDate = drugStartDate;
     }
 
-    @Column(name = "start_date_format")
-    public String getDrugStartDateFormat() {
+    public Integer getDrugStartDateFormat() {
         return drugStartDateFormat;
     }
 
-    public void setDrugStartDateFormat(String drugStartDateFormat) {
+    public void setDrugStartDateFormat(Integer drugStartDateFormat) {
         this.drugStartDateFormat = drugStartDateFormat;
     }
 
-    @Column(name = "treatment_duration")
-    public String getDrugTreatmentDuration() {
+    public Integer getDrugTreatmentDuration() {
         return drugTreatmentDuration;
     }
 
-    public void setDrugTreatmentDuration(String drugTreatmentDuration) {
+    public void setDrugTreatmentDuration(Integer drugTreatmentDuration) {
         this.drugTreatmentDuration = drugTreatmentDuration;
     }
 
-    @Column(name = "treatment_duration_unit")
-    public String getDrugTreatmentDurationUnit() {
+    public Integer getDrugTreatmentDurationUnit() {
         return drugTreatmentDurationUnit;
     }
 
-    public void setDrugTreatmentDurationUnit(String drugTreatmentDurationUnit) {
+    public void setDrugTreatmentDurationUnit(Integer drugTreatmentDurationUnit) {
         this.drugTreatmentDurationUnit = drugTreatmentDurationUnit;
     }
 
-    @Column(name = "medicinal_product")
     public String getMedicinalProduct() {
         return medicinalProduct;
     }
@@ -319,13 +322,12 @@ public class Drug {
         this.medicinalProduct = medicinalProduct;
     }
 
-    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     public OpenFDA getOpenfda() {
-        return openFDA;
+        return openFDA_Drug_Info;
     }
 
     public void setOpenfda(OpenFDA openfda) {
-        this.openFDA = openfda;
+        this.openFDA_Drug_Info = openfda;
     }
 
 }

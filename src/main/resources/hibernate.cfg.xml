@@ -26,7 +26,6 @@
         <mapping class="com.globallogic.faers.event.ReportDuplicate" />
         <mapping class="com.globallogic.faers.event.Result" />
         <mapping class="com.globallogic.faers.event.Results" />
-        <mapping class="com.globallogic.faers.event.Sender" />
-        
+        <mapping class="com.globallogic.faers.event.Sender" />    
     </session-factory>
 </hibernate-configuration>

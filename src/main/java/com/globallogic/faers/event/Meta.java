@@ -1,6 +1,8 @@
 package com.globallogic.faers.event;
 
 import com.google.gson.annotations.SerializedName;
+import java.io.Serializable;
+import java.util.Date;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,19 +15,27 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "META")
-public class Meta {
-
-    private Long id;
-    @SerializedName("lastupdated")
-    private String lastUpdated;
-    private String terms;
-    private Results results;
-    private String license;
-    private String disclaimer;
+public class Meta implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", unique = true, nullable = false)
+    private Long id;
+
+    @SerializedName("last_updated")
+    @Column(name = "last_updated", columnDefinition = "Date")
+    private Date lastUpdated;
+
+    private String terms;
+
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    private Results results;
+
+    private String license;
+
+    @Column(name = "disclaimer", length = 400)
+    private String disclaimer;
+
     public Long getId() {
         return id;
     }
@@ -34,12 +44,11 @@ public class Meta {
         this.id = id;
     }
 
-    @Column(name = "last_updated")
-    public String getLastUpdated() {
+    public Date getLastUpdated() {
         return lastUpdated;
     }
 
-    public void setLastUpdated(String lastUpdated) {
+    public void setLastUpdated(Date lastUpdated) {
         this.lastUpdated = lastUpdated;
     }
 
@@ -51,7 +60,6 @@ public class Meta {
         this.terms = terms;
     }
 
-    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     public Results getResults() {
         return results;
     }
@@ -68,7 +76,6 @@ public class Meta {
         this.license = license;
     }
 
-    @Column(name = "disclaimer", length = 400)
     public String getDisclaimer() {
         return disclaimer;
     }

@@ -1,5 +1,6 @@
 package com.globallogic.faers.event;
 
+import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,18 +9,20 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "RESULTS")
+@Table(name = "META_RESULTS")
 
-public class Results {
-
-    private Long id;
-    private Integer skip;
-    private Integer total;
-    private Integer limit;
+public class Results implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false)
+    private Long id;
+    private Integer skip;
+    private Integer total;
+
+    @Column(name = "lim")
+    private Integer limit;
+
     public Long getId() {
         return id;
     }
@@ -44,7 +47,6 @@ public class Results {
         this.total = total;
     }
 
-    @Column(name = "lim")
     public Integer getLimit() {
         return limit;
     }

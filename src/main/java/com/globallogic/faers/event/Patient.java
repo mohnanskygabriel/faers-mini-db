@@ -1,6 +1,7 @@
 package com.globallogic.faers.event;
 
 import com.google.gson.annotations.SerializedName;
+import java.io.Serializable;
 import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -17,30 +18,41 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "PATIENT")
-public class Patient {
-
-    private Long id;
-    @SerializedName("patientonsetage")
-    private String patientOnsetAge;
-    
-    @SerializedName("patientonsetageunit")
-    private String patientOnsetAgeUnit;
-    
-    @SerializedName("patientsex")
-    private String patientSex;
-    
-    @SerializedName("patientweight")
-    private String patientWeight;
-    
-    @SerializedName("patientdeath")
-    private PatientDeath patientDeath;
-    
-    private List<Drug> drug = null;
-    private List<Reaction> reaction = null;
+public class Patient implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", unique = true, nullable = false)
+    private Long id;
+
+    @SerializedName("patientonsetage")
+    @Column(name = "onset_age")
+    private Integer patientOnsetAge;
+
+    @SerializedName("patientonsetageunit")
+    @Column(name = "onset_age_unit", columnDefinition = "smallint")
+    private Integer patientOnsetAgeUnit;
+
+    @SerializedName("patientsex")
+    @Column(name = "sex", columnDefinition = "smallint")
+    private Integer patientSex;
+
+    @SerializedName("patientweight")
+    @Column(name = "weight", columnDefinition = "real")
+    private Double patientWeight;
+
+    @SerializedName("patientdeath")
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    private PatientDeath patientDeath;
+
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinTable(name = "PATIENT_DRUG_MAPPING", joinColumns = @JoinColumn(name = "patient_Id"), inverseJoinColumns = @JoinColumn(name = "drug_Id"))
+    private List<Drug> drug = null;
+
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinTable(name = "PATIENT_REACTION_MAPPING", joinColumns = @JoinColumn(name = "patient_Id"), inverseJoinColumns = @JoinColumn(name = "reaction_Id"))
+    private List<Reaction> reaction = null;
+
     public Long getId() {
         return id;
     }
@@ -49,43 +61,38 @@ public class Patient {
         this.id = id;
     }
 
-    @Column(name = "onset_age")
-    public String getPatientOnsetAge() {
+    public Integer getPatientOnsetAge() {
         return patientOnsetAge;
     }
 
-    public void setPatientOnsetAge(String patientOnsetAge) {
+    public void setPatientOnsetAge(Integer patientOnsetAge) {
         this.patientOnsetAge = patientOnsetAge;
     }
 
-    @Column(name = "onset_age_unit")
-    public String getPatientOnsetAgeUnit() {
+    public Integer getPatientOnsetAgeUnit() {
         return patientOnsetAgeUnit;
     }
 
-    public void setPatientOnsetAgeUnit(String patientOnsetAgeUnit) {
+    public void setPatientOnsetAgeUnit(Integer patientOnsetAgeUnit) {
         this.patientOnsetAgeUnit = patientOnsetAgeUnit;
     }
 
-    @Column(name = "sex")
-    public String getPatientSex() {
+    public Integer getPatientSex() {
         return patientSex;
     }
 
-    public void setPatientSex(String patientSex) {
+    public void setPatientSex(Integer patientSex) {
         this.patientSex = patientSex;
     }
 
-    @Column(name = "weight")
-    public String getPatientWeight() {
+    public Double getPatientWeight() {
         return patientWeight;
     }
 
-    public void setPatientWeight(String patientWeight) {
+    public void setPatientWeight(Double patientWeight) {
         this.patientWeight = patientWeight;
     }
 
-    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     public PatientDeath getPatientDeath() {
         return patientDeath;
     }
@@ -94,8 +101,6 @@ public class Patient {
         this.patientDeath = patientDeath;
     }
 
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "PATIENT_DRUG_MAPPING", joinColumns = @JoinColumn(name = "patientId"), inverseJoinColumns = @JoinColumn(name = "drugId"))
     public List<Drug> getDrug() {
         return drug;
     }
@@ -104,8 +109,6 @@ public class Patient {
         this.drug = drug;
     }
 
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "PATIENT_REACTION_MAPPING", joinColumns = @JoinColumn(name = "patientId"), inverseJoinColumns = @JoinColumn(name = "reactionId"))
     public List<Reaction> getReaction() {
         return reaction;
     }
