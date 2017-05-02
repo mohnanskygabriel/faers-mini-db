@@ -20,8 +20,9 @@
                 <goal>org.codehaus.mojo:exec-maven-plugin:1.2.1:exec</goal>
             </goals>
             <properties>
-                <exec.args>-classpath %classpath com.globallogic.faers.app.MainCLI</exec.args>
+                <exec.args>-Xmx3000M -classpath %classpath com.globallogic.faers.app.Cli -import D:/JSON/EXTRACTED -db faersdb -ip 192.168.0.17 -port 5432 -user faers -pass mnhb2016</exec.args>
                 <exec.executable>java</exec.executable>
+                <exec.workingdir></exec.workingdir>
             </properties>
         </action>
         <action>
@@ -34,9 +35,10 @@
                 <goal>org.codehaus.mojo:exec-maven-plugin:1.2.1:exec</goal>
             </goals>
             <properties>
-                <exec.args>-Xdebug -Xrunjdwp:transport=dt_socket,server=n,address=${jpda.address} -classpath %classpath com.globallogic.faers.app.MainCLI</exec.args>
+                <exec.args>-Xdebug -Xrunjdwp:transport=dt_socket,server=n,address=${jpda.address} -Xmx3000M -classpath %classpath com.globallogic.faers.app.Cli -import D:/JSON/EXTRACTED -db faersdb -ip 192.168.0.17 -port 5432 -user faers -pass mnhb2016</exec.args>
                 <exec.executable>java</exec.executable>
                 <jpda.listen>true</jpda.listen>
+                <exec.workingdir></exec.workingdir>
             </properties>
         </action>
         <action>
@@ -49,8 +51,9 @@
                 <goal>org.codehaus.mojo:exec-maven-plugin:1.2.1:exec</goal>
             </goals>
             <properties>
-                <exec.args>-classpath %classpath com.globallogic.faers.app.MainCLI</exec.args>
+                <exec.args>-Xmx3000M -classpath %classpath com.globallogic.faers.app.Cli -import D:/JSON/EXTRACTED -db faersdb -ip 192.168.0.17 -port 5432 -user faers -pass mnhb2016</exec.args>
                 <exec.executable>java</exec.executable>
+                <exec.workingdir></exec.workingdir>
             </properties>
         </action>
     </actions>
