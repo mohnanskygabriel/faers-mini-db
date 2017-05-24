@@ -23,7 +23,7 @@ public class Meta implements Serializable {
     private Long id;
 
     @SerializedName("last_updated")
-    @Column(name = "last_updated", columnDefinition = "Date")
+    @Column(name = "last_updated", columnDefinition = "date")
     private Date lastUpdated;
 
     private String terms;
@@ -33,7 +33,7 @@ public class Meta implements Serializable {
 
     private String license;
 
-    @Column(name = "disclaimer", length = 400)
+    @Column(name = "disclaimer", columnDefinition = "text")
     private String disclaimer;
 
     public Long getId() {

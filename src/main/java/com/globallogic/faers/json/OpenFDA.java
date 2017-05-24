@@ -78,7 +78,7 @@ public class OpenFDA implements Serializable {
     @SerializedName("generic_name")
     @ElementCollection(targetClass = String.class)
     @CollectionTable(name = "OPENFDA_DRUG_INFO_GENERIC_NAME")
-    @Column(name = "GENERIC_NAME", length = 400)
+    @Column(name = "GENERIC_NAME", columnDefinition="text")
     private List<String> genericName = null;
 
     @SerializedName("manufacturer_name")

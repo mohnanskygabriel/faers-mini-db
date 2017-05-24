@@ -1,4 +1,4 @@
-package com.globallogic.faers.json.downloader;
+package com.globallogic.faers.jsondownloader;
 
 public class Drug {
 

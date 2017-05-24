@@ -1,4 +1,4 @@
-package com.globallogic.faers.json.downloader;
+package com.globallogic.faers.zip;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,12 +14,12 @@ import java.util.zip.ZipInputStream;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class ZipExtractor {
+public class Extractor {
     
-    private Logger logger = LogManager.getLogger(ZipExtractor.class);
+    private Logger logger = LogManager.getLogger(Extractor.class);
     
     public void extract(File zipFile, File destinationDirectory) {
-        Logger logger = LogManager.getLogger(ZipExtractor.class);
+        Logger logger = LogManager.getLogger(Extractor.class);
         ZipInputStream zipInputStream = null;
         byte[] buffer = new byte[1024];
         if (!destinationDirectory.exists()) {

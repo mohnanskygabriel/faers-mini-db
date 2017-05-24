@@ -1,4 +1,4 @@
-package com.globallogic.faers.json.downloader;
+package com.globallogic.faers.jsondownloader;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

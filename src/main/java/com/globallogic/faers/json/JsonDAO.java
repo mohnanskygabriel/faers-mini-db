@@ -1,6 +1,6 @@
 package com.globallogic.faers.json;
 
-import com.globallogic.faers.json.downloader.DrugEventList;
+import com.globallogic.faers.jsondownloader.DrugEventList;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonReader;
@@ -11,9 +11,9 @@ import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class DAO {
+public class JsonDAO {
 
-    Logger logger = LogManager.getLogger(DAO.class);
+    Logger logger = LogManager.getLogger(JsonDAO.class);
 
     public Event getEventFromJSON(String json) {
         try {

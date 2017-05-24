@@ -1,0 +1,1994 @@
+INFO  07-05-2017 15:09:18 Cli started with args: [-download, https://api.fda.gov/download.json, -directory, D:/JSON/, -extract, D:/JSON/, -extractDestination, D:/JSON/EXTRACTED]
+INFO  07-05-2017 15:09:19 Downloading partition: 1(12.26 MB)\398
+INFO  07-05-2017 15:09:26 Partition downloaded, remaining: 31578.17 MB
+INFO  07-05-2017 15:09:26 Downloading partition: 2(3.3 MB)\398
+INFO  07-05-2017 15:09:29 Partition downloaded, remaining: 31574.87 MB
+INFO  07-05-2017 15:09:29 Downloading partition: 3(3.57 MB)\398
+INFO  07-05-2017 15:09:32 Partition downloaded, remaining: 31571.3 MB
+INFO  07-05-2017 15:09:32 Downloading partition: 4(3.55 MB)\398
+INFO  07-05-2017 15:09:36 Partition downloaded, remaining: 31567.75 MB
+INFO  07-05-2017 15:09:36 Downloading partition: 5(3.61 MB)\398
+INFO  07-05-2017 15:09:39 Partition downloaded, remaining: 31564.14 MB
+INFO  07-05-2017 15:09:39 Downloading partition: 6(3.99 MB)\398
+INFO  07-05-2017 15:09:44 Partition downloaded, remaining: 31560.15 MB
+INFO  07-05-2017 15:09:44 Downloading partition: 7(14.54 MB)\398
+INFO  07-05-2017 15:09:48 Partition downloaded, remaining: 31545.61 MB
+INFO  07-05-2017 15:09:48 Downloading partition: 8(14.95 MB)\398
+INFO  07-05-2017 15:09:52 Partition downloaded, remaining: 31530.66 MB
+INFO  07-05-2017 15:09:52 Downloading partition: 9(14.91 MB)\398
+INFO  07-05-2017 15:09:56 Partition downloaded, remaining: 31515.75 MB
+INFO  07-05-2017 15:09:56 Downloading partition: 10(14.91 MB)\398
+INFO  07-05-2017 15:10:00 Partition downloaded, remaining: 31500.84 MB
+INFO  07-05-2017 15:10:00 Downloading partition: 11(14.77 MB)\398
+INFO  07-05-2017 15:10:04 Partition downloaded, remaining: 31486.07 MB
+INFO  07-05-2017 15:10:04 Downloading partition: 12(14.78 MB)\398
+INFO  07-05-2017 15:10:14 Partition downloaded, remaining: 31471.29 MB
+INFO  07-05-2017 15:10:14 Downloading partition: 13(14.88 MB)\398
+INFO  07-05-2017 15:10:18 Partition downloaded, remaining: 31456.41 MB
+INFO  07-05-2017 15:10:18 Downloading partition: 14(14.85 MB)\398
+INFO  07-05-2017 15:10:23 Partition downloaded, remaining: 31441.56 MB
+INFO  07-05-2017 15:10:23 Downloading partition: 15(14.82 MB)\398
+INFO  07-05-2017 15:10:27 Partition downloaded, remaining: 31426.74 MB
+INFO  07-05-2017 15:10:27 Downloading partition: 16(14.84 MB)\398
+INFO  07-05-2017 15:10:31 Partition downloaded, remaining: 31411.9 MB
+INFO  07-05-2017 15:10:31 Downloading partition: 17(14.82 MB)\398
+INFO  07-05-2017 15:10:35 Partition downloaded, remaining: 31397.08 MB
+INFO  07-05-2017 15:10:35 Downloading partition: 18(14.85 MB)\398
+INFO  07-05-2017 15:10:40 Partition downloaded, remaining: 31382.23 MB
+INFO  07-05-2017 15:10:40 Downloading partition: 19(15.09 MB)\398
+INFO  07-05-2017 15:10:44 Partition downloaded, remaining: 31367.14 MB
+INFO  07-05-2017 15:10:44 Downloading partition: 20(15.03 MB)\398
+INFO  07-05-2017 15:10:55 Partition downloaded, remaining: 31352.11 MB
+INFO  07-05-2017 15:10:55 Downloading partition: 21(15.28 MB)\398
+INFO  07-05-2017 15:10:59 Partition downloaded, remaining: 31336.83 MB
+INFO  07-05-2017 15:10:59 Downloading partition: 22(14.98 MB)\398
+INFO  07-05-2017 15:11:04 Partition downloaded, remaining: 31321.85 MB
+INFO  07-05-2017 15:11:04 Downloading partition: 23(15.13 MB)\398
+INFO  07-05-2017 15:11:08 Partition downloaded, remaining: 31306.72 MB
+INFO  07-05-2017 15:11:08 Downloading partition: 24(15.03 MB)\398
+INFO  07-05-2017 15:11:12 Partition downloaded, remaining: 31291.69 MB
+INFO  07-05-2017 15:11:12 Downloading partition: 25(14.66 MB)\398
+INFO  07-05-2017 15:11:16 Partition downloaded, remaining: 31277.03 MB
+INFO  07-05-2017 15:11:16 Downloading partition: 26(15.14 MB)\398
+INFO  07-05-2017 15:11:20 Partition downloaded, remaining: 31261.89 MB
+INFO  07-05-2017 15:11:20 Downloading partition: 27(14.75 MB)\398
+INFO  07-05-2017 15:11:24 Partition downloaded, remaining: 31247.14 MB
+INFO  07-05-2017 15:11:24 Downloading partition: 28(14.6 MB)\398
+INFO  07-05-2017 15:11:30 Partition downloaded, remaining: 31232.54 MB
+INFO  07-05-2017 15:11:30 Downloading partition: 29(14.81 MB)\398
+INFO  07-05-2017 15:11:34 Partition downloaded, remaining: 31217.73 MB
+INFO  07-05-2017 15:11:34 Downloading partition: 30(15.06 MB)\398
+INFO  07-05-2017 15:11:38 Partition downloaded, remaining: 31202.67 MB
+INFO  07-05-2017 15:11:38 Downloading partition: 31(15.35 MB)\398
+INFO  07-05-2017 15:11:43 Partition downloaded, remaining: 31187.32 MB
+INFO  07-05-2017 15:11:43 Downloading partition: 32(15.16 MB)\398
+INFO  07-05-2017 15:11:47 Partition downloaded, remaining: 31172.16 MB
+INFO  07-05-2017 15:11:47 Downloading partition: 33(15.43 MB)\398
+INFO  07-05-2017 15:11:51 Partition downloaded, remaining: 31156.73 MB
+INFO  07-05-2017 15:11:51 Downloading partition: 34(15.28 MB)\398
+INFO  07-05-2017 15:12:01 Partition downloaded, remaining: 31141.45 MB
+INFO  07-05-2017 15:12:01 Downloading partition: 35(14.88 MB)\398
+INFO  07-05-2017 15:12:05 Partition downloaded, remaining: 31126.57 MB
+INFO  07-05-2017 15:12:05 Downloading partition: 36(15.08 MB)\398
+INFO  07-05-2017 15:12:09 Partition downloaded, remaining: 31111.49 MB
+INFO  07-05-2017 15:12:09 Downloading partition: 37(18.21 MB)\398
+INFO  07-05-2017 15:12:14 Partition downloaded, remaining: 31093.28 MB
+INFO  07-05-2017 15:12:14 Downloading partition: 38(19.15 MB)\398
+INFO  07-05-2017 15:12:18 Partition downloaded, remaining: 31074.13 MB
+INFO  07-05-2017 15:12:18 Downloading partition: 39(20.99 MB)\398
+INFO  07-05-2017 15:12:23 Partition downloaded, remaining: 31053.14 MB
+INFO  07-05-2017 15:12:23 Downloading partition: 40(16.66 MB)\398
+INFO  07-05-2017 15:12:29 Partition downloaded, remaining: 31036.48 MB
+INFO  07-05-2017 15:12:29 Downloading partition: 41(15.98 MB)\398
+INFO  07-05-2017 15:12:33 Partition downloaded, remaining: 31020.5 MB
+INFO  07-05-2017 15:12:33 Downloading partition: 42(16.54 MB)\398
+INFO  07-05-2017 15:12:37 Partition downloaded, remaining: 31003.96 MB
+INFO  07-05-2017 15:12:37 Downloading partition: 43(17.45 MB)\398
+INFO  07-05-2017 15:12:43 Partition downloaded, remaining: 30986.51 MB
+INFO  07-05-2017 15:12:43 Downloading partition: 44(23.74 MB)\398
+INFO  07-05-2017 15:12:49 Partition downloaded, remaining: 30962.77 MB
+INFO  07-05-2017 15:12:49 Downloading partition: 45(25.67 MB)\398
+INFO  07-05-2017 15:13:05 Partition downloaded, remaining: 30937.1 MB
+INFO  07-05-2017 15:13:05 Downloading partition: 46(35.5 MB)\398
+INFO  07-05-2017 15:13:11 Partition downloaded, remaining: 30901.6 MB
+INFO  07-05-2017 15:13:11 Downloading partition: 47(43.32 MB)\398
+INFO  07-05-2017 15:13:16 Partition downloaded, remaining: 30858.28 MB
+INFO  07-05-2017 15:13:16 Downloading partition: 48(43.57 MB)\398
+INFO  07-05-2017 15:13:22 Partition downloaded, remaining: 30814.71 MB
+INFO  07-05-2017 15:13:22 Downloading partition: 49(81.26 MB)\398
+INFO  07-05-2017 15:13:31 Partition downloaded, remaining: 30733.45 MB
+INFO  07-05-2017 15:13:31 Downloading partition: 50(82.18 MB)\398
+INFO  07-05-2017 15:13:40 Partition downloaded, remaining: 30651.27 MB
+INFO  07-05-2017 15:13:40 Downloading partition: 51(78.85 MB)\398
+INFO  07-05-2017 15:13:57 Partition downloaded, remaining: 30572.42 MB
+INFO  07-05-2017 15:13:57 Downloading partition: 52(159.29 MB)\398
+INFO  07-05-2017 15:14:11 Partition downloaded, remaining: 30413.13 MB
+INFO  07-05-2017 15:14:11 Downloading partition: 53(206.82 MB)\398
+INFO  07-05-2017 15:14:27 Partition downloaded, remaining: 30206.31 MB
+INFO  07-05-2017 15:14:27 Downloading partition: 54(195.65 MB)\398
+INFO  07-05-2017 15:14:42 Partition downloaded, remaining: 30010.66 MB
+INFO  07-05-2017 15:14:42 Downloading partition: 55(207.5 MB)\398
+INFO  07-05-2017 15:14:58 Partition downloaded, remaining: 29803.16 MB
+INFO  07-05-2017 15:14:58 Downloading partition: 56(197.25 MB)\398
+INFO  07-05-2017 15:15:14 Partition downloaded, remaining: 29605.91 MB
+INFO  07-05-2017 15:15:14 Downloading partition: 57(275.37 MB)\398
+INFO  07-05-2017 15:15:36 Partition downloaded, remaining: 29330.54 MB
+INFO  07-05-2017 15:15:36 Downloading partition: 58(342.61 MB)\398
+INFO  07-05-2017 15:15:59 Partition downloaded, remaining: 28987.93 MB
+INFO  07-05-2017 15:15:59 Downloading partition: 59(323.52 MB)\398
+INFO  07-05-2017 15:16:21 Partition downloaded, remaining: 28664.41 MB
+INFO  07-05-2017 15:16:21 Downloading partition: 60(343.8 MB)\398
+INFO  07-05-2017 15:16:46 Partition downloaded, remaining: 28320.61 MB
+INFO  07-05-2017 15:16:46 Downloading partition: 61(335.79 MB)\398
+INFO  07-05-2017 15:17:12 Partition downloaded, remaining: 27984.82 MB
+INFO  07-05-2017 15:17:12 Downloading partition: 62(341.48 MB)\398
+INFO  07-05-2017 15:17:37 Partition downloaded, remaining: 27643.34 MB
+INFO  07-05-2017 15:17:37 Downloading partition: 63(340.38 MB)\398
+INFO  07-05-2017 15:18:03 Partition downloaded, remaining: 27302.96 MB
+INFO  07-05-2017 15:18:03 Downloading partition: 64(339.31 MB)\398
+INFO  07-05-2017 15:18:29 Partition downloaded, remaining: 26963.65 MB
+INFO  07-05-2017 15:18:29 Downloading partition: 65(355.12 MB)\398
+INFO  07-05-2017 15:18:57 Partition downloaded, remaining: 26608.53 MB
+INFO  07-05-2017 15:18:57 Downloading partition: 66(316.87 MB)\398
+INFO  07-05-2017 15:19:25 Partition downloaded, remaining: 26291.66 MB
+INFO  07-05-2017 15:19:25 Downloading partition: 67(306.98 MB)\398
+INFO  07-05-2017 15:19:48 Partition downloaded, remaining: 25984.68 MB
+INFO  07-05-2017 15:19:48 Downloading partition: 68(300.81 MB)\398
+INFO  07-05-2017 15:20:11 Partition downloaded, remaining: 25683.87 MB
+INFO  07-05-2017 15:20:11 Downloading partition: 69(15.09 MB)\398
+INFO  07-05-2017 15:20:18 Partition downloaded, remaining: 25668.78 MB
+INFO  07-05-2017 15:20:18 Downloading partition: 70(50.17 MB)\398
+INFO  07-05-2017 15:20:26 Partition downloaded, remaining: 25618.61 MB
+INFO  07-05-2017 15:20:26 Downloading partition: 71(156.61 MB)\398
+INFO  07-05-2017 15:20:39 Partition downloaded, remaining: 25462.0 MB
+INFO  07-05-2017 15:20:39 Downloading partition: 72(15.79 MB)\398
+INFO  07-05-2017 15:20:43 Partition downloaded, remaining: 25446.21 MB
+INFO  07-05-2017 15:20:43 Downloading partition: 73(39.09 MB)\398
+INFO  07-05-2017 15:20:51 Partition downloaded, remaining: 25407.12 MB
+INFO  07-05-2017 15:20:51 Downloading partition: 74(208.81 MB)\398
+INFO  07-05-2017 15:21:11 Partition downloaded, remaining: 25198.31 MB
+INFO  07-05-2017 15:21:11 Downloading partition: 75(15.65 MB)\398
+INFO  07-05-2017 15:21:16 Partition downloaded, remaining: 25182.66 MB
+INFO  07-05-2017 15:21:16 Downloading partition: 76(27.79 MB)\398
+INFO  07-05-2017 15:21:21 Partition downloaded, remaining: 25154.87 MB
+INFO  07-05-2017 15:21:21 Downloading partition: 77(229.33 MB)\398
+INFO  07-05-2017 15:21:37 Partition downloaded, remaining: 24925.54 MB
+INFO  07-05-2017 15:21:37 Downloading partition: 78(16.1 MB)\398
+INFO  07-05-2017 15:21:42 Partition downloaded, remaining: 24909.44 MB
+INFO  07-05-2017 15:21:42 Downloading partition: 79(23.21 MB)\398
+INFO  07-05-2017 15:21:48 Partition downloaded, remaining: 24886.23 MB
+INFO  07-05-2017 15:21:48 Downloading partition: 80(252.05 MB)\398
+INFO  07-05-2017 15:22:06 Partition downloaded, remaining: 24634.18 MB
+INFO  07-05-2017 15:22:06 Downloading partition: 81(16.92 MB)\398
+INFO  07-05-2017 15:22:10 Partition downloaded, remaining: 24617.26 MB
+INFO  07-05-2017 15:22:10 Downloading partition: 82(21.49 MB)\398
+INFO  07-05-2017 15:22:15 Partition downloaded, remaining: 24595.77 MB
+INFO  07-05-2017 15:22:15 Downloading partition: 83(254.89 MB)\398
+INFO  07-05-2017 15:22:35 Partition downloaded, remaining: 24340.88 MB
+INFO  07-05-2017 15:22:35 Downloading partition: 84(9.34 MB)\398
+INFO  07-05-2017 15:22:39 Partition downloaded, remaining: 24331.54 MB
+INFO  07-05-2017 15:22:39 Downloading partition: 85(17.32 MB)\398
+INFO  07-05-2017 15:22:44 Partition downloaded, remaining: 24314.22 MB
+INFO  07-05-2017 15:22:44 Downloading partition: 86(57.14 MB)\398
+INFO  07-05-2017 15:22:51 Partition downloaded, remaining: 24257.08 MB
+INFO  07-05-2017 15:22:51 Downloading partition: 87(198.6 MB)\398
+INFO  07-05-2017 15:23:07 Partition downloaded, remaining: 24058.48 MB
+INFO  07-05-2017 15:23:07 Downloading partition: 88(17.58 MB)\398
+INFO  07-05-2017 15:23:11 Partition downloaded, remaining: 24040.9 MB
+INFO  07-05-2017 15:23:11 Downloading partition: 89(26.15 MB)\398
+INFO  07-05-2017 15:23:17 Partition downloaded, remaining: 24014.75 MB
+INFO  07-05-2017 15:23:17 Downloading partition: 90(273.57 MB)\398
+INFO  07-05-2017 15:23:36 Partition downloaded, remaining: 23741.18 MB
+INFO  07-05-2017 15:23:36 Downloading partition: 91(22.7 MB)\398
+INFO  07-05-2017 15:23:40 Partition downloaded, remaining: 23718.48 MB
+INFO  07-05-2017 15:23:40 Downloading partition: 92(17.06 MB)\398
+INFO  07-05-2017 15:23:45 Partition downloaded, remaining: 23701.42 MB
+INFO  07-05-2017 15:23:45 Downloading partition: 93(24.74 MB)\398
+INFO  07-05-2017 15:23:50 Partition downloaded, remaining: 23676.68 MB
+INFO  07-05-2017 15:23:50 Downloading partition: 94(284.09 MB)\398
+INFO  07-05-2017 15:24:09 Partition downloaded, remaining: 23392.59 MB
+INFO  07-05-2017 15:24:09 Downloading partition: 95(15.21 MB)\398
+INFO  07-05-2017 15:24:14 Partition downloaded, remaining: 23377.38 MB
+INFO  07-05-2017 15:24:14 Downloading partition: 96(14.29 MB)\398
+INFO  07-05-2017 15:24:18 Partition downloaded, remaining: 23363.09 MB
+INFO  07-05-2017 15:24:18 Downloading partition: 97(205.08 MB)\398
+INFO  07-05-2017 15:24:33 Partition downloaded, remaining: 23158.01 MB
+INFO  07-05-2017 15:24:33 Downloading partition: 98(66.07 MB)\398
+INFO  07-05-2017 15:24:40 Partition downloaded, remaining: 23091.94 MB
+INFO  07-05-2017 15:24:40 Downloading partition: 99(15.29 MB)\398
+INFO  07-05-2017 15:24:45 Partition downloaded, remaining: 23076.65 MB
+INFO  07-05-2017 15:24:45 Downloading partition: 100(17.11 MB)\398
+INFO  07-05-2017 15:24:51 Partition downloaded, remaining: 23059.54 MB
+INFO  07-05-2017 15:24:51 Downloading partition: 101(229.22 MB)\398
+INFO  07-05-2017 15:25:11 Partition downloaded, remaining: 22830.32 MB
+INFO  07-05-2017 15:25:11 Downloading partition: 102(8.33 MB)\398
+INFO  07-05-2017 15:25:18 Partition downloaded, remaining: 22821.99 MB
+INFO  07-05-2017 15:25:18 Downloading partition: 103(15.67 MB)\398
+INFO  07-05-2017 15:25:25 Partition downloaded, remaining: 22806.32 MB
+INFO  07-05-2017 15:25:25 Downloading partition: 104(16.61 MB)\398
+INFO  07-05-2017 15:25:31 Partition downloaded, remaining: 22789.71 MB
+INFO  07-05-2017 15:25:31 Downloading partition: 105(214.52 MB)\398
+INFO  07-05-2017 15:25:47 Partition downloaded, remaining: 22575.19 MB
+INFO  07-05-2017 15:25:47 Downloading partition: 106(48.16 MB)\398
+INFO  07-05-2017 15:26:01 Partition downloaded, remaining: 22527.03 MB
+INFO  07-05-2017 15:26:01 Downloading partition: 107(16.0 MB)\398
+INFO  07-05-2017 15:26:06 Partition downloaded, remaining: 22511.03 MB
+INFO  07-05-2017 15:26:06 Downloading partition: 108(18.85 MB)\398
+INFO  07-05-2017 15:26:10 Partition downloaded, remaining: 22492.18 MB
+INFO  07-05-2017 15:26:10 Downloading partition: 109(277.28 MB)\398
+INFO  07-05-2017 15:26:35 Partition downloaded, remaining: 22214.9 MB
+INFO  07-05-2017 15:26:35 Downloading partition: 110(15.82 MB)\398
+INFO  07-05-2017 15:26:43 Partition downloaded, remaining: 22199.08 MB
+INFO  07-05-2017 15:26:43 Downloading partition: 111(14.92 MB)\398
+INFO  07-05-2017 15:26:47 Partition downloaded, remaining: 22184.16 MB
+INFO  07-05-2017 15:26:47 Downloading partition: 112(169.6 MB)\398
+INFO  07-05-2017 15:27:00 Partition downloaded, remaining: 22014.56 MB
+INFO  07-05-2017 15:27:00 Downloading partition: 113(119.86 MB)\398
+INFO  07-05-2017 15:27:14 Partition downloaded, remaining: 21894.7 MB
+INFO  07-05-2017 15:27:14 Downloading partition: 114(14.92 MB)\398
+INFO  07-05-2017 15:27:18 Partition downloaded, remaining: 21879.78 MB
+INFO  07-05-2017 15:27:18 Downloading partition: 115(10.41 MB)\398
+INFO  07-05-2017 15:27:22 Partition downloaded, remaining: 21869.37 MB
+INFO  07-05-2017 15:27:22 Downloading partition: 116(111.94 MB)\398
+INFO  07-05-2017 15:27:31 Partition downloaded, remaining: 21757.43 MB
+INFO  07-05-2017 15:27:31 Downloading partition: 117(174.93 MB)\398
+INFO  07-05-2017 15:27:53 Partition downloaded, remaining: 21582.5 MB
+INFO  07-05-2017 15:27:53 Downloading partition: 118(14.14 MB)\398
+INFO  07-05-2017 15:27:58 Partition downloaded, remaining: 21568.36 MB
+INFO  07-05-2017 15:27:58 Downloading partition: 119(13.02 MB)\398
+INFO  07-05-2017 15:28:02 Partition downloaded, remaining: 21555.34 MB
+INFO  07-05-2017 15:28:02 Downloading partition: 120(27.72 MB)\398
+INFO  07-05-2017 15:28:08 Partition downloaded, remaining: 21527.62 MB
+INFO  07-05-2017 15:28:08 Downloading partition: 121(251.84 MB)\398
+INFO  07-05-2017 15:28:26 Partition downloaded, remaining: 21275.78 MB
+INFO  07-05-2017 15:28:26 Downloading partition: 122(49.13 MB)\398
+INFO  07-05-2017 15:28:32 Partition downloaded, remaining: 21226.65 MB
+INFO  07-05-2017 15:28:32 Downloading partition: 123(15.73 MB)\398
+INFO  07-05-2017 15:28:37 Partition downloaded, remaining: 21210.92 MB
+INFO  07-05-2017 15:28:37 Downloading partition: 124(11.34 MB)\398
+INFO  07-05-2017 15:28:41 Partition downloaded, remaining: 21199.58 MB
+INFO  07-05-2017 15:28:41 Downloading partition: 125(76.79 MB)\398
+INFO  07-05-2017 15:28:50 Partition downloaded, remaining: 21122.79 MB
+INFO  07-05-2017 15:28:50 Downloading partition: 126(187.81 MB)\398
+INFO  07-05-2017 15:29:04 Partition downloaded, remaining: 20934.98 MB
+INFO  07-05-2017 15:29:04 Downloading partition: 127(14.5 MB)\398
+INFO  07-05-2017 15:29:08 Partition downloaded, remaining: 20920.48 MB
+INFO  07-05-2017 15:29:08 Downloading partition: 128(14.94 MB)\398
+INFO  07-05-2017 15:29:13 Partition downloaded, remaining: 20905.54 MB
+INFO  07-05-2017 15:29:13 Downloading partition: 129(15.74 MB)\398
+INFO  07-05-2017 15:29:18 Partition downloaded, remaining: 20889.8 MB
+INFO  07-05-2017 15:29:18 Downloading partition: 130(160.32 MB)\398
+INFO  07-05-2017 15:29:37 Partition downloaded, remaining: 20729.48 MB
+INFO  07-05-2017 15:29:37 Downloading partition: 131(218.25 MB)\398
+INFO  07-05-2017 15:29:54 Partition downloaded, remaining: 20511.23 MB
+INFO  07-05-2017 15:29:54 Downloading partition: 132(13.94 MB)\398
+INFO  07-05-2017 15:29:58 Partition downloaded, remaining: 20497.29 MB
+INFO  07-05-2017 15:29:58 Downloading partition: 133(11.71 MB)\398
+INFO  07-05-2017 15:30:01 Partition downloaded, remaining: 20485.58 MB
+INFO  07-05-2017 15:30:01 Downloading partition: 134(53.92 MB)\398
+INFO  07-05-2017 15:30:08 Partition downloaded, remaining: 20431.66 MB
+INFO  07-05-2017 15:30:08 Downloading partition: 135(229.69 MB)\398
+INFO  07-05-2017 15:30:26 Partition downloaded, remaining: 20201.97 MB
+INFO  07-05-2017 15:30:26 Downloading partition: 136(15.52 MB)\398
+INFO  07-05-2017 15:30:30 Partition downloaded, remaining: 20186.45 MB
+INFO  07-05-2017 15:30:30 Downloading partition: 137(12.38 MB)\398
+INFO  07-05-2017 15:30:34 Partition downloaded, remaining: 20174.07 MB
+INFO  07-05-2017 15:30:34 Downloading partition: 138(44.82 MB)\398
+INFO  07-05-2017 15:30:46 Partition downloaded, remaining: 20129.25 MB
+INFO  07-05-2017 15:30:46 Downloading partition: 139(284.61 MB)\398
+INFO  07-05-2017 15:31:09 Partition downloaded, remaining: 19844.64 MB
+INFO  07-05-2017 15:31:09 Downloading partition: 140(48.07 MB)\398
+INFO  07-05-2017 15:31:15 Partition downloaded, remaining: 19796.57 MB
+INFO  07-05-2017 15:31:15 Downloading partition: 141(16.12 MB)\398
+INFO  07-05-2017 15:31:19 Partition downloaded, remaining: 19780.45 MB
+INFO  07-05-2017 15:31:19 Downloading partition: 142(12.52 MB)\398
+INFO  07-05-2017 15:31:25 Partition downloaded, remaining: 19767.93 MB
+INFO  07-05-2017 15:31:25 Downloading partition: 143(105.69 MB)\398
+INFO  07-05-2017 15:31:35 Partition downloaded, remaining: 19662.24 MB
+INFO  07-05-2017 15:31:35 Downloading partition: 144(224.17 MB)\398
+INFO  07-05-2017 15:31:53 Partition downloaded, remaining: 19438.07 MB
+INFO  07-05-2017 15:31:53 Downloading partition: 145(16.89 MB)\398
+INFO  07-05-2017 15:31:57 Partition downloaded, remaining: 19421.18 MB
+INFO  07-05-2017 15:31:57 Downloading partition: 146(11.48 MB)\398
+INFO  07-05-2017 15:32:01 Partition downloaded, remaining: 19409.7 MB
+INFO  07-05-2017 15:32:01 Downloading partition: 147(45.98 MB)\398
+INFO  07-05-2017 15:32:08 Partition downloaded, remaining: 19363.72 MB
+INFO  07-05-2017 15:32:08 Downloading partition: 148(257.08 MB)\398
+INFO  07-05-2017 15:32:25 Partition downloaded, remaining: 19106.64 MB
+INFO  07-05-2017 15:32:25 Downloading partition: 149(96.18 MB)\398
+INFO  07-05-2017 15:32:38 Partition downloaded, remaining: 19010.46 MB
+INFO  07-05-2017 15:32:38 Downloading partition: 150(16.16 MB)\398
+INFO  07-05-2017 15:32:43 Partition downloaded, remaining: 18994.3 MB
+INFO  07-05-2017 15:32:43 Downloading partition: 151(11.8 MB)\398
+INFO  07-05-2017 15:32:48 Partition downloaded, remaining: 18982.5 MB
+INFO  07-05-2017 15:32:48 Downloading partition: 152(25.49 MB)\398
+INFO  07-05-2017 15:32:53 Partition downloaded, remaining: 18957.01 MB
+INFO  07-05-2017 15:32:53 Downloading partition: 153(183.35 MB)\398
+INFO  07-05-2017 15:33:10 Partition downloaded, remaining: 18773.66 MB
+INFO  07-05-2017 15:33:10 Downloading partition: 154(181.12 MB)\398
+INFO  07-05-2017 15:33:27 Partition downloaded, remaining: 18592.54 MB
+INFO  07-05-2017 15:33:27 Downloading partition: 155(15.55 MB)\398
+INFO  07-05-2017 15:33:31 Partition downloaded, remaining: 18576.99 MB
+INFO  07-05-2017 15:33:31 Downloading partition: 156(11.09 MB)\398
+INFO  07-05-2017 15:33:35 Partition downloaded, remaining: 18565.9 MB
+INFO  07-05-2017 15:33:35 Downloading partition: 157(27.6 MB)\398
+INFO  07-05-2017 15:33:40 Partition downloaded, remaining: 18538.3 MB
+INFO  07-05-2017 15:33:40 Downloading partition: 158(244.28 MB)\398
+INFO  07-05-2017 15:33:58 Partition downloaded, remaining: 18294.02 MB
+INFO  07-05-2017 15:33:58 Downloading partition: 159(122.26 MB)\398
+INFO  07-05-2017 15:34:08 Partition downloaded, remaining: 18171.76 MB
+INFO  07-05-2017 15:34:08 Downloading partition: 160(14.63 MB)\398
+INFO  07-05-2017 15:34:13 Partition downloaded, remaining: 18157.13 MB
+INFO  07-05-2017 15:34:13 Downloading partition: 161(10.66 MB)\398
+INFO  07-05-2017 15:34:17 Partition downloaded, remaining: 18146.47 MB
+INFO  07-05-2017 15:34:17 Downloading partition: 162(83.1 MB)\398
+INFO  07-05-2017 15:34:34 Partition downloaded, remaining: 18063.37 MB
+INFO  07-05-2017 15:34:34 Downloading partition: 163(248.93 MB)\398
+INFO  07-05-2017 15:34:59 Partition downloaded, remaining: 17814.44 MB
+INFO  07-05-2017 15:34:59 Downloading partition: 164(15.44 MB)\398
+INFO  07-05-2017 15:35:04 Partition downloaded, remaining: 17799.0 MB
+INFO  07-05-2017 15:35:04 Downloading partition: 165(12.83 MB)\398
+INFO  07-05-2017 15:35:08 Partition downloaded, remaining: 17786.17 MB
+INFO  07-05-2017 15:35:08 Downloading partition: 166(10.31 MB)\398
+INFO  07-05-2017 15:35:11 Partition downloaded, remaining: 17775.86 MB
+INFO  07-05-2017 15:35:11 Downloading partition: 167(55.97 MB)\398
+INFO  07-05-2017 15:35:18 Partition downloaded, remaining: 17719.89 MB
+INFO  07-05-2017 15:35:18 Downloading partition: 168(288.39 MB)\398
+INFO  07-05-2017 15:35:40 Partition downloaded, remaining: 17431.5 MB
+INFO  07-05-2017 15:35:40 Downloading partition: 169(158.34 MB)\398
+INFO  07-05-2017 15:35:53 Partition downloaded, remaining: 17273.16 MB
+INFO  07-05-2017 15:35:53 Downloading partition: 170(12.5 MB)\398
+INFO  07-05-2017 15:35:57 Partition downloaded, remaining: 17260.66 MB
+INFO  07-05-2017 15:35:57 Downloading partition: 171(13.18 MB)\398
+INFO  07-05-2017 15:36:02 Partition downloaded, remaining: 17247.48 MB
+INFO  07-05-2017 15:36:02 Downloading partition: 172(9.29 MB)\398
+INFO  07-05-2017 15:36:06 Partition downloaded, remaining: 17238.19 MB
+INFO  07-05-2017 15:36:06 Downloading partition: 173(37.91 MB)\398
+INFO  07-05-2017 15:36:12 Partition downloaded, remaining: 17200.28 MB
+INFO  07-05-2017 15:36:12 Downloading partition: 174(236.74 MB)\398
+INFO  07-05-2017 15:36:38 Partition downloaded, remaining: 16963.54 MB
+INFO  07-05-2017 15:36:38 Downloading partition: 175(191.07 MB)\398
+INFO  07-05-2017 15:36:53 Partition downloaded, remaining: 16772.47 MB
+INFO  07-05-2017 15:36:53 Downloading partition: 176(12.66 MB)\398
+INFO  07-05-2017 15:36:57 Partition downloaded, remaining: 16759.81 MB
+INFO  07-05-2017 15:36:57 Downloading partition: 177(12.14 MB)\398
+INFO  07-05-2017 15:37:01 Partition downloaded, remaining: 16747.67 MB
+INFO  07-05-2017 15:37:01 Downloading partition: 178(9.32 MB)\398
+INFO  07-05-2017 15:37:05 Partition downloaded, remaining: 16738.35 MB
+INFO  07-05-2017 15:37:05 Downloading partition: 179(28.86 MB)\398
+INFO  07-05-2017 15:37:10 Partition downloaded, remaining: 16709.49 MB
+INFO  07-05-2017 15:37:10 Downloading partition: 180(194.74 MB)\398
+INFO  07-05-2017 15:37:26 Partition downloaded, remaining: 16514.75 MB
+INFO  07-05-2017 15:37:26 Downloading partition: 181(309.72 MB)\398
+INFO  07-05-2017 15:37:59 Partition downloaded, remaining: 16205.03 MB
+INFO  07-05-2017 15:37:59 Downloading partition: 182(10.61 MB)\398
+INFO  07-05-2017 15:38:03 Partition downloaded, remaining: 16194.42 MB
+INFO  07-05-2017 15:38:03 Downloading partition: 183(13.09 MB)\398
+INFO  07-05-2017 15:38:07 Partition downloaded, remaining: 16181.33 MB
+INFO  07-05-2017 15:38:07 Downloading partition: 184(12.13 MB)\398
+INFO  07-05-2017 15:38:11 Partition downloaded, remaining: 16169.2 MB
+INFO  07-05-2017 15:38:11 Downloading partition: 185(8.66 MB)\398
+INFO  07-05-2017 15:38:15 Partition downloaded, remaining: 16160.54 MB
+INFO  07-05-2017 15:38:15 Downloading partition: 186(33.01 MB)\398
+INFO  07-05-2017 15:38:21 Partition downloaded, remaining: 16127.53 MB
+INFO  07-05-2017 15:38:21 Downloading partition: 187(212.26 MB)\398
+INFO  07-05-2017 15:38:37 Partition downloaded, remaining: 15915.27 MB
+INFO  07-05-2017 15:38:37 Downloading partition: 188(274.22 MB)\398
+INFO  07-05-2017 15:38:57 Partition downloaded, remaining: 15641.05 MB
+INFO  07-05-2017 15:38:57 Downloading partition: 189(13.33 MB)\398
+INFO  07-05-2017 15:39:06 Partition downloaded, remaining: 15627.72 MB
+INFO  07-05-2017 15:39:06 Downloading partition: 190(11.91 MB)\398
+INFO  07-05-2017 15:39:10 Partition downloaded, remaining: 15615.81 MB
+INFO  07-05-2017 15:39:10 Downloading partition: 191(9.82 MB)\398
+INFO  07-05-2017 15:39:14 Partition downloaded, remaining: 15605.99 MB
+INFO  07-05-2017 15:39:14 Downloading partition: 192(17.72 MB)\398
+INFO  07-05-2017 15:39:19 Partition downloaded, remaining: 15588.27 MB
+INFO  07-05-2017 15:39:19 Downloading partition: 193(86.39 MB)\398
+INFO  07-05-2017 15:39:29 Partition downloaded, remaining: 15501.88 MB
+INFO  07-05-2017 15:39:29 Downloading partition: 194(294.11 MB)\398
+INFO  07-05-2017 15:39:51 Partition downloaded, remaining: 15207.77 MB
+INFO  07-05-2017 15:39:51 Downloading partition: 195(213.11 MB)\398
+INFO  07-05-2017 15:40:09 Partition downloaded, remaining: 14994.66 MB
+INFO  07-05-2017 15:40:09 Downloading partition: 196(11.15 MB)\398
+INFO  07-05-2017 15:40:13 Partition downloaded, remaining: 14983.51 MB
+INFO  07-05-2017 15:40:13 Downloading partition: 197(11.43 MB)\398
+INFO  07-05-2017 15:40:18 Partition downloaded, remaining: 14972.08 MB
+INFO  07-05-2017 15:40:18 Downloading partition: 198(12.29 MB)\398
+INFO  07-05-2017 15:40:22 Partition downloaded, remaining: 14959.79 MB
+INFO  07-05-2017 15:40:22 Downloading partition: 199(19.86 MB)\398
+INFO  07-05-2017 15:40:27 Partition downloaded, remaining: 14939.93 MB
+INFO  07-05-2017 15:40:27 Downloading partition: 200(66.12 MB)\398
+INFO  07-05-2017 15:40:34 Partition downloaded, remaining: 14873.81 MB
+INFO  07-05-2017 15:40:34 Downloading partition: 201(272.53 MB)\398
+INFO  07-05-2017 15:41:02 Partition downloaded, remaining: 14601.28 MB
+INFO  07-05-2017 15:41:02 Downloading partition: 202(310.23 MB)\398
+INFO  07-05-2017 15:41:23 Partition downloaded, remaining: 14291.05 MB
+INFO  07-05-2017 15:41:23 Downloading partition: 203(5.57 MB)\398
+INFO  07-05-2017 15:41:28 Partition downloaded, remaining: 14285.48 MB
+INFO  07-05-2017 15:41:28 Downloading partition: 204(7.09 MB)\398
+INFO  07-05-2017 15:41:32 Partition downloaded, remaining: 14278.39 MB
+INFO  07-05-2017 15:41:32 Downloading partition: 205(13.79 MB)\398
+INFO  07-05-2017 15:41:36 Partition downloaded, remaining: 14264.6 MB
+INFO  07-05-2017 15:41:36 Downloading partition: 206(12.45 MB)\398
+INFO  07-05-2017 15:41:42 Partition downloaded, remaining: 14252.15 MB
+INFO  07-05-2017 15:41:42 Downloading partition: 207(23.7 MB)\398
+INFO  07-05-2017 15:41:47 Partition downloaded, remaining: 14228.45 MB
+INFO  07-05-2017 15:41:47 Downloading partition: 208(89.76 MB)\398
+INFO  07-05-2017 15:41:55 Partition downloaded, remaining: 14138.69 MB
+INFO  07-05-2017 15:41:55 Downloading partition: 209(319.45 MB)\398
+INFO  07-05-2017 15:42:18 Partition downloaded, remaining: 13819.24 MB
+INFO  07-05-2017 15:42:18 Downloading partition: 210(290.15 MB)\398
+INFO  07-05-2017 15:42:41 Partition downloaded, remaining: 13529.09 MB
+INFO  07-05-2017 15:42:41 Downloading partition: 211(7.41 MB)\398
+INFO  07-05-2017 15:42:45 Partition downloaded, remaining: 13521.68 MB
+INFO  07-05-2017 15:42:45 Downloading partition: 212(13.77 MB)\398
+INFO  07-05-2017 15:42:50 Partition downloaded, remaining: 13507.91 MB
+INFO  07-05-2017 15:42:50 Downloading partition: 213(14.23 MB)\398
+INFO  07-05-2017 15:42:54 Partition downloaded, remaining: 13493.68 MB
+INFO  07-05-2017 15:42:54 Downloading partition: 214(37.0 MB)\398
+INFO  07-05-2017 15:43:00 Partition downloaded, remaining: 13456.68 MB
+INFO  07-05-2017 15:43:00 Downloading partition: 215(261.78 MB)\398
+INFO  07-05-2017 15:43:19 Partition downloaded, remaining: 13194.9 MB
+INFO  07-05-2017 15:43:19 Downloading partition: 216(386.52 MB)\398
+INFO  07-05-2017 15:43:45 Partition downloaded, remaining: 12808.38 MB
+INFO  07-05-2017 15:43:45 Downloading partition: 217(1.07 MB)\398
+INFO  07-05-2017 15:43:47 Partition downloaded, remaining: 12807.31 MB
+INFO  07-05-2017 15:43:47 Downloading partition: 218(8.72 MB)\398
+INFO  07-05-2017 15:43:51 Partition downloaded, remaining: 12798.59 MB
+INFO  07-05-2017 15:43:51 Downloading partition: 219(14.85 MB)\398
+INFO  07-05-2017 15:43:55 Partition downloaded, remaining: 12783.74 MB
+INFO  07-05-2017 15:43:55 Downloading partition: 220(20.2 MB)\398
+INFO  07-05-2017 15:44:00 Partition downloaded, remaining: 12763.54 MB
+INFO  07-05-2017 15:44:00 Downloading partition: 221(102.02 MB)\398
+INFO  07-05-2017 15:44:11 Partition downloaded, remaining: 12661.52 MB
+INFO  07-05-2017 15:44:11 Downloading partition: 222(378.39 MB)\398
+INFO  07-05-2017 15:44:37 Partition downloaded, remaining: 12283.13 MB
+INFO  07-05-2017 15:44:37 Downloading partition: 223(117.82 MB)\398
+INFO  07-05-2017 15:44:56 Partition downloaded, remaining: 12165.31 MB
+INFO  07-05-2017 15:44:56 Downloading partition: 224(7.99 MB)\398
+INFO  07-05-2017 15:45:00 Partition downloaded, remaining: 12157.32 MB
+INFO  07-05-2017 15:45:00 Downloading partition: 225(14.56 MB)\398
+INFO  07-05-2017 15:45:04 Partition downloaded, remaining: 12142.76 MB
+INFO  07-05-2017 15:45:04 Downloading partition: 226(14.71 MB)\398
+INFO  07-05-2017 15:45:08 Partition downloaded, remaining: 12128.05 MB
+INFO  07-05-2017 15:45:08 Downloading partition: 227(23.12 MB)\398
+INFO  07-05-2017 15:45:12 Partition downloaded, remaining: 12104.93 MB
+INFO  07-05-2017 15:45:12 Downloading partition: 228(110.59 MB)\398
+INFO  07-05-2017 15:45:23 Partition downloaded, remaining: 11994.34 MB
+INFO  07-05-2017 15:45:23 Downloading partition: 229(337.56 MB)\398
+INFO  07-05-2017 15:45:48 Partition downloaded, remaining: 11656.78 MB
+INFO  07-05-2017 15:45:48 Downloading partition: 230(298.94 MB)\398
+INFO  07-05-2017 15:46:09 Partition downloaded, remaining: 11357.84 MB
+INFO  07-05-2017 15:46:09 Downloading partition: 231(7.86 MB)\398
+INFO  07-05-2017 15:46:13 Partition downloaded, remaining: 11349.98 MB
+INFO  07-05-2017 15:46:13 Downloading partition: 232(15.39 MB)\398
+INFO  07-05-2017 15:46:17 Partition downloaded, remaining: 11334.59 MB
+INFO  07-05-2017 15:46:17 Downloading partition: 233(56.17 MB)\398
+INFO  07-05-2017 15:46:24 Partition downloaded, remaining: 11278.42 MB
+INFO  07-05-2017 15:46:24 Downloading partition: 234(209.12 MB)\398
+INFO  07-05-2017 15:46:40 Partition downloaded, remaining: 11069.3 MB
+INFO  07-05-2017 15:46:40 Downloading partition: 235(3.04 MB)\398
+INFO  07-05-2017 15:46:43 Partition downloaded, remaining: 11066.26 MB
+INFO  07-05-2017 15:46:43 Downloading partition: 236(12.77 MB)\398
+INFO  07-05-2017 15:46:47 Partition downloaded, remaining: 11053.49 MB
+INFO  07-05-2017 15:46:47 Downloading partition: 237(14.27 MB)\398
+INFO  07-05-2017 15:46:51 Partition downloaded, remaining: 11039.22 MB
+INFO  07-05-2017 15:46:51 Downloading partition: 238(14.25 MB)\398
+INFO  07-05-2017 15:46:56 Partition downloaded, remaining: 11024.97 MB
+INFO  07-05-2017 15:46:56 Downloading partition: 239(14.12 MB)\398
+INFO  07-05-2017 15:46:59 Partition downloaded, remaining: 11010.85 MB
+INFO  07-05-2017 15:46:59 Downloading partition: 240(13.89 MB)\398
+INFO  07-05-2017 15:47:04 Partition downloaded, remaining: 10996.96 MB
+INFO  07-05-2017 15:47:04 Downloading partition: 241(31.66 MB)\398
+INFO  07-05-2017 15:47:11 Partition downloaded, remaining: 10965.3 MB
+INFO  07-05-2017 15:47:11 Downloading partition: 242(132.29 MB)\398
+INFO  07-05-2017 15:47:22 Partition downloaded, remaining: 10833.01 MB
+INFO  07-05-2017 15:47:22 Downloading partition: 243(261.15 MB)\398
+INFO  07-05-2017 15:47:40 Partition downloaded, remaining: 10571.86 MB
+INFO  07-05-2017 15:47:40 Downloading partition: 244(42.52 MB)\398
+INFO  07-05-2017 15:47:52 Partition downloaded, remaining: 10529.34 MB
+INFO  07-05-2017 15:47:52 Downloading partition: 245(2.67 MB)\398
+INFO  07-05-2017 15:47:55 Partition downloaded, remaining: 10526.67 MB
+INFO  07-05-2017 15:47:55 Downloading partition: 246(2.69 MB)\398
+INFO  07-05-2017 15:47:57 Partition downloaded, remaining: 10523.98 MB
+INFO  07-05-2017 15:47:57 Downloading partition: 247(16.09 MB)\398
+INFO  07-05-2017 15:48:01 Partition downloaded, remaining: 10507.89 MB
+INFO  07-05-2017 15:48:01 Downloading partition: 248(16.96 MB)\398
+INFO  07-05-2017 15:48:05 Partition downloaded, remaining: 10490.93 MB
+INFO  07-05-2017 15:48:05 Downloading partition: 249(16.4 MB)\398
+INFO  07-05-2017 15:48:09 Partition downloaded, remaining: 10474.53 MB
+INFO  07-05-2017 15:48:09 Downloading partition: 250(16.6 MB)\398
+INFO  07-05-2017 15:48:14 Partition downloaded, remaining: 10457.93 MB
+INFO  07-05-2017 15:48:14 Downloading partition: 251(18.72 MB)\398
+INFO  07-05-2017 15:48:19 Partition downloaded, remaining: 10439.21 MB
+INFO  07-05-2017 15:48:19 Downloading partition: 252(25.31 MB)\398
+INFO  07-05-2017 15:48:25 Partition downloaded, remaining: 10413.9 MB
+INFO  07-05-2017 15:48:25 Downloading partition: 253(61.23 MB)\398
+INFO  07-05-2017 15:48:32 Partition downloaded, remaining: 10352.67 MB
+INFO  07-05-2017 15:48:32 Downloading partition: 254(221.04 MB)\398
+INFO  07-05-2017 15:48:49 Partition downloaded, remaining: 10131.63 MB
+INFO  07-05-2017 15:48:49 Downloading partition: 255(313.15 MB)\398
+INFO  07-05-2017 15:49:18 Partition downloaded, remaining: 9818.48 MB
+INFO  07-05-2017 15:49:18 Downloading partition: 256(3.15 MB)\398
+INFO  07-05-2017 15:49:21 Partition downloaded, remaining: 9815.33 MB
+INFO  07-05-2017 15:49:21 Downloading partition: 257(12.58 MB)\398
+INFO  07-05-2017 15:49:25 Partition downloaded, remaining: 9802.75 MB
+INFO  07-05-2017 15:49:25 Downloading partition: 258(15.28 MB)\398
+INFO  07-05-2017 15:49:30 Partition downloaded, remaining: 9787.47 MB
+INFO  07-05-2017 15:49:30 Downloading partition: 259(15.26 MB)\398
+INFO  07-05-2017 15:49:34 Partition downloaded, remaining: 9772.21 MB
+INFO  07-05-2017 15:49:34 Downloading partition: 260(15.16 MB)\398
+INFO  07-05-2017 15:49:38 Partition downloaded, remaining: 9757.05 MB
+INFO  07-05-2017 15:49:38 Downloading partition: 261(21.26 MB)\398
+INFO  07-05-2017 15:49:45 Partition downloaded, remaining: 9735.79 MB
+INFO  07-05-2017 15:49:45 Downloading partition: 262(39.43 MB)\398
+INFO  07-05-2017 15:49:52 Partition downloaded, remaining: 9696.36 MB
+INFO  07-05-2017 15:49:52 Downloading partition: 263(221.19 MB)\398
+INFO  07-05-2017 15:50:08 Partition downloaded, remaining: 9475.17 MB
+INFO  07-05-2017 15:50:08 Downloading partition: 264(205.54 MB)\398
+INFO  07-05-2017 15:50:24 Partition downloaded, remaining: 9269.63 MB
+INFO  07-05-2017 15:50:24 Downloading partition: 265(3.08 MB)\398
+INFO  07-05-2017 15:50:26 Partition downloaded, remaining: 9266.55 MB
+INFO  07-05-2017 15:50:26 Downloading partition: 266(10.54 MB)\398
+INFO  07-05-2017 15:50:30 Partition downloaded, remaining: 9256.01 MB
+INFO  07-05-2017 15:50:30 Downloading partition: 267(14.47 MB)\398
+INFO  07-05-2017 15:50:35 Partition downloaded, remaining: 9241.54 MB
+INFO  07-05-2017 15:50:35 Downloading partition: 268(14.49 MB)\398
+INFO  07-05-2017 15:50:40 Partition downloaded, remaining: 9227.05 MB
+INFO  07-05-2017 15:50:40 Downloading partition: 269(14.63 MB)\398
+INFO  07-05-2017 15:50:44 Partition downloaded, remaining: 9212.42 MB
+INFO  07-05-2017 15:50:44 Downloading partition: 270(14.71 MB)\398
+INFO  07-05-2017 15:50:48 Partition downloaded, remaining: 9197.71 MB
+INFO  07-05-2017 15:50:48 Downloading partition: 271(26.45 MB)\398
+INFO  07-05-2017 15:50:53 Partition downloaded, remaining: 9171.26 MB
+INFO  07-05-2017 15:50:53 Downloading partition: 272(79.67 MB)\398
+INFO  07-05-2017 15:51:01 Partition downloaded, remaining: 9091.59 MB
+INFO  07-05-2017 15:51:01 Downloading partition: 273(258.83 MB)\398
+INFO  07-05-2017 15:51:21 Partition downloaded, remaining: 8832.76 MB
+INFO  07-05-2017 15:51:21 Downloading partition: 274(168.95 MB)\398
+INFO  07-05-2017 15:51:34 Partition downloaded, remaining: 8663.81 MB
+INFO  07-05-2017 15:51:34 Downloading partition: 275(2.72 MB)\398
+INFO  07-05-2017 15:51:37 Partition downloaded, remaining: 8661.09 MB
+INFO  07-05-2017 15:51:37 Downloading partition: 276(2.7 MB)\398
+INFO  07-05-2017 15:51:40 Partition downloaded, remaining: 8658.39 MB
+INFO  07-05-2017 15:51:40 Downloading partition: 277(12.18 MB)\398
+INFO  07-05-2017 15:51:44 Partition downloaded, remaining: 8646.21 MB
+INFO  07-05-2017 15:51:44 Downloading partition: 278(13.41 MB)\398
+INFO  07-05-2017 15:51:48 Partition downloaded, remaining: 8632.8 MB
+INFO  07-05-2017 15:51:48 Downloading partition: 279(13.16 MB)\398
+INFO  07-05-2017 15:51:53 Partition downloaded, remaining: 8619.64 MB
+INFO  07-05-2017 15:51:53 Downloading partition: 280(13.41 MB)\398
+INFO  07-05-2017 15:51:58 Partition downloaded, remaining: 8606.23 MB
+INFO  07-05-2017 15:51:58 Downloading partition: 281(13.48 MB)\398
+INFO  07-05-2017 15:52:03 Partition downloaded, remaining: 8592.75 MB
+INFO  07-05-2017 15:52:03 Downloading partition: 282(14.02 MB)\398
+INFO  07-05-2017 15:52:07 Partition downloaded, remaining: 8578.73 MB
+INFO  07-05-2017 15:52:07 Downloading partition: 283(29.64 MB)\398
+INFO  07-05-2017 15:52:12 Partition downloaded, remaining: 8549.09 MB
+INFO  07-05-2017 15:52:12 Downloading partition: 284(110.1 MB)\398
+INFO  07-05-2017 15:52:23 Partition downloaded, remaining: 8438.99 MB
+INFO  07-05-2017 15:52:23 Downloading partition: 285(268.38 MB)\398
+INFO  07-05-2017 15:52:43 Partition downloaded, remaining: 8170.61 MB
+INFO  07-05-2017 15:52:43 Downloading partition: 286(203.32 MB)\398
+INFO  07-05-2017 15:53:06 Partition downloaded, remaining: 7967.29 MB
+INFO  07-05-2017 15:53:06 Downloading partition: 287(3.0 MB)\398
+INFO  07-05-2017 15:53:09 Partition downloaded, remaining: 7964.29 MB
+INFO  07-05-2017 15:53:09 Downloading partition: 288(5.78 MB)\398
+INFO  07-05-2017 15:53:12 Partition downloaded, remaining: 7958.51 MB
+INFO  07-05-2017 15:53:12 Downloading partition: 289(14.48 MB)\398
+INFO  07-05-2017 15:53:18 Partition downloaded, remaining: 7944.03 MB
+INFO  07-05-2017 15:53:18 Downloading partition: 290(14.3 MB)\398
+INFO  07-05-2017 15:53:22 Partition downloaded, remaining: 7929.73 MB
+INFO  07-05-2017 15:53:22 Downloading partition: 291(14.1 MB)\398
+INFO  07-05-2017 15:53:27 Partition downloaded, remaining: 7915.63 MB
+INFO  07-05-2017 15:53:27 Downloading partition: 292(14.1 MB)\398
+INFO  07-05-2017 15:53:31 Partition downloaded, remaining: 7901.53 MB
+INFO  07-05-2017 15:53:31 Downloading partition: 293(15.92 MB)\398
+INFO  07-05-2017 15:53:40 Partition downloaded, remaining: 7885.61 MB
+INFO  07-05-2017 15:53:40 Downloading partition: 294(22.17 MB)\398
+INFO  07-05-2017 15:53:45 Partition downloaded, remaining: 7863.44 MB
+INFO  07-05-2017 15:53:45 Downloading partition: 295(24.13 MB)\398
+INFO  07-05-2017 15:53:49 Partition downloaded, remaining: 7839.31 MB
+INFO  07-05-2017 15:53:49 Downloading partition: 296(57.89 MB)\398
+INFO  07-05-2017 15:53:59 Partition downloaded, remaining: 7781.42 MB
+INFO  07-05-2017 15:53:59 Downloading partition: 297(178.97 MB)\398
+INFO  07-05-2017 15:54:13 Partition downloaded, remaining: 7602.45 MB
+INFO  07-05-2017 15:54:13 Downloading partition: 298(390.82 MB)\398
+INFO  07-05-2017 15:54:39 Partition downloaded, remaining: 7211.63 MB
+INFO  07-05-2017 15:54:39 Downloading partition: 299(178.01 MB)\398
+INFO  07-05-2017 15:54:59 Partition downloaded, remaining: 7033.62 MB
+INFO  07-05-2017 15:54:59 Downloading partition: 300(3.01 MB)\398
+INFO  07-05-2017 15:55:02 Partition downloaded, remaining: 7030.61 MB
+INFO  07-05-2017 15:55:02 Downloading partition: 301(7.65 MB)\398
+INFO  07-05-2017 15:55:06 Partition downloaded, remaining: 7022.96 MB
+INFO  07-05-2017 15:55:06 Downloading partition: 302(14.27 MB)\398
+INFO  07-05-2017 15:55:10 Partition downloaded, remaining: 7008.69 MB
+INFO  07-05-2017 15:55:10 Downloading partition: 303(14.24 MB)\398
+INFO  07-05-2017 15:55:14 Partition downloaded, remaining: 6994.45 MB
+INFO  07-05-2017 15:55:14 Downloading partition: 304(14.54 MB)\398
+INFO  07-05-2017 15:55:19 Partition downloaded, remaining: 6979.91 MB
+INFO  07-05-2017 15:55:19 Downloading partition: 305(14.35 MB)\398
+INFO  07-05-2017 15:55:24 Partition downloaded, remaining: 6965.56 MB
+INFO  07-05-2017 15:55:24 Downloading partition: 306(23.47 MB)\398
+INFO  07-05-2017 15:55:31 Partition downloaded, remaining: 6942.09 MB
+INFO  07-05-2017 15:55:31 Downloading partition: 307(53.93 MB)\398
+INFO  07-05-2017 15:55:38 Partition downloaded, remaining: 6888.16 MB
+INFO  07-05-2017 15:55:38 Downloading partition: 308(197.63 MB)\398
+INFO  07-05-2017 15:55:54 Partition downloaded, remaining: 6690.53 MB
+INFO  07-05-2017 15:55:54 Downloading partition: 309(303.11 MB)\398
+INFO  07-05-2017 15:56:16 Partition downloaded, remaining: 6387.42 MB
+INFO  07-05-2017 15:56:16 Downloading partition: 310(3.41 MB)\398
+INFO  07-05-2017 15:56:19 Partition downloaded, remaining: 6384.01 MB
+INFO  07-05-2017 15:56:19 Downloading partition: 311(14.14 MB)\398
+INFO  07-05-2017 15:56:23 Partition downloaded, remaining: 6369.87 MB
+INFO  07-05-2017 15:56:23 Downloading partition: 312(14.53 MB)\398
+INFO  07-05-2017 15:56:28 Partition downloaded, remaining: 6355.34 MB
+INFO  07-05-2017 15:56:28 Downloading partition: 313(14.45 MB)\398
+INFO  07-05-2017 15:56:32 Partition downloaded, remaining: 6340.89 MB
+INFO  07-05-2017 15:56:32 Downloading partition: 314(14.04 MB)\398
+INFO  07-05-2017 15:56:36 Partition downloaded, remaining: 6326.85 MB
+INFO  07-05-2017 15:56:36 Downloading partition: 315(14.44 MB)\398
+INFO  07-05-2017 15:56:40 Partition downloaded, remaining: 6312.41 MB
+INFO  07-05-2017 15:56:40 Downloading partition: 316(18.74 MB)\398
+INFO  07-05-2017 15:56:45 Partition downloaded, remaining: 6293.67 MB
+INFO  07-05-2017 15:56:45 Downloading partition: 317(39.88 MB)\398
+INFO  07-05-2017 15:56:51 Partition downloaded, remaining: 6253.79 MB
+INFO  07-05-2017 15:56:51 Downloading partition: 318(130.24 MB)\398
+INFO  07-05-2017 15:57:02 Partition downloaded, remaining: 6123.55 MB
+INFO  07-05-2017 15:57:02 Downloading partition: 319(320.52 MB)\398
+INFO  07-05-2017 15:57:24 Partition downloaded, remaining: 5803.03 MB
+INFO  07-05-2017 15:57:24 Downloading partition: 320(167.51 MB)\398
+INFO  07-05-2017 15:57:37 Partition downloaded, remaining: 5635.52 MB
+INFO  07-05-2017 15:57:37 Downloading partition: 321(3.54 MB)\398
+INFO  07-05-2017 15:57:40 Partition downloaded, remaining: 5631.98 MB
+INFO  07-05-2017 15:57:40 Downloading partition: 322(15.06 MB)\398
+INFO  07-05-2017 15:57:44 Partition downloaded, remaining: 5616.92 MB
+INFO  07-05-2017 15:57:44 Downloading partition: 323(15.29 MB)\398
+INFO  07-05-2017 15:57:49 Partition downloaded, remaining: 5601.63 MB
+INFO  07-05-2017 15:57:49 Downloading partition: 324(15.04 MB)\398
+INFO  07-05-2017 15:57:53 Partition downloaded, remaining: 5586.59 MB
+INFO  07-05-2017 15:57:53 Downloading partition: 325(15.3 MB)\398
+INFO  07-05-2017 15:57:58 Partition downloaded, remaining: 5571.29 MB
+INFO  07-05-2017 15:57:58 Downloading partition: 326(15.62 MB)\398
+INFO  07-05-2017 15:58:02 Partition downloaded, remaining: 5555.67 MB
+INFO  07-05-2017 15:58:02 Downloading partition: 327(20.8 MB)\398
+INFO  07-05-2017 15:58:08 Partition downloaded, remaining: 5534.87 MB
+INFO  07-05-2017 15:58:08 Downloading partition: 328(40.88 MB)\398
+INFO  07-05-2017 15:58:14 Partition downloaded, remaining: 5493.99 MB
+INFO  07-05-2017 15:58:14 Downloading partition: 329(144.79 MB)\398
+INFO  07-05-2017 15:58:25 Partition downloaded, remaining: 5349.2 MB
+INFO  07-05-2017 15:58:25 Downloading partition: 330(337.71 MB)\398
+INFO  07-05-2017 15:58:48 Partition downloaded, remaining: 5011.49 MB
+INFO  07-05-2017 15:58:48 Downloading partition: 331(141.26 MB)\398
+INFO  07-05-2017 15:59:08 Partition downloaded, remaining: 4870.23 MB
+INFO  07-05-2017 15:59:08 Downloading partition: 332(3.51 MB)\398
+INFO  07-05-2017 15:59:11 Partition downloaded, remaining: 4866.72 MB
+INFO  07-05-2017 15:59:11 Downloading partition: 333(13.11 MB)\398
+INFO  07-05-2017 15:59:16 Partition downloaded, remaining: 4853.61 MB
+INFO  07-05-2017 15:59:16 Downloading partition: 334(13.98 MB)\398
+INFO  07-05-2017 15:59:20 Partition downloaded, remaining: 4839.63 MB
+INFO  07-05-2017 15:59:20 Downloading partition: 335(14.13 MB)\398
+INFO  07-05-2017 15:59:24 Partition downloaded, remaining: 4825.5 MB
+INFO  07-05-2017 15:59:24 Downloading partition: 336(13.92 MB)\398
+INFO  07-05-2017 15:59:33 Partition downloaded, remaining: 4811.58 MB
+INFO  07-05-2017 15:59:33 Downloading partition: 337(13.6 MB)\398
+INFO  07-05-2017 15:59:37 Partition downloaded, remaining: 4797.98 MB
+INFO  07-05-2017 15:59:37 Downloading partition: 338(14.11 MB)\398
+INFO  07-05-2017 15:59:41 Partition downloaded, remaining: 4783.87 MB
+INFO  07-05-2017 15:59:41 Downloading partition: 339(14.46 MB)\398
+INFO  07-05-2017 15:59:46 Partition downloaded, remaining: 4769.41 MB
+INFO  07-05-2017 15:59:46 Downloading partition: 340(20.24 MB)\398
+INFO  07-05-2017 15:59:50 Partition downloaded, remaining: 4749.17 MB
+INFO  07-05-2017 15:59:50 Downloading partition: 341(20.75 MB)\398
+INFO  07-05-2017 15:59:55 Partition downloaded, remaining: 4728.42 MB
+INFO  07-05-2017 15:59:55 Downloading partition: 342(37.04 MB)\398
+INFO  07-05-2017 16:00:01 Partition downloaded, remaining: 4691.38 MB
+INFO  07-05-2017 16:00:01 Downloading partition: 343(118.29 MB)\398
+INFO  07-05-2017 16:00:12 Partition downloaded, remaining: 4573.09 MB
+INFO  07-05-2017 16:00:12 Downloading partition: 344(187.46 MB)\398
+INFO  07-05-2017 16:00:34 Partition downloaded, remaining: 4385.63 MB
+INFO  07-05-2017 16:00:34 Downloading partition: 345(307.89 MB)\398
+INFO  07-05-2017 16:00:55 Partition downloaded, remaining: 4077.74 MB
+INFO  07-05-2017 16:00:55 Downloading partition: 346(313.35 MB)\398
+INFO  07-05-2017 16:01:19 Partition downloaded, remaining: 3764.39 MB
+INFO  07-05-2017 16:01:19 Downloading partition: 347(256.85 MB)\398
+INFO  07-05-2017 16:01:42 Partition downloaded, remaining: 3507.54 MB
+INFO  07-05-2017 16:01:42 Downloading partition: 348(3.57 MB)\398
+INFO  07-05-2017 16:01:44 Partition downloaded, remaining: 3503.97 MB
+INFO  07-05-2017 16:01:44 Downloading partition: 349(12.86 MB)\398
+INFO  07-05-2017 16:01:50 Partition downloaded, remaining: 3491.11 MB
+INFO  07-05-2017 16:01:50 Downloading partition: 350(13.95 MB)\398
+INFO  07-05-2017 16:01:55 Partition downloaded, remaining: 3477.16 MB
+INFO  07-05-2017 16:01:55 Downloading partition: 351(14.05 MB)\398
+INFO  07-05-2017 16:01:59 Partition downloaded, remaining: 3463.11 MB
+INFO  07-05-2017 16:01:59 Downloading partition: 352(14.08 MB)\398
+INFO  07-05-2017 16:02:03 Partition downloaded, remaining: 3449.03 MB
+INFO  07-05-2017 16:02:03 Downloading partition: 353(14.2 MB)\398
+INFO  07-05-2017 16:02:08 Partition downloaded, remaining: 3434.83 MB
+INFO  07-05-2017 16:02:08 Downloading partition: 354(14.06 MB)\398
+INFO  07-05-2017 16:02:12 Partition downloaded, remaining: 3420.77 MB
+INFO  07-05-2017 16:02:12 Downloading partition: 355(14.13 MB)\398
+INFO  07-05-2017 16:02:17 Partition downloaded, remaining: 3406.64 MB
+INFO  07-05-2017 16:02:17 Downloading partition: 356(15.4 MB)\398
+INFO  07-05-2017 16:02:21 Partition downloaded, remaining: 3391.24 MB
+INFO  07-05-2017 16:02:21 Downloading partition: 357(21.86 MB)\398
+INFO  07-05-2017 16:02:26 Partition downloaded, remaining: 3369.38 MB
+INFO  07-05-2017 16:02:26 Downloading partition: 358(49.83 MB)\398
+INFO  07-05-2017 16:02:40 Partition downloaded, remaining: 3319.55 MB
+INFO  07-05-2017 16:02:40 Downloading partition: 359(134.06 MB)\398
+INFO  07-05-2017 16:02:52 Partition downloaded, remaining: 3185.49 MB
+INFO  07-05-2017 16:02:52 Downloading partition: 360(260.61 MB)\398
+INFO  07-05-2017 16:03:12 Partition downloaded, remaining: 2924.88 MB
+INFO  07-05-2017 16:03:12 Downloading partition: 361(338.46 MB)\398
+INFO  07-05-2017 16:03:35 Partition downloaded, remaining: 2586.42 MB
+INFO  07-05-2017 16:03:35 Downloading partition: 362(72.47 MB)\398
+INFO  07-05-2017 16:03:43 Partition downloaded, remaining: 2513.95 MB
+INFO  07-05-2017 16:03:43 Downloading partition: 363(3.42 MB)\398
+INFO  07-05-2017 16:03:46 Partition downloaded, remaining: 2510.53 MB
+INFO  07-05-2017 16:03:46 Downloading partition: 364(5.96 MB)\398
+INFO  07-05-2017 16:03:50 Partition downloaded, remaining: 2504.57 MB
+INFO  07-05-2017 16:03:50 Downloading partition: 365(13.62 MB)\398
+INFO  07-05-2017 16:03:54 Partition downloaded, remaining: 2490.95 MB
+INFO  07-05-2017 16:03:54 Downloading partition: 366(13.62 MB)\398
+INFO  07-05-2017 16:03:58 Partition downloaded, remaining: 2477.33 MB
+INFO  07-05-2017 16:03:58 Downloading partition: 367(13.22 MB)\398
+INFO  07-05-2017 16:04:01 Partition downloaded, remaining: 2464.11 MB
+INFO  07-05-2017 16:04:01 Downloading partition: 368(13.04 MB)\398
+INFO  07-05-2017 16:04:12 Partition downloaded, remaining: 2451.07 MB
+INFO  07-05-2017 16:04:12 Downloading partition: 369(13.48 MB)\398
+INFO  07-05-2017 16:04:16 Partition downloaded, remaining: 2437.59 MB
+INFO  07-05-2017 16:04:16 Downloading partition: 370(13.3 MB)\398
+INFO  07-05-2017 16:04:20 Partition downloaded, remaining: 2424.29 MB
+INFO  07-05-2017 16:04:20 Downloading partition: 371(13.15 MB)\398
+INFO  07-05-2017 16:04:25 Partition downloaded, remaining: 2411.14 MB
+INFO  07-05-2017 16:04:25 Downloading partition: 372(13.14 MB)\398
+INFO  07-05-2017 16:04:29 Partition downloaded, remaining: 2398.0 MB
+INFO  07-05-2017 16:04:29 Downloading partition: 373(13.41 MB)\398
+INFO  07-05-2017 16:04:31 Partition downloaded, remaining: 2384.59 MB
+INFO  07-05-2017 16:04:31 Downloading partition: 374(13.62 MB)\398
+INFO  07-05-2017 16:04:36 Partition downloaded, remaining: 2370.97 MB
+INFO  07-05-2017 16:04:36 Downloading partition: 375(23.3 MB)\398
+INFO  07-05-2017 16:04:40 Partition downloaded, remaining: 2347.67 MB
+INFO  07-05-2017 16:04:40 Downloading partition: 376(39.47 MB)\398
+INFO  07-05-2017 16:04:46 Partition downloaded, remaining: 2308.2 MB
+INFO  07-05-2017 16:04:46 Downloading partition: 377(52.92 MB)\398
+INFO  07-05-2017 16:04:52 Partition downloaded, remaining: 2255.28 MB
+INFO  07-05-2017 16:04:52 Downloading partition: 378(112.51 MB)\398
+INFO  07-05-2017 16:05:08 Partition downloaded, remaining: 2142.77 MB
+INFO  07-05-2017 16:05:08 Downloading partition: 379(204.36 MB)\398
+INFO  07-05-2017 16:05:26 Partition downloaded, remaining: 1938.41 MB
+INFO  07-05-2017 16:05:26 Downloading partition: 380(245.92 MB)\398
+INFO  07-05-2017 16:05:45 Partition downloaded, remaining: 1692.49 MB
+INFO  07-05-2017 16:05:45 Downloading partition: 381(246.05 MB)\398
+INFO  07-05-2017 16:06:02 Partition downloaded, remaining: 1446.44 MB
+INFO  07-05-2017 16:06:02 Downloading partition: 382(236.69 MB)\398
+INFO  07-05-2017 16:06:25 Partition downloaded, remaining: 1209.75 MB
+INFO  07-05-2017 16:06:25 Downloading partition: 383(3.61 MB)\398
+INFO  07-05-2017 16:06:28 Partition downloaded, remaining: 1206.14 MB
+INFO  07-05-2017 16:06:28 Downloading partition: 384(2.05 MB)\398
+INFO  07-05-2017 16:06:31 Partition downloaded, remaining: 1204.09 MB
+INFO  07-05-2017 16:06:31 Downloading partition: 385(7.49 MB)\398
+INFO  07-05-2017 16:06:35 Partition downloaded, remaining: 1196.6 MB
+INFO  07-05-2017 16:06:35 Downloading partition: 386(15.99 MB)\398
+INFO  07-05-2017 16:06:39 Partition downloaded, remaining: 1180.61 MB
+INFO  07-05-2017 16:06:39 Downloading partition: 387(16.09 MB)\398
+INFO  07-05-2017 16:06:43 Partition downloaded, remaining: 1164.52 MB
+INFO  07-05-2017 16:06:43 Downloading partition: 388(16.17 MB)\398
+INFO  07-05-2017 16:06:47 Partition downloaded, remaining: 1148.35 MB
+INFO  07-05-2017 16:06:47 Downloading partition: 389(15.86 MB)\398
+INFO  07-05-2017 16:06:51 Partition downloaded, remaining: 1132.49 MB
+INFO  07-05-2017 16:06:51 Downloading partition: 390(16.13 MB)\398
+INFO  07-05-2017 16:06:55 Partition downloaded, remaining: 1116.36 MB
+INFO  07-05-2017 16:06:55 Downloading partition: 391(16.14 MB)\398
+INFO  07-05-2017 16:07:00 Partition downloaded, remaining: 1100.22 MB
+INFO  07-05-2017 16:07:00 Downloading partition: 392(17.55 MB)\398
+INFO  07-05-2017 16:07:05 Partition downloaded, remaining: 1082.67 MB
+INFO  07-05-2017 16:07:05 Downloading partition: 393(26.85 MB)\398
+INFO  07-05-2017 16:07:11 Partition downloaded, remaining: 1055.82 MB
+INFO  07-05-2017 16:07:11 Downloading partition: 394(58.26 MB)\398
+INFO  07-05-2017 16:07:26 Partition downloaded, remaining: 997.56 MB
+INFO  07-05-2017 16:07:26 Downloading partition: 395(154.66 MB)\398
+INFO  07-05-2017 16:07:38 Partition downloaded, remaining: 842.9 MB
+INFO  07-05-2017 16:07:38 Downloading partition: 396(270.96 MB)\398
+INFO  07-05-2017 16:07:57 Partition downloaded, remaining: 571.94 MB
+INFO  07-05-2017 16:07:57 Downloading partition: 397(355.49 MB)\398
+INFO  07-05-2017 16:08:31 Partition downloaded, remaining: 216.45 MB
+INFO  07-05-2017 16:08:31 Downloading partition: 398(216.45 MB)\398
+INFO  07-05-2017 16:08:47 Partition downloaded, remaining: 0.0 MB
+INFO  07-05-2017 16:08:47 Download completed succesfully!
+INFO  07-05-2017 16:08:47 ZIP extraction started from: D:/JSON/ to: D:/JSON/EXTRACTED
+INFO  07-05-2017 16:08:47 Unzipping file: D:\JSON\drug\event\2004q1\drug-event-0001-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2004q1\drug-event-0001-of-0003.json
+INFO  07-05-2017 16:08:48 File unzipped succesfully!
+INFO  07-05-2017 16:08:48 Unzipping file: D:\JSON\drug\event\2004q1\drug-event-0002-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2004q1\drug-event-0002-of-0003.json
+INFO  07-05-2017 16:08:50 File unzipped succesfully!
+INFO  07-05-2017 16:08:50 Unzipping file: D:\JSON\drug\event\2004q1\drug-event-0003-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2004q1\drug-event-0003-of-0003.json
+INFO  07-05-2017 16:08:59 File unzipped succesfully!
+INFO  07-05-2017 16:08:59 Unzipping file: D:\JSON\drug\event\2004q2\drug-event-0001-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2004q2\drug-event-0001-of-0003.json
+INFO  07-05-2017 16:09:00 File unzipped succesfully!
+INFO  07-05-2017 16:09:00 Unzipping file: D:\JSON\drug\event\2004q2\drug-event-0002-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2004q2\drug-event-0002-of-0003.json
+INFO  07-05-2017 16:09:05 File unzipped succesfully!
+INFO  07-05-2017 16:09:05 Unzipping file: D:\JSON\drug\event\2004q2\drug-event-0003-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2004q2\drug-event-0003-of-0003.json
+INFO  07-05-2017 16:09:19 File unzipped succesfully!
+INFO  07-05-2017 16:09:19 Unzipping file: D:\JSON\drug\event\2004q3\drug-event-0001-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2004q3\drug-event-0001-of-0003.json
+INFO  07-05-2017 16:09:21 File unzipped succesfully!
+INFO  07-05-2017 16:09:21 Unzipping file: D:\JSON\drug\event\2004q3\drug-event-0002-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2004q3\drug-event-0002-of-0003.json
+INFO  07-05-2017 16:09:23 File unzipped succesfully!
+INFO  07-05-2017 16:09:23 Unzipping file: D:\JSON\drug\event\2004q3\drug-event-0003-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2004q3\drug-event-0003-of-0003.json
+INFO  07-05-2017 16:09:41 File unzipped succesfully!
+INFO  07-05-2017 16:09:41 Unzipping file: D:\JSON\drug\event\2004q4\drug-event-0001-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2004q4\drug-event-0001-of-0003.json
+INFO  07-05-2017 16:09:42 File unzipped succesfully!
+INFO  07-05-2017 16:09:42 Unzipping file: D:\JSON\drug\event\2004q4\drug-event-0002-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2004q4\drug-event-0002-of-0003.json
+INFO  07-05-2017 16:09:45 File unzipped succesfully!
+INFO  07-05-2017 16:09:45 Unzipping file: D:\JSON\drug\event\2004q4\drug-event-0003-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2004q4\drug-event-0003-of-0003.json
+INFO  07-05-2017 16:10:04 File unzipped succesfully!
+INFO  07-05-2017 16:10:04 Unzipping file: D:\JSON\drug\event\2005q1\drug-event-0001-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2005q1\drug-event-0001-of-0004.json
+INFO  07-05-2017 16:10:05 File unzipped succesfully!
+INFO  07-05-2017 16:10:05 Unzipping file: D:\JSON\drug\event\2005q1\drug-event-0002-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2005q1\drug-event-0002-of-0004.json
+INFO  07-05-2017 16:10:06 File unzipped succesfully!
+INFO  07-05-2017 16:10:06 Unzipping file: D:\JSON\drug\event\2005q1\drug-event-0003-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2005q1\drug-event-0003-of-0004.json
+INFO  07-05-2017 16:10:24 File unzipped succesfully!
+INFO  07-05-2017 16:10:24 Unzipping file: D:\JSON\drug\event\2005q1\drug-event-0004-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2005q1\drug-event-0004-of-0004.json
+INFO  07-05-2017 16:10:25 File unzipped succesfully!
+INFO  07-05-2017 16:10:25 Unzipping file: D:\JSON\drug\event\2005q2\drug-event-0001-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2005q2\drug-event-0001-of-0003.json
+INFO  07-05-2017 16:10:26 File unzipped succesfully!
+INFO  07-05-2017 16:10:26 Unzipping file: D:\JSON\drug\event\2005q2\drug-event-0002-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2005q2\drug-event-0002-of-0003.json
+INFO  07-05-2017 16:10:32 File unzipped succesfully!
+INFO  07-05-2017 16:10:32 Unzipping file: D:\JSON\drug\event\2005q2\drug-event-0003-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2005q2\drug-event-0003-of-0003.json
+INFO  07-05-2017 16:10:45 File unzipped succesfully!
+INFO  07-05-2017 16:10:45 Unzipping file: D:\JSON\drug\event\2005q3\drug-event-0001-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2005q3\drug-event-0001-of-0004.json
+INFO  07-05-2017 16:10:47 File unzipped succesfully!
+INFO  07-05-2017 16:10:47 Unzipping file: D:\JSON\drug\event\2005q3\drug-event-0002-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2005q3\drug-event-0002-of-0004.json
+INFO  07-05-2017 16:10:50 File unzipped succesfully!
+INFO  07-05-2017 16:10:50 Unzipping file: D:\JSON\drug\event\2005q3\drug-event-0003-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2005q3\drug-event-0003-of-0004.json
+INFO  07-05-2017 16:11:08 File unzipped succesfully!
+INFO  07-05-2017 16:11:08 Unzipping file: D:\JSON\drug\event\2005q3\drug-event-0004-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2005q3\drug-event-0004-of-0004.json
+INFO  07-05-2017 16:11:09 File unzipped succesfully!
+INFO  07-05-2017 16:11:09 Unzipping file: D:\JSON\drug\event\2005q4\drug-event-0001-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2005q4\drug-event-0001-of-0003.json
+INFO  07-05-2017 16:11:11 File unzipped succesfully!
+INFO  07-05-2017 16:11:11 Unzipping file: D:\JSON\drug\event\2005q4\drug-event-0002-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2005q4\drug-event-0002-of-0003.json
+INFO  07-05-2017 16:11:15 File unzipped succesfully!
+INFO  07-05-2017 16:11:15 Unzipping file: D:\JSON\drug\event\2005q4\drug-event-0003-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2005q4\drug-event-0003-of-0003.json
+INFO  07-05-2017 16:11:36 File unzipped succesfully!
+INFO  07-05-2017 16:11:36 Unzipping file: D:\JSON\drug\event\2006q1\drug-event-0001-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q1\drug-event-0001-of-0004.json
+INFO  07-05-2017 16:11:38 File unzipped succesfully!
+INFO  07-05-2017 16:11:38 Unzipping file: D:\JSON\drug\event\2006q1\drug-event-0002-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q1\drug-event-0002-of-0004.json
+INFO  07-05-2017 16:11:39 File unzipped succesfully!
+INFO  07-05-2017 16:11:39 Unzipping file: D:\JSON\drug\event\2006q1\drug-event-0003-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q1\drug-event-0003-of-0004.json
+INFO  07-05-2017 16:11:55 File unzipped succesfully!
+INFO  07-05-2017 16:11:55 Unzipping file: D:\JSON\drug\event\2006q1\drug-event-0004-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q1\drug-event-0004-of-0004.json
+INFO  07-05-2017 16:11:59 File unzipped succesfully!
+INFO  07-05-2017 16:11:59 Unzipping file: D:\JSON\drug\event\2006q2\drug-event-0001-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q2\drug-event-0001-of-0004.json
+INFO  07-05-2017 16:12:01 File unzipped succesfully!
+INFO  07-05-2017 16:12:01 Unzipping file: D:\JSON\drug\event\2006q2\drug-event-0002-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q2\drug-event-0002-of-0004.json
+INFO  07-05-2017 16:12:04 File unzipped succesfully!
+INFO  07-05-2017 16:12:04 Unzipping file: D:\JSON\drug\event\2006q2\drug-event-0003-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q2\drug-event-0003-of-0004.json
+INFO  07-05-2017 16:12:21 File unzipped succesfully!
+INFO  07-05-2017 16:12:21 Unzipping file: D:\JSON\drug\event\2006q2\drug-event-0004-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q2\drug-event-0004-of-0004.json
+INFO  07-05-2017 16:12:21 File unzipped succesfully!
+INFO  07-05-2017 16:12:22 Unzipping file: D:\JSON\drug\event\2006q3\drug-event-0001-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q3\drug-event-0001-of-0004.json
+INFO  07-05-2017 16:12:23 File unzipped succesfully!
+INFO  07-05-2017 16:12:23 Unzipping file: D:\JSON\drug\event\2006q3\drug-event-0002-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q3\drug-event-0002-of-0004.json
+INFO  07-05-2017 16:12:27 File unzipped succesfully!
+INFO  07-05-2017 16:12:27 Unzipping file: D:\JSON\drug\event\2006q3\drug-event-0003-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q3\drug-event-0003-of-0004.json
+INFO  07-05-2017 16:12:43 File unzipped succesfully!
+INFO  07-05-2017 16:12:43 Unzipping file: D:\JSON\drug\event\2006q3\drug-event-0004-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q3\drug-event-0004-of-0004.json
+INFO  07-05-2017 16:12:47 File unzipped succesfully!
+INFO  07-05-2017 16:12:47 Unzipping file: D:\JSON\drug\event\2006q4\drug-event-0001-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q4\drug-event-0001-of-0003.json
+INFO  07-05-2017 16:12:49 File unzipped succesfully!
+INFO  07-05-2017 16:12:49 Unzipping file: D:\JSON\drug\event\2006q4\drug-event-0002-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q4\drug-event-0002-of-0003.json
+INFO  07-05-2017 16:12:51 File unzipped succesfully!
+INFO  07-05-2017 16:12:51 Unzipping file: D:\JSON\drug\event\2006q4\drug-event-0003-of-0003.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2006q4\drug-event-0003-of-0003.json
+INFO  07-05-2017 16:13:11 File unzipped succesfully!
+INFO  07-05-2017 16:13:11 Unzipping file: D:\JSON\drug\event\2007q1\drug-event-0001-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q1\drug-event-0001-of-0004.json
+INFO  07-05-2017 16:13:13 File unzipped succesfully!
+INFO  07-05-2017 16:13:13 Unzipping file: D:\JSON\drug\event\2007q1\drug-event-0002-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q1\drug-event-0002-of-0004.json
+INFO  07-05-2017 16:13:15 File unzipped succesfully!
+INFO  07-05-2017 16:13:15 Unzipping file: D:\JSON\drug\event\2007q1\drug-event-0003-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q1\drug-event-0003-of-0004.json
+INFO  07-05-2017 16:13:31 File unzipped succesfully!
+INFO  07-05-2017 16:13:31 Unzipping file: D:\JSON\drug\event\2007q1\drug-event-0004-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q1\drug-event-0004-of-0004.json
+INFO  07-05-2017 16:13:42 File unzipped succesfully!
+INFO  07-05-2017 16:13:42 Unzipping file: D:\JSON\drug\event\2007q2\drug-event-0001-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q2\drug-event-0001-of-0004.json
+INFO  07-05-2017 16:13:43 File unzipped succesfully!
+INFO  07-05-2017 16:13:43 Unzipping file: D:\JSON\drug\event\2007q2\drug-event-0002-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q2\drug-event-0002-of-0004.json
+INFO  07-05-2017 16:13:43 File unzipped succesfully!
+INFO  07-05-2017 16:13:44 Unzipping file: D:\JSON\drug\event\2007q2\drug-event-0003-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q2\drug-event-0003-of-0004.json
+INFO  07-05-2017 16:13:53 File unzipped succesfully!
+INFO  07-05-2017 16:13:53 Unzipping file: D:\JSON\drug\event\2007q2\drug-event-0004-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q2\drug-event-0004-of-0004.json
+INFO  07-05-2017 16:14:08 File unzipped succesfully!
+INFO  07-05-2017 16:14:08 Unzipping file: D:\JSON\drug\event\2007q3\drug-event-0001-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q3\drug-event-0001-of-0005.json
+INFO  07-05-2017 16:14:09 File unzipped succesfully!
+INFO  07-05-2017 16:14:09 Unzipping file: D:\JSON\drug\event\2007q3\drug-event-0002-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q3\drug-event-0002-of-0005.json
+INFO  07-05-2017 16:14:11 File unzipped succesfully!
+INFO  07-05-2017 16:14:11 Unzipping file: D:\JSON\drug\event\2007q3\drug-event-0003-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q3\drug-event-0003-of-0005.json
+INFO  07-05-2017 16:14:13 File unzipped succesfully!
+INFO  07-05-2017 16:14:13 Unzipping file: D:\JSON\drug\event\2007q3\drug-event-0004-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q3\drug-event-0004-of-0005.json
+INFO  07-05-2017 16:14:34 File unzipped succesfully!
+INFO  07-05-2017 16:14:34 Unzipping file: D:\JSON\drug\event\2007q3\drug-event-0005-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q3\drug-event-0005-of-0005.json
+INFO  07-05-2017 16:14:35 File unzipped succesfully!
+INFO  07-05-2017 16:14:35 Unzipping file: D:\JSON\drug\event\2007q4\drug-event-0001-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q4\drug-event-0001-of-0004.json
+INFO  07-05-2017 16:14:37 File unzipped succesfully!
+INFO  07-05-2017 16:14:37 Unzipping file: D:\JSON\drug\event\2007q4\drug-event-0002-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q4\drug-event-0002-of-0004.json
+INFO  07-05-2017 16:14:42 File unzipped succesfully!
+INFO  07-05-2017 16:14:42 Unzipping file: D:\JSON\drug\event\2007q4\drug-event-0003-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q4\drug-event-0003-of-0004.json
+INFO  07-05-2017 16:14:46 File unzipped succesfully!
+INFO  07-05-2017 16:14:46 Unzipping file: D:\JSON\drug\event\2007q4\drug-event-0004-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2007q4\drug-event-0004-of-0004.json
+INFO  07-05-2017 16:14:59 File unzipped succesfully!
+INFO  07-05-2017 16:15:00 Unzipping file: D:\JSON\drug\event\2008q1\drug-event-0001-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q1\drug-event-0001-of-0005.json
+INFO  07-05-2017 16:15:01 File unzipped succesfully!
+INFO  07-05-2017 16:15:01 Unzipping file: D:\JSON\drug\event\2008q1\drug-event-0002-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q1\drug-event-0002-of-0005.json
+INFO  07-05-2017 16:15:03 File unzipped succesfully!
+INFO  07-05-2017 16:15:03 Unzipping file: D:\JSON\drug\event\2008q1\drug-event-0003-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q1\drug-event-0003-of-0005.json
+INFO  07-05-2017 16:15:05 File unzipped succesfully!
+INFO  07-05-2017 16:15:05 Unzipping file: D:\JSON\drug\event\2008q1\drug-event-0004-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q1\drug-event-0004-of-0005.json
+INFO  07-05-2017 16:15:17 File unzipped succesfully!
+INFO  07-05-2017 16:15:17 Unzipping file: D:\JSON\drug\event\2008q1\drug-event-0005-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q1\drug-event-0005-of-0005.json
+INFO  07-05-2017 16:15:34 File unzipped succesfully!
+INFO  07-05-2017 16:15:34 Unzipping file: D:\JSON\drug\event\2008q2\drug-event-0001-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q2\drug-event-0001-of-0004.json
+INFO  07-05-2017 16:15:35 File unzipped succesfully!
+INFO  07-05-2017 16:15:35 Unzipping file: D:\JSON\drug\event\2008q2\drug-event-0002-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q2\drug-event-0002-of-0004.json
+INFO  07-05-2017 16:15:37 File unzipped succesfully!
+INFO  07-05-2017 16:15:37 Unzipping file: D:\JSON\drug\event\2008q2\drug-event-0003-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q2\drug-event-0003-of-0004.json
+INFO  07-05-2017 16:15:43 File unzipped succesfully!
+INFO  07-05-2017 16:15:43 Unzipping file: D:\JSON\drug\event\2008q2\drug-event-0004-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q2\drug-event-0004-of-0004.json
+INFO  07-05-2017 16:16:02 File unzipped succesfully!
+INFO  07-05-2017 16:16:02 Unzipping file: D:\JSON\drug\event\2008q3\drug-event-0001-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q3\drug-event-0001-of-0005.json
+INFO  07-05-2017 16:16:03 File unzipped succesfully!
+INFO  07-05-2017 16:16:03 Unzipping file: D:\JSON\drug\event\2008q3\drug-event-0002-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q3\drug-event-0002-of-0005.json
+INFO  07-05-2017 16:16:05 File unzipped succesfully!
+INFO  07-05-2017 16:16:05 Unzipping file: D:\JSON\drug\event\2008q3\drug-event-0003-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q3\drug-event-0003-of-0005.json
+INFO  07-05-2017 16:16:08 File unzipped succesfully!
+INFO  07-05-2017 16:16:08 Unzipping file: D:\JSON\drug\event\2008q3\drug-event-0004-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q3\drug-event-0004-of-0005.json
+INFO  07-05-2017 16:16:28 File unzipped succesfully!
+INFO  07-05-2017 16:16:28 Unzipping file: D:\JSON\drug\event\2008q3\drug-event-0005-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q3\drug-event-0005-of-0005.json
+INFO  07-05-2017 16:16:32 File unzipped succesfully!
+INFO  07-05-2017 16:16:32 Unzipping file: D:\JSON\drug\event\2008q4\drug-event-0001-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q4\drug-event-0001-of-0004.json
+INFO  07-05-2017 16:16:33 File unzipped succesfully!
+INFO  07-05-2017 16:16:33 Unzipping file: D:\JSON\drug\event\2008q4\drug-event-0002-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q4\drug-event-0002-of-0004.json
+INFO  07-05-2017 16:16:35 File unzipped succesfully!
+INFO  07-05-2017 16:16:35 Unzipping file: D:\JSON\drug\event\2008q4\drug-event-0003-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q4\drug-event-0003-of-0004.json
+INFO  07-05-2017 16:16:45 File unzipped succesfully!
+INFO  07-05-2017 16:16:45 Unzipping file: D:\JSON\drug\event\2008q4\drug-event-0004-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2008q4\drug-event-0004-of-0004.json
+INFO  07-05-2017 16:17:03 File unzipped succesfully!
+INFO  07-05-2017 16:17:03 Unzipping file: D:\JSON\drug\event\2009q1\drug-event-0001-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q1\drug-event-0001-of-0005.json
+INFO  07-05-2017 16:17:05 File unzipped succesfully!
+INFO  07-05-2017 16:17:05 Unzipping file: D:\JSON\drug\event\2009q1\drug-event-0002-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q1\drug-event-0002-of-0005.json
+INFO  07-05-2017 16:17:06 File unzipped succesfully!
+INFO  07-05-2017 16:17:06 Unzipping file: D:\JSON\drug\event\2009q1\drug-event-0003-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q1\drug-event-0003-of-0005.json
+INFO  07-05-2017 16:17:11 File unzipped succesfully!
+INFO  07-05-2017 16:17:12 Unzipping file: D:\JSON\drug\event\2009q1\drug-event-0004-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q1\drug-event-0004-of-0005.json
+INFO  07-05-2017 16:17:31 File unzipped succesfully!
+INFO  07-05-2017 16:17:31 Unzipping file: D:\JSON\drug\event\2009q1\drug-event-0005-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q1\drug-event-0005-of-0005.json
+INFO  07-05-2017 16:17:39 File unzipped succesfully!
+INFO  07-05-2017 16:17:39 Unzipping file: D:\JSON\drug\event\2009q2\drug-event-0001-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q2\drug-event-0001-of-0005.json
+INFO  07-05-2017 16:17:40 File unzipped succesfully!
+INFO  07-05-2017 16:17:40 Unzipping file: D:\JSON\drug\event\2009q2\drug-event-0002-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q2\drug-event-0002-of-0005.json
+INFO  07-05-2017 16:17:42 File unzipped succesfully!
+INFO  07-05-2017 16:17:42 Unzipping file: D:\JSON\drug\event\2009q2\drug-event-0003-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q2\drug-event-0003-of-0005.json
+INFO  07-05-2017 16:17:44 File unzipped succesfully!
+INFO  07-05-2017 16:17:45 Unzipping file: D:\JSON\drug\event\2009q2\drug-event-0004-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q2\drug-event-0004-of-0005.json
+INFO  07-05-2017 16:17:59 File unzipped succesfully!
+INFO  07-05-2017 16:17:59 Unzipping file: D:\JSON\drug\event\2009q2\drug-event-0005-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q2\drug-event-0005-of-0005.json
+INFO  07-05-2017 16:18:11 File unzipped succesfully!
+INFO  07-05-2017 16:18:12 Unzipping file: D:\JSON\drug\event\2009q3\drug-event-0001-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q3\drug-event-0001-of-0005.json
+INFO  07-05-2017 16:18:13 File unzipped succesfully!
+INFO  07-05-2017 16:18:13 Unzipping file: D:\JSON\drug\event\2009q3\drug-event-0002-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q3\drug-event-0002-of-0005.json
+INFO  07-05-2017 16:18:15 File unzipped succesfully!
+INFO  07-05-2017 16:18:15 Unzipping file: D:\JSON\drug\event\2009q3\drug-event-0003-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q3\drug-event-0003-of-0005.json
+INFO  07-05-2017 16:18:17 File unzipped succesfully!
+INFO  07-05-2017 16:18:17 Unzipping file: D:\JSON\drug\event\2009q3\drug-event-0004-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q3\drug-event-0004-of-0005.json
+INFO  07-05-2017 16:18:36 File unzipped succesfully!
+INFO  07-05-2017 16:18:36 Unzipping file: D:\JSON\drug\event\2009q3\drug-event-0005-of-0005.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q3\drug-event-0005-of-0005.json
+INFO  07-05-2017 16:18:45 File unzipped succesfully!
+INFO  07-05-2017 16:18:45 Unzipping file: D:\JSON\drug\event\2009q4\drug-event-0001-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q4\drug-event-0001-of-0004.json
+INFO  07-05-2017 16:18:47 File unzipped succesfully!
+INFO  07-05-2017 16:18:47 Unzipping file: D:\JSON\drug\event\2009q4\drug-event-0002-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q4\drug-event-0002-of-0004.json
+INFO  07-05-2017 16:18:47 File unzipped succesfully!
+INFO  07-05-2017 16:18:47 Unzipping file: D:\JSON\drug\event\2009q4\drug-event-0003-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q4\drug-event-0003-of-0004.json
+INFO  07-05-2017 16:18:56 File unzipped succesfully!
+INFO  07-05-2017 16:18:56 Unzipping file: D:\JSON\drug\event\2009q4\drug-event-0004-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2009q4\drug-event-0004-of-0004.json
+INFO  07-05-2017 16:19:19 File unzipped succesfully!
+INFO  07-05-2017 16:19:19 Unzipping file: D:\JSON\drug\event\2010q1\drug-event-0001-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q1\drug-event-0001-of-0006.json
+INFO  07-05-2017 16:19:21 File unzipped succesfully!
+INFO  07-05-2017 16:19:21 Unzipping file: D:\JSON\drug\event\2010q1\drug-event-0002-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q1\drug-event-0002-of-0006.json
+INFO  07-05-2017 16:19:21 File unzipped succesfully!
+INFO  07-05-2017 16:19:21 Unzipping file: D:\JSON\drug\event\2010q1\drug-event-0003-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q1\drug-event-0003-of-0006.json
+INFO  07-05-2017 16:19:23 File unzipped succesfully!
+INFO  07-05-2017 16:19:23 Unzipping file: D:\JSON\drug\event\2010q1\drug-event-0004-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q1\drug-event-0004-of-0006.json
+INFO  07-05-2017 16:19:29 File unzipped succesfully!
+INFO  07-05-2017 16:19:30 Unzipping file: D:\JSON\drug\event\2010q1\drug-event-0005-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q1\drug-event-0005-of-0006.json
+INFO  07-05-2017 16:19:51 File unzipped succesfully!
+INFO  07-05-2017 16:19:51 Unzipping file: D:\JSON\drug\event\2010q1\drug-event-0006-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q1\drug-event-0006-of-0006.json
+INFO  07-05-2017 16:20:02 File unzipped succesfully!
+INFO  07-05-2017 16:20:02 Unzipping file: D:\JSON\drug\event\2010q2\drug-event-0001-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q2\drug-event-0001-of-0006.json
+INFO  07-05-2017 16:20:03 File unzipped succesfully!
+INFO  07-05-2017 16:20:03 Unzipping file: D:\JSON\drug\event\2010q2\drug-event-0002-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q2\drug-event-0002-of-0006.json
+INFO  07-05-2017 16:20:04 File unzipped succesfully!
+INFO  07-05-2017 16:20:04 Unzipping file: D:\JSON\drug\event\2010q2\drug-event-0003-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q2\drug-event-0003-of-0006.json
+INFO  07-05-2017 16:20:05 File unzipped succesfully!
+INFO  07-05-2017 16:20:05 Unzipping file: D:\JSON\drug\event\2010q2\drug-event-0004-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q2\drug-event-0004-of-0006.json
+INFO  07-05-2017 16:20:09 File unzipped succesfully!
+INFO  07-05-2017 16:20:09 Unzipping file: D:\JSON\drug\event\2010q2\drug-event-0005-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q2\drug-event-0005-of-0006.json
+INFO  07-05-2017 16:20:29 File unzipped succesfully!
+INFO  07-05-2017 16:20:29 Unzipping file: D:\JSON\drug\event\2010q2\drug-event-0006-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q2\drug-event-0006-of-0006.json
+INFO  07-05-2017 16:20:44 File unzipped succesfully!
+INFO  07-05-2017 16:20:44 Unzipping file: D:\JSON\drug\event\2010q3\drug-event-0001-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q3\drug-event-0001-of-0007.json
+INFO  07-05-2017 16:20:45 File unzipped succesfully!
+INFO  07-05-2017 16:20:45 Unzipping file: D:\JSON\drug\event\2010q3\drug-event-0002-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q3\drug-event-0002-of-0007.json
+INFO  07-05-2017 16:20:45 File unzipped succesfully!
+INFO  07-05-2017 16:20:45 Unzipping file: D:\JSON\drug\event\2010q3\drug-event-0003-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q3\drug-event-0003-of-0007.json
+INFO  07-05-2017 16:20:48 File unzipped succesfully!
+INFO  07-05-2017 16:20:48 Unzipping file: D:\JSON\drug\event\2010q3\drug-event-0004-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q3\drug-event-0004-of-0007.json
+INFO  07-05-2017 16:20:50 File unzipped succesfully!
+INFO  07-05-2017 16:20:50 Unzipping file: D:\JSON\drug\event\2010q3\drug-event-0005-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q3\drug-event-0005-of-0007.json
+INFO  07-05-2017 16:21:05 File unzipped succesfully!
+INFO  07-05-2017 16:21:05 Unzipping file: D:\JSON\drug\event\2010q3\drug-event-0006-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q3\drug-event-0006-of-0007.json
+INFO  07-05-2017 16:21:27 File unzipped succesfully!
+INFO  07-05-2017 16:21:27 Unzipping file: D:\JSON\drug\event\2010q3\drug-event-0007-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q3\drug-event-0007-of-0007.json
+INFO  07-05-2017 16:21:28 File unzipped succesfully!
+INFO  07-05-2017 16:21:28 Unzipping file: D:\JSON\drug\event\2010q4\drug-event-0001-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q4\drug-event-0001-of-0006.json
+INFO  07-05-2017 16:21:29 File unzipped succesfully!
+INFO  07-05-2017 16:21:29 Unzipping file: D:\JSON\drug\event\2010q4\drug-event-0002-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q4\drug-event-0002-of-0006.json
+INFO  07-05-2017 16:21:30 File unzipped succesfully!
+INFO  07-05-2017 16:21:30 Unzipping file: D:\JSON\drug\event\2010q4\drug-event-0003-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q4\drug-event-0003-of-0006.json
+INFO  07-05-2017 16:21:31 File unzipped succesfully!
+INFO  07-05-2017 16:21:31 Unzipping file: D:\JSON\drug\event\2010q4\drug-event-0004-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q4\drug-event-0004-of-0006.json
+INFO  07-05-2017 16:21:35 File unzipped succesfully!
+INFO  07-05-2017 16:21:35 Unzipping file: D:\JSON\drug\event\2010q4\drug-event-0005-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q4\drug-event-0005-of-0006.json
+INFO  07-05-2017 16:21:49 File unzipped succesfully!
+INFO  07-05-2017 16:21:49 Unzipping file: D:\JSON\drug\event\2010q4\drug-event-0006-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2010q4\drug-event-0006-of-0006.json
+INFO  07-05-2017 16:22:06 File unzipped succesfully!
+INFO  07-05-2017 16:22:07 Unzipping file: D:\JSON\drug\event\2011q1\drug-event-0001-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q1\drug-event-0001-of-0007.json
+INFO  07-05-2017 16:22:07 File unzipped succesfully!
+INFO  07-05-2017 16:22:07 Unzipping file: D:\JSON\drug\event\2011q1\drug-event-0002-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q1\drug-event-0002-of-0007.json
+INFO  07-05-2017 16:22:09 File unzipped succesfully!
+INFO  07-05-2017 16:22:09 Unzipping file: D:\JSON\drug\event\2011q1\drug-event-0003-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q1\drug-event-0003-of-0007.json
+INFO  07-05-2017 16:22:11 File unzipped succesfully!
+INFO  07-05-2017 16:22:11 Unzipping file: D:\JSON\drug\event\2011q1\drug-event-0004-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q1\drug-event-0004-of-0007.json
+INFO  07-05-2017 16:22:12 File unzipped succesfully!
+INFO  07-05-2017 16:22:12 Unzipping file: D:\JSON\drug\event\2011q1\drug-event-0005-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q1\drug-event-0005-of-0007.json
+INFO  07-05-2017 16:22:21 File unzipped succesfully!
+INFO  07-05-2017 16:22:21 Unzipping file: D:\JSON\drug\event\2011q1\drug-event-0006-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q1\drug-event-0006-of-0007.json
+INFO  07-05-2017 16:22:41 File unzipped succesfully!
+INFO  07-05-2017 16:22:41 Unzipping file: D:\JSON\drug\event\2011q1\drug-event-0007-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q1\drug-event-0007-of-0007.json
+INFO  07-05-2017 16:22:57 File unzipped succesfully!
+INFO  07-05-2017 16:22:57 Unzipping file: D:\JSON\drug\event\2011q2\drug-event-0001-of-0008.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q2\drug-event-0001-of-0008.json
+INFO  07-05-2017 16:22:58 File unzipped succesfully!
+INFO  07-05-2017 16:22:58 Unzipping file: D:\JSON\drug\event\2011q2\drug-event-0002-of-0008.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q2\drug-event-0002-of-0008.json
+INFO  07-05-2017 16:22:59 File unzipped succesfully!
+INFO  07-05-2017 16:22:59 Unzipping file: D:\JSON\drug\event\2011q2\drug-event-0003-of-0008.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q2\drug-event-0003-of-0008.json
+INFO  07-05-2017 16:23:00 File unzipped succesfully!
+INFO  07-05-2017 16:23:00 Unzipping file: D:\JSON\drug\event\2011q2\drug-event-0004-of-0008.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q2\drug-event-0004-of-0008.json
+INFO  07-05-2017 16:23:05 File unzipped succesfully!
+INFO  07-05-2017 16:23:05 Unzipping file: D:\JSON\drug\event\2011q2\drug-event-0005-of-0008.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q2\drug-event-0005-of-0008.json
+INFO  07-05-2017 16:23:11 File unzipped succesfully!
+INFO  07-05-2017 16:23:11 Unzipping file: D:\JSON\drug\event\2011q2\drug-event-0006-of-0008.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q2\drug-event-0006-of-0008.json
+INFO  07-05-2017 16:23:30 File unzipped succesfully!
+INFO  07-05-2017 16:23:30 Unzipping file: D:\JSON\drug\event\2011q2\drug-event-0007-of-0008.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q2\drug-event-0007-of-0008.json
+INFO  07-05-2017 16:23:53 File unzipped succesfully!
+INFO  07-05-2017 16:23:53 Unzipping file: D:\JSON\drug\event\2011q2\drug-event-0008-of-0008.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q2\drug-event-0008-of-0008.json
+INFO  07-05-2017 16:23:53 File unzipped succesfully!
+INFO  07-05-2017 16:23:53 Unzipping file: D:\JSON\drug\event\2011q3\drug-event-0001-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q3\drug-event-0001-of-0007.json
+INFO  07-05-2017 16:23:54 File unzipped succesfully!
+INFO  07-05-2017 16:23:54 Unzipping file: D:\JSON\drug\event\2011q3\drug-event-0002-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q3\drug-event-0002-of-0007.json
+INFO  07-05-2017 16:23:55 File unzipped succesfully!
+INFO  07-05-2017 16:23:55 Unzipping file: D:\JSON\drug\event\2011q3\drug-event-0003-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q3\drug-event-0003-of-0007.json
+INFO  07-05-2017 16:23:57 File unzipped succesfully!
+INFO  07-05-2017 16:23:57 Unzipping file: D:\JSON\drug\event\2011q3\drug-event-0004-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q3\drug-event-0004-of-0007.json
+INFO  07-05-2017 16:24:01 File unzipped succesfully!
+INFO  07-05-2017 16:24:01 Unzipping file: D:\JSON\drug\event\2011q3\drug-event-0005-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q3\drug-event-0005-of-0007.json
+INFO  07-05-2017 16:24:07 File unzipped succesfully!
+INFO  07-05-2017 16:24:07 Unzipping file: D:\JSON\drug\event\2011q3\drug-event-0006-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q3\drug-event-0006-of-0007.json
+INFO  07-05-2017 16:24:29 File unzipped succesfully!
+INFO  07-05-2017 16:24:29 Unzipping file: D:\JSON\drug\event\2011q3\drug-event-0007-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q3\drug-event-0007-of-0007.json
+INFO  07-05-2017 16:24:51 File unzipped succesfully!
+INFO  07-05-2017 16:24:51 Unzipping file: D:\JSON\drug\event\2011q4\drug-event-0001-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q4\drug-event-0001-of-0007.json
+INFO  07-05-2017 16:24:51 File unzipped succesfully!
+INFO  07-05-2017 16:24:51 Unzipping file: D:\JSON\drug\event\2011q4\drug-event-0002-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q4\drug-event-0002-of-0007.json
+INFO  07-05-2017 16:24:53 File unzipped succesfully!
+INFO  07-05-2017 16:24:53 Unzipping file: D:\JSON\drug\event\2011q4\drug-event-0003-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q4\drug-event-0003-of-0007.json
+INFO  07-05-2017 16:24:55 File unzipped succesfully!
+INFO  07-05-2017 16:24:55 Unzipping file: D:\JSON\drug\event\2011q4\drug-event-0004-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q4\drug-event-0004-of-0007.json
+INFO  07-05-2017 16:24:59 File unzipped succesfully!
+INFO  07-05-2017 16:24:59 Unzipping file: D:\JSON\drug\event\2011q4\drug-event-0005-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q4\drug-event-0005-of-0007.json
+INFO  07-05-2017 16:25:19 File unzipped succesfully!
+INFO  07-05-2017 16:25:19 Unzipping file: D:\JSON\drug\event\2011q4\drug-event-0006-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q4\drug-event-0006-of-0007.json
+INFO  07-05-2017 16:25:50 File unzipped succesfully!
+INFO  07-05-2017 16:25:50 Unzipping file: D:\JSON\drug\event\2011q4\drug-event-0007-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2011q4\drug-event-0007-of-0007.json
+INFO  07-05-2017 16:25:50 File unzipped succesfully!
+INFO  07-05-2017 16:25:50 Unzipping file: D:\JSON\drug\event\2012q1\drug-event-0001-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q1\drug-event-0001-of-0006.json
+INFO  07-05-2017 16:25:51 File unzipped succesfully!
+INFO  07-05-2017 16:25:51 Unzipping file: D:\JSON\drug\event\2012q1\drug-event-0002-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q1\drug-event-0002-of-0006.json
+INFO  07-05-2017 16:25:51 File unzipped succesfully!
+INFO  07-05-2017 16:25:51 Unzipping file: D:\JSON\drug\event\2012q1\drug-event-0003-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q1\drug-event-0003-of-0006.json
+INFO  07-05-2017 16:25:55 File unzipped succesfully!
+INFO  07-05-2017 16:25:55 Unzipping file: D:\JSON\drug\event\2012q1\drug-event-0004-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q1\drug-event-0004-of-0006.json
+INFO  07-05-2017 16:26:04 File unzipped succesfully!
+INFO  07-05-2017 16:26:04 Unzipping file: D:\JSON\drug\event\2012q1\drug-event-0005-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q1\drug-event-0005-of-0006.json
+INFO  07-05-2017 16:26:37 File unzipped succesfully!
+INFO  07-05-2017 16:26:37 Unzipping file: D:\JSON\drug\event\2012q1\drug-event-0006-of-0006.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q1\drug-event-0006-of-0006.json
+INFO  07-05-2017 16:26:46 File unzipped succesfully!
+INFO  07-05-2017 16:26:46 Unzipping file: D:\JSON\drug\event\2012q2\drug-event-0001-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q2\drug-event-0001-of-0007.json
+INFO  07-05-2017 16:26:47 File unzipped succesfully!
+INFO  07-05-2017 16:26:47 Unzipping file: D:\JSON\drug\event\2012q2\drug-event-0002-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q2\drug-event-0002-of-0007.json
+INFO  07-05-2017 16:26:47 File unzipped succesfully!
+INFO  07-05-2017 16:26:47 Unzipping file: D:\JSON\drug\event\2012q2\drug-event-0003-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q2\drug-event-0003-of-0007.json
+INFO  07-05-2017 16:26:50 File unzipped succesfully!
+INFO  07-05-2017 16:26:51 Unzipping file: D:\JSON\drug\event\2012q2\drug-event-0004-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q2\drug-event-0004-of-0007.json
+INFO  07-05-2017 16:26:53 File unzipped succesfully!
+INFO  07-05-2017 16:26:53 Unzipping file: D:\JSON\drug\event\2012q2\drug-event-0005-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q2\drug-event-0005-of-0007.json
+INFO  07-05-2017 16:27:03 File unzipped succesfully!
+INFO  07-05-2017 16:27:03 Unzipping file: D:\JSON\drug\event\2012q2\drug-event-0006-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q2\drug-event-0006-of-0007.json
+INFO  07-05-2017 16:27:29 File unzipped succesfully!
+INFO  07-05-2017 16:27:29 Unzipping file: D:\JSON\drug\event\2012q2\drug-event-0007-of-0007.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q2\drug-event-0007-of-0007.json
+INFO  07-05-2017 16:27:52 File unzipped succesfully!
+INFO  07-05-2017 16:27:52 Unzipping file: D:\JSON\drug\event\2012q3\drug-event-0001-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q3\drug-event-0001-of-0004.json
+INFO  07-05-2017 16:27:53 File unzipped succesfully!
+INFO  07-05-2017 16:27:53 Unzipping file: D:\JSON\drug\event\2012q3\drug-event-0002-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q3\drug-event-0002-of-0004.json
+INFO  07-05-2017 16:27:56 File unzipped succesfully!
+INFO  07-05-2017 16:27:56 Unzipping file: D:\JSON\drug\event\2012q3\drug-event-0003-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q3\drug-event-0003-of-0004.json
+INFO  07-05-2017 16:28:01 File unzipped succesfully!
+INFO  07-05-2017 16:28:01 Unzipping file: D:\JSON\drug\event\2012q3\drug-event-0004-of-0004.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q3\drug-event-0004-of-0004.json
+INFO  07-05-2017 16:28:15 File unzipped succesfully!
+INFO  07-05-2017 16:28:15 Unzipping file: D:\JSON\drug\event\2012q4\drug-event-0001-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q4\drug-event-0001-of-0010.json
+INFO  07-05-2017 16:28:15 File unzipped succesfully!
+INFO  07-05-2017 16:28:15 Unzipping file: D:\JSON\drug\event\2012q4\drug-event-0002-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q4\drug-event-0002-of-0010.json
+INFO  07-05-2017 16:28:18 File unzipped succesfully!
+INFO  07-05-2017 16:28:18 Unzipping file: D:\JSON\drug\event\2012q4\drug-event-0003-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q4\drug-event-0003-of-0010.json
+INFO  07-05-2017 16:28:19 File unzipped succesfully!
+INFO  07-05-2017 16:28:19 Unzipping file: D:\JSON\drug\event\2012q4\drug-event-0004-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q4\drug-event-0004-of-0010.json
+INFO  07-05-2017 16:28:21 File unzipped succesfully!
+INFO  07-05-2017 16:28:21 Unzipping file: D:\JSON\drug\event\2012q4\drug-event-0005-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q4\drug-event-0005-of-0010.json
+INFO  07-05-2017 16:28:23 File unzipped succesfully!
+INFO  07-05-2017 16:28:23 Unzipping file: D:\JSON\drug\event\2012q4\drug-event-0006-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q4\drug-event-0006-of-0010.json
+INFO  07-05-2017 16:28:26 File unzipped succesfully!
+INFO  07-05-2017 16:28:26 Unzipping file: D:\JSON\drug\event\2012q4\drug-event-0007-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q4\drug-event-0007-of-0010.json
+INFO  07-05-2017 16:28:28 File unzipped succesfully!
+INFO  07-05-2017 16:28:28 Unzipping file: D:\JSON\drug\event\2012q4\drug-event-0008-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q4\drug-event-0008-of-0010.json
+INFO  07-05-2017 16:28:39 File unzipped succesfully!
+INFO  07-05-2017 16:28:39 Unzipping file: D:\JSON\drug\event\2012q4\drug-event-0009-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q4\drug-event-0009-of-0010.json
+INFO  07-05-2017 16:28:59 File unzipped succesfully!
+INFO  07-05-2017 16:28:59 Unzipping file: D:\JSON\drug\event\2012q4\drug-event-0010-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2012q4\drug-event-0010-of-0010.json
+INFO  07-05-2017 16:29:02 File unzipped succesfully!
+INFO  07-05-2017 16:29:02 Unzipping file: D:\JSON\drug\event\2013q1\drug-event-0001-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q1\drug-event-0001-of-0011.json
+INFO  07-05-2017 16:29:03 File unzipped succesfully!
+INFO  07-05-2017 16:29:03 Unzipping file: D:\JSON\drug\event\2013q1\drug-event-0002-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q1\drug-event-0002-of-0011.json
+INFO  07-05-2017 16:29:03 File unzipped succesfully!
+INFO  07-05-2017 16:29:03 Unzipping file: D:\JSON\drug\event\2013q1\drug-event-0003-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q1\drug-event-0003-of-0011.json
+INFO  07-05-2017 16:29:05 File unzipped succesfully!
+INFO  07-05-2017 16:29:05 Unzipping file: D:\JSON\drug\event\2013q1\drug-event-0004-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q1\drug-event-0004-of-0011.json
+INFO  07-05-2017 16:29:07 File unzipped succesfully!
+INFO  07-05-2017 16:29:07 Unzipping file: D:\JSON\drug\event\2013q1\drug-event-0005-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q1\drug-event-0005-of-0011.json
+INFO  07-05-2017 16:29:09 File unzipped succesfully!
+INFO  07-05-2017 16:29:09 Unzipping file: D:\JSON\drug\event\2013q1\drug-event-0006-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q1\drug-event-0006-of-0011.json
+INFO  07-05-2017 16:29:11 File unzipped succesfully!
+INFO  07-05-2017 16:29:11 Unzipping file: D:\JSON\drug\event\2013q1\drug-event-0007-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q1\drug-event-0007-of-0011.json
+INFO  07-05-2017 16:29:13 File unzipped succesfully!
+INFO  07-05-2017 16:29:13 Unzipping file: D:\JSON\drug\event\2013q1\drug-event-0008-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q1\drug-event-0008-of-0011.json
+INFO  07-05-2017 16:29:17 File unzipped succesfully!
+INFO  07-05-2017 16:29:18 Unzipping file: D:\JSON\drug\event\2013q1\drug-event-0009-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q1\drug-event-0009-of-0011.json
+INFO  07-05-2017 16:29:23 File unzipped succesfully!
+INFO  07-05-2017 16:29:23 Unzipping file: D:\JSON\drug\event\2013q1\drug-event-0010-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q1\drug-event-0010-of-0011.json
+INFO  07-05-2017 16:29:41 File unzipped succesfully!
+INFO  07-05-2017 16:29:41 Unzipping file: D:\JSON\drug\event\2013q1\drug-event-0011-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q1\drug-event-0011-of-0011.json
+INFO  07-05-2017 16:30:05 File unzipped succesfully!
+INFO  07-05-2017 16:30:05 Unzipping file: D:\JSON\drug\event\2013q2\drug-event-0001-of-0009.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q2\drug-event-0001-of-0009.json
+INFO  07-05-2017 16:30:05 File unzipped succesfully!
+INFO  07-05-2017 16:30:05 Unzipping file: D:\JSON\drug\event\2013q2\drug-event-0002-of-0009.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q2\drug-event-0002-of-0009.json
+INFO  07-05-2017 16:30:07 File unzipped succesfully!
+INFO  07-05-2017 16:30:07 Unzipping file: D:\JSON\drug\event\2013q2\drug-event-0003-of-0009.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q2\drug-event-0003-of-0009.json
+INFO  07-05-2017 16:30:09 File unzipped succesfully!
+INFO  07-05-2017 16:30:09 Unzipping file: D:\JSON\drug\event\2013q2\drug-event-0004-of-0009.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q2\drug-event-0004-of-0009.json
+INFO  07-05-2017 16:30:11 File unzipped succesfully!
+INFO  07-05-2017 16:30:11 Unzipping file: D:\JSON\drug\event\2013q2\drug-event-0005-of-0009.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q2\drug-event-0005-of-0009.json
+INFO  07-05-2017 16:30:13 File unzipped succesfully!
+INFO  07-05-2017 16:30:13 Unzipping file: D:\JSON\drug\event\2013q2\drug-event-0006-of-0009.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q2\drug-event-0006-of-0009.json
+INFO  07-05-2017 16:30:15 File unzipped succesfully!
+INFO  07-05-2017 16:30:15 Unzipping file: D:\JSON\drug\event\2013q2\drug-event-0007-of-0009.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q2\drug-event-0007-of-0009.json
+INFO  07-05-2017 16:30:19 File unzipped succesfully!
+INFO  07-05-2017 16:30:19 Unzipping file: D:\JSON\drug\event\2013q2\drug-event-0008-of-0009.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q2\drug-event-0008-of-0009.json
+INFO  07-05-2017 16:30:37 File unzipped succesfully!
+INFO  07-05-2017 16:30:37 Unzipping file: D:\JSON\drug\event\2013q2\drug-event-0009-of-0009.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q2\drug-event-0009-of-0009.json
+INFO  07-05-2017 16:30:54 File unzipped succesfully!
+INFO  07-05-2017 16:30:54 Unzipping file: D:\JSON\drug\event\2013q3\drug-event-0001-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q3\drug-event-0001-of-0010.json
+INFO  07-05-2017 16:30:55 File unzipped succesfully!
+INFO  07-05-2017 16:30:55 Unzipping file: D:\JSON\drug\event\2013q3\drug-event-0002-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q3\drug-event-0002-of-0010.json
+INFO  07-05-2017 16:30:55 File unzipped succesfully!
+INFO  07-05-2017 16:30:55 Unzipping file: D:\JSON\drug\event\2013q3\drug-event-0003-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q3\drug-event-0003-of-0010.json
+INFO  07-05-2017 16:30:57 File unzipped succesfully!
+INFO  07-05-2017 16:30:57 Unzipping file: D:\JSON\drug\event\2013q3\drug-event-0004-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q3\drug-event-0004-of-0010.json
+INFO  07-05-2017 16:31:01 File unzipped succesfully!
+INFO  07-05-2017 16:31:01 Unzipping file: D:\JSON\drug\event\2013q3\drug-event-0005-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q3\drug-event-0005-of-0010.json
+INFO  07-05-2017 16:31:01 File unzipped succesfully!
+INFO  07-05-2017 16:31:01 Unzipping file: D:\JSON\drug\event\2013q3\drug-event-0006-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q3\drug-event-0006-of-0010.json
+INFO  07-05-2017 16:31:04 File unzipped succesfully!
+INFO  07-05-2017 16:31:04 Unzipping file: D:\JSON\drug\event\2013q3\drug-event-0007-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q3\drug-event-0007-of-0010.json
+INFO  07-05-2017 16:31:07 File unzipped succesfully!
+INFO  07-05-2017 16:31:07 Unzipping file: D:\JSON\drug\event\2013q3\drug-event-0008-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q3\drug-event-0008-of-0010.json
+INFO  07-05-2017 16:31:14 File unzipped succesfully!
+INFO  07-05-2017 16:31:15 Unzipping file: D:\JSON\drug\event\2013q3\drug-event-0009-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q3\drug-event-0009-of-0010.json
+INFO  07-05-2017 16:31:35 File unzipped succesfully!
+INFO  07-05-2017 16:31:35 Unzipping file: D:\JSON\drug\event\2013q3\drug-event-0010-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q3\drug-event-0010-of-0010.json
+INFO  07-05-2017 16:31:47 File unzipped succesfully!
+INFO  07-05-2017 16:31:47 Unzipping file: D:\JSON\drug\event\2013q4\drug-event-0001-of-0012.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q4\drug-event-0001-of-0012.json
+INFO  07-05-2017 16:31:48 File unzipped succesfully!
+INFO  07-05-2017 16:31:48 Unzipping file: D:\JSON\drug\event\2013q4\drug-event-0002-of-0012.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q4\drug-event-0002-of-0012.json
+INFO  07-05-2017 16:31:48 File unzipped succesfully!
+INFO  07-05-2017 16:31:49 Unzipping file: D:\JSON\drug\event\2013q4\drug-event-0003-of-0012.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q4\drug-event-0003-of-0012.json
+INFO  07-05-2017 16:31:49 File unzipped succesfully!
+INFO  07-05-2017 16:31:49 Unzipping file: D:\JSON\drug\event\2013q4\drug-event-0004-of-0012.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q4\drug-event-0004-of-0012.json
+INFO  07-05-2017 16:31:51 File unzipped succesfully!
+INFO  07-05-2017 16:31:51 Unzipping file: D:\JSON\drug\event\2013q4\drug-event-0005-of-0012.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q4\drug-event-0005-of-0012.json
+INFO  07-05-2017 16:31:56 File unzipped succesfully!
+INFO  07-05-2017 16:31:56 Unzipping file: D:\JSON\drug\event\2013q4\drug-event-0006-of-0012.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q4\drug-event-0006-of-0012.json
+INFO  07-05-2017 16:31:58 File unzipped succesfully!
+INFO  07-05-2017 16:31:58 Unzipping file: D:\JSON\drug\event\2013q4\drug-event-0007-of-0012.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q4\drug-event-0007-of-0012.json
+INFO  07-05-2017 16:31:58 File unzipped succesfully!
+INFO  07-05-2017 16:31:58 Unzipping file: D:\JSON\drug\event\2013q4\drug-event-0008-of-0012.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q4\drug-event-0008-of-0012.json
+INFO  07-05-2017 16:32:00 File unzipped succesfully!
+INFO  07-05-2017 16:32:00 Unzipping file: D:\JSON\drug\event\2013q4\drug-event-0009-of-0012.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q4\drug-event-0009-of-0012.json
+INFO  07-05-2017 16:32:05 File unzipped succesfully!
+INFO  07-05-2017 16:32:05 Unzipping file: D:\JSON\drug\event\2013q4\drug-event-0010-of-0012.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q4\drug-event-0010-of-0012.json
+INFO  07-05-2017 16:32:16 File unzipped succesfully!
+INFO  07-05-2017 16:32:16 Unzipping file: D:\JSON\drug\event\2013q4\drug-event-0011-of-0012.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q4\drug-event-0011-of-0012.json
+INFO  07-05-2017 16:32:40 File unzipped succesfully!
+INFO  07-05-2017 16:32:40 Unzipping file: D:\JSON\drug\event\2013q4\drug-event-0012-of-0012.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2013q4\drug-event-0012-of-0012.json
+INFO  07-05-2017 16:33:00 File unzipped succesfully!
+INFO  07-05-2017 16:33:00 Unzipping file: D:\JSON\drug\event\2014q1\drug-event-0001-of-0013.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q1\drug-event-0001-of-0013.json
+INFO  07-05-2017 16:33:01 File unzipped succesfully!
+INFO  07-05-2017 16:33:01 Unzipping file: D:\JSON\drug\event\2014q1\drug-event-0002-of-0013.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q1\drug-event-0002-of-0013.json
+INFO  07-05-2017 16:33:02 File unzipped succesfully!
+INFO  07-05-2017 16:33:02 Unzipping file: D:\JSON\drug\event\2014q1\drug-event-0003-of-0013.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q1\drug-event-0003-of-0013.json
+INFO  07-05-2017 16:33:04 File unzipped succesfully!
+INFO  07-05-2017 16:33:04 Unzipping file: D:\JSON\drug\event\2014q1\drug-event-0004-of-0013.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q1\drug-event-0004-of-0013.json
+INFO  07-05-2017 16:33:06 File unzipped succesfully!
+INFO  07-05-2017 16:33:06 Unzipping file: D:\JSON\drug\event\2014q1\drug-event-0005-of-0013.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q1\drug-event-0005-of-0013.json
+INFO  07-05-2017 16:33:08 File unzipped succesfully!
+INFO  07-05-2017 16:33:09 Unzipping file: D:\JSON\drug\event\2014q1\drug-event-0006-of-0013.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q1\drug-event-0006-of-0013.json
+INFO  07-05-2017 16:33:11 File unzipped succesfully!
+INFO  07-05-2017 16:33:11 Unzipping file: D:\JSON\drug\event\2014q1\drug-event-0007-of-0013.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q1\drug-event-0007-of-0013.json
+INFO  07-05-2017 16:33:15 File unzipped succesfully!
+INFO  07-05-2017 16:33:15 Unzipping file: D:\JSON\drug\event\2014q1\drug-event-0008-of-0013.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q1\drug-event-0008-of-0013.json
+INFO  07-05-2017 16:33:18 File unzipped succesfully!
+INFO  07-05-2017 16:33:18 Unzipping file: D:\JSON\drug\event\2014q1\drug-event-0009-of-0013.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q1\drug-event-0009-of-0013.json
+INFO  07-05-2017 16:33:22 File unzipped succesfully!
+INFO  07-05-2017 16:33:22 Unzipping file: D:\JSON\drug\event\2014q1\drug-event-0010-of-0013.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q1\drug-event-0010-of-0013.json
+INFO  07-05-2017 16:33:29 File unzipped succesfully!
+INFO  07-05-2017 16:33:29 Unzipping file: D:\JSON\drug\event\2014q1\drug-event-0011-of-0013.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q1\drug-event-0011-of-0013.json
+INFO  07-05-2017 16:33:43 File unzipped succesfully!
+INFO  07-05-2017 16:33:43 Unzipping file: D:\JSON\drug\event\2014q1\drug-event-0012-of-0013.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q1\drug-event-0012-of-0013.json
+INFO  07-05-2017 16:34:10 File unzipped succesfully!
+INFO  07-05-2017 16:34:10 Unzipping file: D:\JSON\drug\event\2014q1\drug-event-0013-of-0013.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q1\drug-event-0013-of-0013.json
+INFO  07-05-2017 16:34:23 File unzipped succesfully!
+INFO  07-05-2017 16:34:24 Unzipping file: D:\JSON\drug\event\2014q2\drug-event-0001-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q2\drug-event-0001-of-0010.json
+INFO  07-05-2017 16:34:24 File unzipped succesfully!
+INFO  07-05-2017 16:34:24 Unzipping file: D:\JSON\drug\event\2014q2\drug-event-0002-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q2\drug-event-0002-of-0010.json
+INFO  07-05-2017 16:34:24 File unzipped succesfully!
+INFO  07-05-2017 16:34:24 Unzipping file: D:\JSON\drug\event\2014q2\drug-event-0003-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q2\drug-event-0003-of-0010.json
+INFO  07-05-2017 16:34:28 File unzipped succesfully!
+INFO  07-05-2017 16:34:28 Unzipping file: D:\JSON\drug\event\2014q2\drug-event-0004-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q2\drug-event-0004-of-0010.json
+INFO  07-05-2017 16:34:28 File unzipped succesfully!
+INFO  07-05-2017 16:34:28 Unzipping file: D:\JSON\drug\event\2014q2\drug-event-0005-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q2\drug-event-0005-of-0010.json
+INFO  07-05-2017 16:34:30 File unzipped succesfully!
+INFO  07-05-2017 16:34:30 Unzipping file: D:\JSON\drug\event\2014q2\drug-event-0006-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q2\drug-event-0006-of-0010.json
+INFO  07-05-2017 16:34:31 File unzipped succesfully!
+INFO  07-05-2017 16:34:31 Unzipping file: D:\JSON\drug\event\2014q2\drug-event-0007-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q2\drug-event-0007-of-0010.json
+INFO  07-05-2017 16:34:36 File unzipped succesfully!
+INFO  07-05-2017 16:34:36 Unzipping file: D:\JSON\drug\event\2014q2\drug-event-0008-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q2\drug-event-0008-of-0010.json
+INFO  07-05-2017 16:34:40 File unzipped succesfully!
+INFO  07-05-2017 16:34:40 Unzipping file: D:\JSON\drug\event\2014q2\drug-event-0009-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q2\drug-event-0009-of-0010.json
+INFO  07-05-2017 16:34:56 File unzipped succesfully!
+INFO  07-05-2017 16:34:56 Unzipping file: D:\JSON\drug\event\2014q2\drug-event-0010-of-0010.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q2\drug-event-0010-of-0010.json
+INFO  07-05-2017 16:35:20 File unzipped succesfully!
+INFO  07-05-2017 16:35:20 Unzipping file: D:\JSON\drug\event\2014q3\drug-event-0001-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q3\drug-event-0001-of-0011.json
+INFO  07-05-2017 16:35:20 File unzipped succesfully!
+INFO  07-05-2017 16:35:20 Unzipping file: D:\JSON\drug\event\2014q3\drug-event-0002-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q3\drug-event-0002-of-0011.json
+INFO  07-05-2017 16:35:22 File unzipped succesfully!
+INFO  07-05-2017 16:35:22 Unzipping file: D:\JSON\drug\event\2014q3\drug-event-0003-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q3\drug-event-0003-of-0011.json
+INFO  07-05-2017 16:35:24 File unzipped succesfully!
+INFO  07-05-2017 16:35:24 Unzipping file: D:\JSON\drug\event\2014q3\drug-event-0004-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q3\drug-event-0004-of-0011.json
+INFO  07-05-2017 16:35:26 File unzipped succesfully!
+INFO  07-05-2017 16:35:26 Unzipping file: D:\JSON\drug\event\2014q3\drug-event-0005-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q3\drug-event-0005-of-0011.json
+INFO  07-05-2017 16:35:29 File unzipped succesfully!
+INFO  07-05-2017 16:35:29 Unzipping file: D:\JSON\drug\event\2014q3\drug-event-0006-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q3\drug-event-0006-of-0011.json
+INFO  07-05-2017 16:35:30 File unzipped succesfully!
+INFO  07-05-2017 16:35:30 Unzipping file: D:\JSON\drug\event\2014q3\drug-event-0007-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q3\drug-event-0007-of-0011.json
+INFO  07-05-2017 16:35:32 File unzipped succesfully!
+INFO  07-05-2017 16:35:32 Unzipping file: D:\JSON\drug\event\2014q3\drug-event-0008-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q3\drug-event-0008-of-0011.json
+INFO  07-05-2017 16:35:37 File unzipped succesfully!
+INFO  07-05-2017 16:35:37 Unzipping file: D:\JSON\drug\event\2014q3\drug-event-0009-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q3\drug-event-0009-of-0011.json
+INFO  07-05-2017 16:35:49 File unzipped succesfully!
+INFO  07-05-2017 16:35:49 Unzipping file: D:\JSON\drug\event\2014q3\drug-event-0010-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q3\drug-event-0010-of-0011.json
+INFO  07-05-2017 16:36:17 File unzipped succesfully!
+INFO  07-05-2017 16:36:17 Unzipping file: D:\JSON\drug\event\2014q3\drug-event-0011-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q3\drug-event-0011-of-0011.json
+INFO  07-05-2017 16:36:30 File unzipped succesfully!
+INFO  07-05-2017 16:36:30 Unzipping file: D:\JSON\drug\event\2014q4\drug-event-0001-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q4\drug-event-0001-of-0011.json
+INFO  07-05-2017 16:36:30 File unzipped succesfully!
+INFO  07-05-2017 16:36:30 Unzipping file: D:\JSON\drug\event\2014q4\drug-event-0002-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q4\drug-event-0002-of-0011.json
+INFO  07-05-2017 16:36:32 File unzipped succesfully!
+INFO  07-05-2017 16:36:32 Unzipping file: D:\JSON\drug\event\2014q4\drug-event-0003-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q4\drug-event-0003-of-0011.json
+INFO  07-05-2017 16:36:34 File unzipped succesfully!
+INFO  07-05-2017 16:36:34 Unzipping file: D:\JSON\drug\event\2014q4\drug-event-0004-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q4\drug-event-0004-of-0011.json
+INFO  07-05-2017 16:36:36 File unzipped succesfully!
+INFO  07-05-2017 16:36:37 Unzipping file: D:\JSON\drug\event\2014q4\drug-event-0005-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q4\drug-event-0005-of-0011.json
+INFO  07-05-2017 16:36:40 File unzipped succesfully!
+INFO  07-05-2017 16:36:40 Unzipping file: D:\JSON\drug\event\2014q4\drug-event-0006-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q4\drug-event-0006-of-0011.json
+INFO  07-05-2017 16:36:42 File unzipped succesfully!
+INFO  07-05-2017 16:36:42 Unzipping file: D:\JSON\drug\event\2014q4\drug-event-0007-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q4\drug-event-0007-of-0011.json
+INFO  07-05-2017 16:36:44 File unzipped succesfully!
+INFO  07-05-2017 16:36:44 Unzipping file: D:\JSON\drug\event\2014q4\drug-event-0008-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q4\drug-event-0008-of-0011.json
+INFO  07-05-2017 16:36:48 File unzipped succesfully!
+INFO  07-05-2017 16:36:48 Unzipping file: D:\JSON\drug\event\2014q4\drug-event-0009-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q4\drug-event-0009-of-0011.json
+INFO  07-05-2017 16:37:02 File unzipped succesfully!
+INFO  07-05-2017 16:37:02 Unzipping file: D:\JSON\drug\event\2014q4\drug-event-0010-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q4\drug-event-0010-of-0011.json
+INFO  07-05-2017 16:37:29 File unzipped succesfully!
+INFO  07-05-2017 16:37:30 Unzipping file: D:\JSON\drug\event\2014q4\drug-event-0011-of-0011.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2014q4\drug-event-0011-of-0011.json
+INFO  07-05-2017 16:37:42 File unzipped succesfully!
+INFO  07-05-2017 16:37:42 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0001-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0001-of-0016.json
+INFO  07-05-2017 16:37:42 File unzipped succesfully!
+INFO  07-05-2017 16:37:42 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0002-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0002-of-0016.json
+INFO  07-05-2017 16:37:43 File unzipped succesfully!
+INFO  07-05-2017 16:37:43 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0003-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0003-of-0016.json
+INFO  07-05-2017 16:37:46 File unzipped succesfully!
+INFO  07-05-2017 16:37:47 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0004-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0004-of-0016.json
+INFO  07-05-2017 16:37:48 File unzipped succesfully!
+INFO  07-05-2017 16:37:48 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0005-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0005-of-0016.json
+INFO  07-05-2017 16:37:51 File unzipped succesfully!
+INFO  07-05-2017 16:37:51 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0006-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0006-of-0016.json
+INFO  07-05-2017 16:37:52 File unzipped succesfully!
+INFO  07-05-2017 16:37:52 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0007-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0007-of-0016.json
+INFO  07-05-2017 16:37:55 File unzipped succesfully!
+INFO  07-05-2017 16:37:56 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0008-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0008-of-0016.json
+INFO  07-05-2017 16:37:57 File unzipped succesfully!
+INFO  07-05-2017 16:37:57 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0009-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0009-of-0016.json
+INFO  07-05-2017 16:37:59 File unzipped succesfully!
+INFO  07-05-2017 16:38:00 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0010-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0010-of-0016.json
+INFO  07-05-2017 16:38:02 File unzipped succesfully!
+INFO  07-05-2017 16:38:02 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0011-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0011-of-0016.json
+INFO  07-05-2017 16:38:06 File unzipped succesfully!
+INFO  07-05-2017 16:38:06 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0012-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0012-of-0016.json
+INFO  07-05-2017 16:38:17 File unzipped succesfully!
+INFO  07-05-2017 16:38:17 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0013-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0013-of-0016.json
+INFO  07-05-2017 16:38:33 File unzipped succesfully!
+INFO  07-05-2017 16:38:33 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0014-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0014-of-0016.json
+INFO  07-05-2017 16:38:55 File unzipped succesfully!
+INFO  07-05-2017 16:38:55 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0015-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0015-of-0016.json
+INFO  07-05-2017 16:39:16 File unzipped succesfully!
+INFO  07-05-2017 16:39:16 Unzipping file: D:\JSON\drug\event\2015q1\drug-event-0016-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q1\drug-event-0016-of-0016.json
+INFO  07-05-2017 16:39:32 File unzipped succesfully!
+INFO  07-05-2017 16:39:32 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0001-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0001-of-0015.json
+INFO  07-05-2017 16:39:33 File unzipped succesfully!
+INFO  07-05-2017 16:39:33 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0002-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0002-of-0015.json
+INFO  07-05-2017 16:39:35 File unzipped succesfully!
+INFO  07-05-2017 16:39:35 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0003-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0003-of-0015.json
+INFO  07-05-2017 16:39:36 File unzipped succesfully!
+INFO  07-05-2017 16:39:36 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0004-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0004-of-0015.json
+INFO  07-05-2017 16:39:39 File unzipped succesfully!
+INFO  07-05-2017 16:39:39 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0005-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0005-of-0015.json
+INFO  07-05-2017 16:39:40 File unzipped succesfully!
+INFO  07-05-2017 16:39:40 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0006-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0006-of-0015.json
+INFO  07-05-2017 16:39:43 File unzipped succesfully!
+INFO  07-05-2017 16:39:43 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0007-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0007-of-0015.json
+INFO  07-05-2017 16:39:44 File unzipped succesfully!
+INFO  07-05-2017 16:39:44 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0008-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0008-of-0015.json
+INFO  07-05-2017 16:39:44 File unzipped succesfully!
+INFO  07-05-2017 16:39:44 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0009-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0009-of-0015.json
+INFO  07-05-2017 16:39:48 File unzipped succesfully!
+INFO  07-05-2017 16:39:48 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0010-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0010-of-0015.json
+INFO  07-05-2017 16:39:50 File unzipped succesfully!
+INFO  07-05-2017 16:39:50 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0011-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0011-of-0015.json
+INFO  07-05-2017 16:39:55 File unzipped succesfully!
+INFO  07-05-2017 16:39:55 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0012-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0012-of-0015.json
+INFO  07-05-2017 16:40:06 File unzipped succesfully!
+INFO  07-05-2017 16:40:06 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0013-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0013-of-0015.json
+INFO  07-05-2017 16:40:24 File unzipped succesfully!
+INFO  07-05-2017 16:40:24 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0014-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0014-of-0015.json
+INFO  07-05-2017 16:40:49 File unzipped succesfully!
+INFO  07-05-2017 16:40:49 Unzipping file: D:\JSON\drug\event\2015q2\drug-event-0015-of-0015.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q2\drug-event-0015-of-0015.json
+INFO  07-05-2017 16:40:54 File unzipped succesfully!
+INFO  07-05-2017 16:40:55 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0001-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0001-of-0020.json
+INFO  07-05-2017 16:40:55 File unzipped succesfully!
+INFO  07-05-2017 16:40:55 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0002-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0002-of-0020.json
+INFO  07-05-2017 16:40:56 File unzipped succesfully!
+INFO  07-05-2017 16:40:56 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0003-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0003-of-0020.json
+INFO  07-05-2017 16:40:59 File unzipped succesfully!
+INFO  07-05-2017 16:40:59 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0004-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0004-of-0020.json
+INFO  07-05-2017 16:41:00 File unzipped succesfully!
+INFO  07-05-2017 16:41:00 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0005-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0005-of-0020.json
+INFO  07-05-2017 16:41:01 File unzipped succesfully!
+INFO  07-05-2017 16:41:01 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0006-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0006-of-0020.json
+INFO  07-05-2017 16:41:04 File unzipped succesfully!
+INFO  07-05-2017 16:41:04 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0007-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0007-of-0020.json
+INFO  07-05-2017 16:41:06 File unzipped succesfully!
+INFO  07-05-2017 16:41:06 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0008-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0008-of-0020.json
+INFO  07-05-2017 16:41:08 File unzipped succesfully!
+INFO  07-05-2017 16:41:08 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0009-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0009-of-0020.json
+INFO  07-05-2017 16:41:10 File unzipped succesfully!
+INFO  07-05-2017 16:41:10 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0010-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0010-of-0020.json
+INFO  07-05-2017 16:41:12 File unzipped succesfully!
+INFO  07-05-2017 16:41:12 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0011-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0011-of-0020.json
+INFO  07-05-2017 16:41:15 File unzipped succesfully!
+INFO  07-05-2017 16:41:15 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0012-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0012-of-0020.json
+INFO  07-05-2017 16:41:16 File unzipped succesfully!
+INFO  07-05-2017 16:41:16 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0013-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0013-of-0020.json
+INFO  07-05-2017 16:41:20 File unzipped succesfully!
+INFO  07-05-2017 16:41:20 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0014-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0014-of-0020.json
+INFO  07-05-2017 16:41:22 File unzipped succesfully!
+INFO  07-05-2017 16:41:22 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0015-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0015-of-0020.json
+INFO  07-05-2017 16:41:29 File unzipped succesfully!
+INFO  07-05-2017 16:41:29 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0016-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0016-of-0020.json
+INFO  07-05-2017 16:41:38 File unzipped succesfully!
+INFO  07-05-2017 16:41:38 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0017-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0017-of-0020.json
+INFO  07-05-2017 16:41:55 File unzipped succesfully!
+INFO  07-05-2017 16:41:55 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0018-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0018-of-0020.json
+INFO  07-05-2017 16:42:14 File unzipped succesfully!
+INFO  07-05-2017 16:42:14 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0019-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0019-of-0020.json
+INFO  07-05-2017 16:42:32 File unzipped succesfully!
+INFO  07-05-2017 16:42:33 Unzipping file: D:\JSON\drug\event\2015q3\drug-event-0020-of-0020.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q3\drug-event-0020-of-0020.json
+INFO  07-05-2017 16:42:52 File unzipped succesfully!
+INFO  07-05-2017 16:42:52 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0001-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0001-of-0016.json
+INFO  07-05-2017 16:42:52 File unzipped succesfully!
+INFO  07-05-2017 16:42:52 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0002-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0002-of-0016.json
+INFO  07-05-2017 16:42:53 File unzipped succesfully!
+INFO  07-05-2017 16:42:53 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0003-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0003-of-0016.json
+INFO  07-05-2017 16:42:54 File unzipped succesfully!
+INFO  07-05-2017 16:42:54 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0004-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0004-of-0016.json
+INFO  07-05-2017 16:42:56 File unzipped succesfully!
+INFO  07-05-2017 16:42:56 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0005-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0005-of-0016.json
+INFO  07-05-2017 16:42:57 File unzipped succesfully!
+INFO  07-05-2017 16:42:57 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0006-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0006-of-0016.json
+INFO  07-05-2017 16:43:02 File unzipped succesfully!
+INFO  07-05-2017 16:43:02 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0007-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0007-of-0016.json
+INFO  07-05-2017 16:43:03 File unzipped succesfully!
+INFO  07-05-2017 16:43:03 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0008-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0008-of-0016.json
+INFO  07-05-2017 16:43:05 File unzipped succesfully!
+INFO  07-05-2017 16:43:05 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0009-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0009-of-0016.json
+INFO  07-05-2017 16:43:06 File unzipped succesfully!
+INFO  07-05-2017 16:43:06 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0010-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0010-of-0016.json
+INFO  07-05-2017 16:43:07 File unzipped succesfully!
+INFO  07-05-2017 16:43:07 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0011-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0011-of-0016.json
+INFO  07-05-2017 16:43:12 File unzipped succesfully!
+INFO  07-05-2017 16:43:12 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0012-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0012-of-0016.json
+INFO  07-05-2017 16:43:17 File unzipped succesfully!
+INFO  07-05-2017 16:43:17 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0013-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0013-of-0016.json
+INFO  07-05-2017 16:43:31 File unzipped succesfully!
+INFO  07-05-2017 16:43:31 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0014-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0014-of-0016.json
+INFO  07-05-2017 16:43:54 File unzipped succesfully!
+INFO  07-05-2017 16:43:54 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0015-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0015-of-0016.json
+INFO  07-05-2017 16:44:22 File unzipped succesfully!
+INFO  07-05-2017 16:44:22 Unzipping file: D:\JSON\drug\event\2015q4\drug-event-0016-of-0016.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\2015q4\drug-event-0016-of-0016.json
+INFO  07-05-2017 16:44:40 File unzipped succesfully!
+INFO  07-05-2017 16:44:40 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0001-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0001-of-0068.json
+INFO  07-05-2017 16:44:42 File unzipped succesfully!
+INFO  07-05-2017 16:44:42 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0002-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0002-of-0068.json
+INFO  07-05-2017 16:44:42 File unzipped succesfully!
+INFO  07-05-2017 16:44:42 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0003-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0003-of-0068.json
+INFO  07-05-2017 16:44:43 File unzipped succesfully!
+INFO  07-05-2017 16:44:43 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0004-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0004-of-0068.json
+INFO  07-05-2017 16:44:43 File unzipped succesfully!
+INFO  07-05-2017 16:44:43 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0005-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0005-of-0068.json
+INFO  07-05-2017 16:44:44 File unzipped succesfully!
+INFO  07-05-2017 16:44:44 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0006-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0006-of-0068.json
+INFO  07-05-2017 16:44:44 File unzipped succesfully!
+INFO  07-05-2017 16:44:45 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0007-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0007-of-0068.json
+INFO  07-05-2017 16:44:48 File unzipped succesfully!
+INFO  07-05-2017 16:44:48 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0008-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0008-of-0068.json
+INFO  07-05-2017 16:44:50 File unzipped succesfully!
+INFO  07-05-2017 16:44:50 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0009-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0009-of-0068.json
+INFO  07-05-2017 16:44:52 File unzipped succesfully!
+INFO  07-05-2017 16:44:52 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0010-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0010-of-0068.json
+INFO  07-05-2017 16:44:54 File unzipped succesfully!
+INFO  07-05-2017 16:44:54 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0011-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0011-of-0068.json
+INFO  07-05-2017 16:44:57 File unzipped succesfully!
+INFO  07-05-2017 16:44:57 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0012-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0012-of-0068.json
+INFO  07-05-2017 16:44:58 File unzipped succesfully!
+INFO  07-05-2017 16:44:58 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0013-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0013-of-0068.json
+INFO  07-05-2017 16:45:00 File unzipped succesfully!
+INFO  07-05-2017 16:45:00 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0014-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0014-of-0068.json
+INFO  07-05-2017 16:45:03 File unzipped succesfully!
+INFO  07-05-2017 16:45:03 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0015-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0015-of-0068.json
+INFO  07-05-2017 16:45:06 File unzipped succesfully!
+INFO  07-05-2017 16:45:06 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0016-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0016-of-0068.json
+INFO  07-05-2017 16:45:07 File unzipped succesfully!
+INFO  07-05-2017 16:45:08 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0017-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0017-of-0068.json
+INFO  07-05-2017 16:45:10 File unzipped succesfully!
+INFO  07-05-2017 16:45:10 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0018-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0018-of-0068.json
+INFO  07-05-2017 16:45:12 File unzipped succesfully!
+INFO  07-05-2017 16:45:12 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0019-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0019-of-0068.json
+INFO  07-05-2017 16:45:14 File unzipped succesfully!
+INFO  07-05-2017 16:45:14 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0020-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0020-of-0068.json
+INFO  07-05-2017 16:45:17 File unzipped succesfully!
+INFO  07-05-2017 16:45:17 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0021-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0021-of-0068.json
+INFO  07-05-2017 16:45:18 File unzipped succesfully!
+INFO  07-05-2017 16:45:18 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0022-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0022-of-0068.json
+INFO  07-05-2017 16:45:22 File unzipped succesfully!
+INFO  07-05-2017 16:45:22 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0023-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0023-of-0068.json
+INFO  07-05-2017 16:45:23 File unzipped succesfully!
+INFO  07-05-2017 16:45:24 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0024-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0024-of-0068.json
+INFO  07-05-2017 16:45:26 File unzipped succesfully!
+INFO  07-05-2017 16:45:26 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0025-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0025-of-0068.json
+INFO  07-05-2017 16:45:28 File unzipped succesfully!
+INFO  07-05-2017 16:45:29 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0026-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0026-of-0068.json
+INFO  07-05-2017 16:45:30 File unzipped succesfully!
+INFO  07-05-2017 16:45:30 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0027-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0027-of-0068.json
+INFO  07-05-2017 16:45:31 File unzipped succesfully!
+INFO  07-05-2017 16:45:31 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0028-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0028-of-0068.json
+INFO  07-05-2017 16:45:32 File unzipped succesfully!
+INFO  07-05-2017 16:45:32 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0029-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0029-of-0068.json
+INFO  07-05-2017 16:45:36 File unzipped succesfully!
+INFO  07-05-2017 16:45:36 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0030-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0030-of-0068.json
+INFO  07-05-2017 16:45:38 File unzipped succesfully!
+INFO  07-05-2017 16:45:38 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0031-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0031-of-0068.json
+INFO  07-05-2017 16:45:41 File unzipped succesfully!
+INFO  07-05-2017 16:45:41 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0032-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0032-of-0068.json
+INFO  07-05-2017 16:45:42 File unzipped succesfully!
+INFO  07-05-2017 16:45:42 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0033-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0033-of-0068.json
+INFO  07-05-2017 16:45:44 File unzipped succesfully!
+INFO  07-05-2017 16:45:45 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0034-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0034-of-0068.json
+INFO  07-05-2017 16:45:46 File unzipped succesfully!
+INFO  07-05-2017 16:45:46 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0035-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0035-of-0068.json
+INFO  07-05-2017 16:45:49 File unzipped succesfully!
+INFO  07-05-2017 16:45:49 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0036-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0036-of-0068.json
+INFO  07-05-2017 16:45:50 File unzipped succesfully!
+INFO  07-05-2017 16:45:50 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0037-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0037-of-0068.json
+INFO  07-05-2017 16:45:54 File unzipped succesfully!
+INFO  07-05-2017 16:45:54 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0038-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0038-of-0068.json
+INFO  07-05-2017 16:45:55 File unzipped succesfully!
+INFO  07-05-2017 16:45:56 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0039-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0039-of-0068.json
+INFO  07-05-2017 16:45:58 File unzipped succesfully!
+INFO  07-05-2017 16:45:58 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0040-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0040-of-0068.json
+INFO  07-05-2017 16:46:02 File unzipped succesfully!
+INFO  07-05-2017 16:46:02 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0041-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0041-of-0068.json
+INFO  07-05-2017 16:46:03 File unzipped succesfully!
+INFO  07-05-2017 16:46:03 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0042-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0042-of-0068.json
+INFO  07-05-2017 16:46:06 File unzipped succesfully!
+INFO  07-05-2017 16:46:06 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0043-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0043-of-0068.json
+INFO  07-05-2017 16:46:08 File unzipped succesfully!
+INFO  07-05-2017 16:46:08 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0044-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0044-of-0068.json
+INFO  07-05-2017 16:46:12 File unzipped succesfully!
+INFO  07-05-2017 16:46:12 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0045-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0045-of-0068.json
+INFO  07-05-2017 16:46:14 File unzipped succesfully!
+INFO  07-05-2017 16:46:14 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0046-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0046-of-0068.json
+INFO  07-05-2017 16:46:18 File unzipped succesfully!
+INFO  07-05-2017 16:46:18 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0047-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0047-of-0068.json
+INFO  07-05-2017 16:46:24 File unzipped succesfully!
+INFO  07-05-2017 16:46:24 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0048-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0048-of-0068.json
+INFO  07-05-2017 16:46:29 File unzipped succesfully!
+INFO  07-05-2017 16:46:29 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0049-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0049-of-0068.json
+INFO  07-05-2017 16:46:38 File unzipped succesfully!
+INFO  07-05-2017 16:46:38 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0050-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0050-of-0068.json
+INFO  07-05-2017 16:46:44 File unzipped succesfully!
+INFO  07-05-2017 16:46:45 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0051-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0051-of-0068.json
+INFO  07-05-2017 16:46:53 File unzipped succesfully!
+INFO  07-05-2017 16:46:53 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0052-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0052-of-0068.json
+INFO  07-05-2017 16:47:08 File unzipped succesfully!
+INFO  07-05-2017 16:47:08 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0053-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0053-of-0068.json
+INFO  07-05-2017 16:47:26 File unzipped succesfully!
+INFO  07-05-2017 16:47:27 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0054-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0054-of-0068.json
+INFO  07-05-2017 16:47:44 File unzipped succesfully!
+INFO  07-05-2017 16:47:44 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0055-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0055-of-0068.json
+INFO  07-05-2017 16:48:02 File unzipped succesfully!
+INFO  07-05-2017 16:48:02 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0056-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0056-of-0068.json
+INFO  07-05-2017 16:48:21 File unzipped succesfully!
+INFO  07-05-2017 16:48:21 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0057-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0057-of-0068.json
+INFO  07-05-2017 16:48:44 File unzipped succesfully!
+INFO  07-05-2017 16:48:44 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0058-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0058-of-0068.json
+INFO  07-05-2017 16:49:13 File unzipped succesfully!
+INFO  07-05-2017 16:49:13 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0059-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0059-of-0068.json
+INFO  07-05-2017 16:49:38 File unzipped succesfully!
+INFO  07-05-2017 16:49:38 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0060-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0060-of-0068.json
+INFO  07-05-2017 16:50:08 File unzipped succesfully!
+INFO  07-05-2017 16:50:08 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0061-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0061-of-0068.json
+INFO  07-05-2017 16:50:36 File unzipped succesfully!
+INFO  07-05-2017 16:50:36 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0062-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0062-of-0068.json
+INFO  07-05-2017 16:51:07 File unzipped succesfully!
+INFO  07-05-2017 16:51:07 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0063-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0063-of-0068.json
+INFO  07-05-2017 16:51:36 File unzipped succesfully!
+INFO  07-05-2017 16:51:36 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0064-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0064-of-0068.json
+INFO  07-05-2017 16:52:06 File unzipped succesfully!
+INFO  07-05-2017 16:52:06 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0065-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0065-of-0068.json
+INFO  07-05-2017 16:52:37 File unzipped succesfully!
+INFO  07-05-2017 16:52:37 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0066-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0066-of-0068.json
+INFO  07-05-2017 16:53:05 File unzipped succesfully!
+INFO  07-05-2017 16:53:05 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0067-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0067-of-0068.json
+INFO  07-05-2017 16:53:29 File unzipped succesfully!
+INFO  07-05-2017 16:53:29 Unzipping file: D:\JSON\drug\event\all_other\drug-event-0068-of-0068.json.zip
+Destination: D:\JSON\EXTRACTED\drug\event\all_other\drug-event-0068-of-0068.json
+INFO  07-05-2017 16:53:54 File unzipped succesfully!
+INFO  07-05-2017 16:53:54 Unzipping: 398 files successfully completed

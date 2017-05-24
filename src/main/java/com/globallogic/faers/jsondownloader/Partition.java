@@ -1,4 +1,4 @@
-package com.globallogic.faers.json.downloader;
+package com.globallogic.faers.jsondownloader;
 
 import com.google.gson.annotations.SerializedName;
 import java.net.URL;

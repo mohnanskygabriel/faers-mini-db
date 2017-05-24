@@ -2,7 +2,6 @@ package com.globallogic.faers.json;
 
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
-import java.util.Date;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -39,7 +38,7 @@ public class Drug implements Serializable {
     private Integer drugCumulativeDosageUnit;
 
     @SerializedName("drugdosageform")
-    @Column(name = "dosage_form")
+    @Column(name = "dosage_form", columnDefinition = "text")
     private String drugDosageForm;
 
     @SerializedName("drugintervaldosagedefinition")
@@ -59,8 +58,8 @@ public class Drug implements Serializable {
     private Integer drugSeparateDosageNumb;
 
     @SerializedName("drugstructuredosagenumb")
-    @Column(name = "structure_dosage_numb")
-    private Double drugStructureDosageNumb;
+    @Column(name = "structure_dosage_numb", columnDefinition = "text")
+    private String drugStructureDosageNumb;
 
     @SerializedName("drugstructuredosageunit")
     @Column(name = "structure_dosage_unit", columnDefinition = "smallint")
@@ -71,11 +70,11 @@ public class Drug implements Serializable {
     private Integer drugAdministrationRoute;
 
     @SerializedName("drugauthorizationnumb")
-    @Column(name = "authorization_numb")
+    @Column(name = "authorization_numb", columnDefinition = "text")
     private String drugAuthorizationNumb;
 
     @SerializedName("drugbatchnumb")
-    @Column(name = "batch_numb")
+    @Column(name = "batch_numb", columnDefinition = "text")
     private String drugBatchNumb;
 
     @SerializedName("drugcharacterization")
@@ -83,11 +82,11 @@ public class Drug implements Serializable {
     private Integer drugCharacterization;
 
     @SerializedName("drugdoseagetext")
-    @Column(name = "doseage_text")
+    @Column(name = "doseage_text", columnDefinition = "text")
     private String drugDoseageText;
 
     @SerializedName("drugenddate")
-    @Column(name = "end_date")
+    @Column(name = "end_date", columnDefinition = "text")
     private String drugEndDate;
 
     @SerializedName("drugenddateformat")
@@ -95,11 +94,11 @@ public class Drug implements Serializable {
     private Integer drugEndDateFormat;
 
     @SerializedName("drugindication")
-    @Column(name = "indication")
+    @Column(name = "indication", columnDefinition = "text")
     private String drugIndication;
 
     @SerializedName("drugstartdate")
-    @Column(name = "start_date")
+    @Column(name = "start_date", columnDefinition = "text")
     private String drugStartDate;
 
     @SerializedName("drugstartdateformat")
@@ -107,15 +106,15 @@ public class Drug implements Serializable {
     private Integer drugStartDateFormat;
 
     @SerializedName("drugtreatmentduration")
-    @Column(name = "treatment_duration")
-    private Integer drugTreatmentDuration;
+    @Column(name = "treatment_duration", columnDefinition = "text")
+    private String drugTreatmentDuration;
 
     @SerializedName("drugtreatmentdurationunit")
     @Column(name = "treatment_duration_unit", columnDefinition = "smallint")
     private Integer drugTreatmentDurationUnit;
 
     @SerializedName("medicinalproduct")
-    @Column(name = "medicinal_product")
+    @Column(name = "medicinal_product", columnDefinition = "text")
     private String medicinalProduct;
 
     @SerializedName("openfda")
@@ -202,11 +201,11 @@ public class Drug implements Serializable {
         this.drugSeparateDosageNumb = drugSeparateDosageNumb;
     }
 
-    public Double getDrugStructureDosageNumb() {
+    public String getDrugStructureDosageNumb() {
         return drugStructureDosageNumb;
     }
 
-    public void setDrugStructureDosageNumb(Double drugStructureDosageNumb) {
+    public void setDrugStructureDosageNumb(String drugStructureDosageNumb) {
         this.drugStructureDosageNumb = drugStructureDosageNumb;
     }
 
@@ -298,11 +297,11 @@ public class Drug implements Serializable {
         this.drugStartDateFormat = drugStartDateFormat;
     }
 
-    public Integer getDrugTreatmentDuration() {
+    public String getDrugTreatmentDuration() {
         return drugTreatmentDuration;
     }
 
-    public void setDrugTreatmentDuration(Integer drugTreatmentDuration) {
+    public void setDrugTreatmentDuration(String drugTreatmentDuration) {
         this.drugTreatmentDuration = drugTreatmentDuration;
     }
 

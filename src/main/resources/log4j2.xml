@@ -14,14 +14,14 @@
             </Filters>
             <PatternLayout pattern="%-5level %d{dd-MM-yyyy HH:mm:ss} [%l] %msg%n"/>
         </Console>   
-        <RollingFile name="RollingFileWARN" fileName="logs/app-last" filePattern="logs/app-%d{dd-MM-yyyy}-%i.log">
+        <RollingFile name="RollingFileWARN" fileName="logs/app-last.log" filePattern="logs/app-%d{dd-MM-yyyy}-%i.log">
             <Filters>
                 <ThresholdFilter level="WARN" onMatch="ACCEPT" onMismatch="DENY"/>
             </Filters>
             <PatternLayout pattern="%-5level %d{dd-MM-yyyy HH:mm:ss} [%l] %msg%n"/>
             <OnStartupTriggeringPolicy />
         </RollingFile>
-        <RollingFile name="RollingFileINFO" fileName="logs/app-last" filePattern="logs/app-%d{dd-MM-yyyy}-%i.log">
+        <RollingFile name="RollingFileINFO" fileName="logs/app-last.log" filePattern="logs/app-%d{dd-MM-yyyy}-%i.log">
             <Filters>
                 <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>   
                 <ThresholdFilter level="WARN" onMatch="DENY" onMismatch="NEUTRAL"/>    

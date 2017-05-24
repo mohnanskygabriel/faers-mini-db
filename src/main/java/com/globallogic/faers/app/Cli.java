@@ -1,11 +1,11 @@
 package com.globallogic.faers.app;
 
-import com.globallogic.faers.json.DAO;
+import com.globallogic.faers.json.JsonDAO;
 import com.globallogic.faers.json.DBImporter;
-import com.globallogic.faers.json.downloader.Downloader;
-import com.globallogic.faers.json.downloader.DrugEventList;
-import com.globallogic.faers.json.downloader.Partition;
-import com.globallogic.faers.json.downloader.ZipExtractor;
+import com.globallogic.faers.jsondownloader.Downloader;
+import com.globallogic.faers.jsondownloader.DrugEventList;
+import com.globallogic.faers.jsondownloader.Partition;
+import com.globallogic.faers.zip.Extractor;
 import java.io.File;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -20,7 +20,8 @@ import org.apache.logging.log4j.Logger;
 public class Cli {
 
     //-download https://api.fda.gov/download.json -directory D:/X -extract D:/JSON/ -extractDestination D:/JSON/EXTRACTED -import D:/JSON/EXTRACTED -db faers -ip 192.168.0.17 -port 5432 -user faers -pass brutepass
-    //cas zipovania Total time: 59:59.808s
+    //-import D:/JSON/EXTRACTED -db faersdb -ip 192.168.0.17 -port 5432 -user faers -pass mnhb2016
+    //VM Options: -Xmx5000M
     /**
      * @param args the command line arguments
      */
@@ -60,7 +61,7 @@ public class Cli {
             }
             Downloader downloader = new Downloader();
             downloader.download(downloadURL, destDirectory);
-            DAO dao = new DAO();
+            JsonDAO dao = new JsonDAO();
             DrugEventList list = dao.getDrugEventListFromJSON(destDirectory + File.separator + "download.json");
             List<Partition> partitionList = list.getResults().getDrug().getEvent().getPartitions();
             Double downloadSize = 0.0;
@@ -80,7 +81,7 @@ public class Cli {
         }
         if (opt.has("extract")) {
             String extractSourcePath = (String) opt.valueOf("extract");
-            ZipExtractor zipExtractor = new ZipExtractor();
+            Extractor zipExtractor = new Extractor();
             if (opt.has("extractDestination")) {
                 String extractDestinationPath = (String) opt.valueOf("extractDestination");
                 logger.info("ZIP extraction started from: " + extractSourcePath + " to: " + extractDestinationPath);
@@ -118,8 +119,10 @@ public class Cli {
             }
 
             DBImporter importer = new DBImporter();
-            importer.importJson("D:\\JSON\\EXTRACTED\\drug\\event\\2004q2\\drug-event-0003-of-0003.json", ip, port, db, user, password);
-            //importer.importAllJsonFromDirectory(new File(importSource), ip, port, db, user, password);
+            /*Import a file:
+            importer.importJson("D:/filepath/drug-event-0001-of-0004.json", ip, port, db, user, password);
+             */
+            importer.importAllJsonFromDirectory(new File(importSource), ip, port, db, user, password);
         }
 
     }

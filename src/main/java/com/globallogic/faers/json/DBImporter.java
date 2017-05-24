@@ -18,7 +18,7 @@ public class DBImporter {
     public void importJson(String json, String ip, String port, String db, String username, String password) {
         Logger logger = LogManager.getLogger(DBImporter.class);
         logger.info("Importing file: " + json);
-        DAO dao = new DAO();
+        JsonDAO dao = new JsonDAO();
         Event event;
         Session session = null;
         SessionFactory factory = null;

@@ -1,0 +1,225 @@
+INFO  11-05-2017 21:12:48 Cli started with args: [-import, D:/JSON_skipped/char255, -db, faersdb, -ip, 192.168.0.17, -port, 5432, -user, faers, -pass, *]
+INFO  11-05-2017 21:12:48 Importing file: D:\JSON_skipped\char255\2012q3\drug-event-0002-of-0004.json
+INFO  11-05-2017 21:12:50 HHH000412: Hibernate Core {5.2.10.Final}
+INFO  11-05-2017 21:12:50 HHH000206: hibernate.properties not found
+INFO  11-05-2017 21:12:50 HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO  11-05-2017 21:12:50 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  11-05-2017 21:12:50 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  11-05-2017 21:12:50 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  11-05-2017 21:12:50 HHH10001003: Autocommit mode: false
+INFO  11-05-2017 21:12:51 HHH10001007: JDBC isolation level: <unknown>
+INFO  11-05-2017 21:12:51 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  11-05-2017 21:12:51 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  11-05-2017 21:12:51 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  11-05-2017 21:12:51 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@46c00568] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  11-05-2017 21:12:51 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@25b865b5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  11-05-2017 21:12:52 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  11-05-2017 21:19:33 Data import successfully completed from file: D:\JSON_skipped\char255\2012q3\drug-event-0002-of-0004.json
+INFO  11-05-2017 21:19:33 Importing file: D:\JSON_skipped\char255\2012q4\drug-event-0009-of-0010.json
+INFO  11-05-2017 21:19:54 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  11-05-2017 21:19:54 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  11-05-2017 21:19:54 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  11-05-2017 21:19:54 HHH10001003: Autocommit mode: false
+INFO  11-05-2017 21:19:54 HHH10001007: JDBC isolation level: <unknown>
+INFO  11-05-2017 21:19:54 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  11-05-2017 21:19:55 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  11-05-2017 21:19:55 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  11-05-2017 21:19:55 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a243fa9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  11-05-2017 21:19:55 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f72109d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  11-05-2017 21:19:55 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  11-05-2017 22:33:35 Data import successfully completed from file: D:\JSON_skipped\char255\2012q4\drug-event-0009-of-0010.json
+INFO  11-05-2017 22:33:35 Importing file: D:\JSON_skipped\char255\2013q1\drug-event-0002-of-0011.json
+INFO  11-05-2017 22:33:36 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  11-05-2017 22:33:36 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  11-05-2017 22:33:36 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  11-05-2017 22:33:36 HHH10001003: Autocommit mode: false
+INFO  11-05-2017 22:33:36 HHH10001007: JDBC isolation level: <unknown>
+INFO  11-05-2017 22:33:36 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  11-05-2017 22:33:37 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  11-05-2017 22:33:37 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  11-05-2017 22:33:37 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@56d7bee8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  11-05-2017 22:33:38 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1057c32] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  11-05-2017 22:33:38 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  11-05-2017 22:34:33 Data import successfully completed from file: D:\JSON_skipped\char255\2013q1\drug-event-0002-of-0011.json
+INFO  11-05-2017 22:34:33 Importing file: D:\JSON_skipped\char255\2013q1\drug-event-0011-of-0011.json
+INFO  11-05-2017 22:34:55 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  11-05-2017 22:34:55 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  11-05-2017 22:34:55 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  11-05-2017 22:34:55 HHH10001003: Autocommit mode: false
+INFO  11-05-2017 22:34:55 HHH10001007: JDBC isolation level: <unknown>
+INFO  11-05-2017 22:34:55 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  11-05-2017 22:34:55 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  11-05-2017 22:34:55 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  11-05-2017 22:34:55 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4fa842dd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  11-05-2017 22:34:56 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3d2dabde] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  11-05-2017 22:34:56 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  12-05-2017 00:06:01 Data import successfully completed from file: D:\JSON_skipped\char255\2013q1\drug-event-0011-of-0011.json
+INFO  12-05-2017 00:06:02 Importing file: D:\JSON_skipped\char255\2013q2\drug-event-0002-of-0009.json
+INFO  12-05-2017 00:06:03 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  12-05-2017 00:06:03 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  12-05-2017 00:06:03 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  12-05-2017 00:06:03 HHH10001003: Autocommit mode: false
+INFO  12-05-2017 00:06:03 HHH10001007: JDBC isolation level: <unknown>
+INFO  12-05-2017 00:06:03 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  12-05-2017 00:06:03 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  12-05-2017 00:06:03 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  12-05-2017 00:06:03 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6500aba0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 00:06:04 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@60fd436c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 00:06:05 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  12-05-2017 00:10:48 Data import successfully completed from file: D:\JSON_skipped\char255\2013q2\drug-event-0002-of-0009.json
+INFO  12-05-2017 00:10:48 Importing file: D:\JSON_skipped\char255\2013q2\drug-event-0005-of-0009.json
+INFO  12-05-2017 00:10:49 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  12-05-2017 00:10:49 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  12-05-2017 00:10:49 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  12-05-2017 00:10:49 HHH10001003: Autocommit mode: false
+INFO  12-05-2017 00:10:49 HHH10001007: JDBC isolation level: <unknown>
+INFO  12-05-2017 00:10:49 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  12-05-2017 00:10:49 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  12-05-2017 00:10:49 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  12-05-2017 00:10:49 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3c54f5e9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 00:10:50 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2657f0c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 00:10:50 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  12-05-2017 00:16:36 Data import successfully completed from file: D:\JSON_skipped\char255\2013q2\drug-event-0005-of-0009.json
+INFO  12-05-2017 00:16:36 Importing file: D:\JSON_skipped\char255\2013q2\drug-event-0006-of-0009.json
+INFO  12-05-2017 00:16:38 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  12-05-2017 00:16:38 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  12-05-2017 00:16:38 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  12-05-2017 00:16:38 HHH10001003: Autocommit mode: false
+INFO  12-05-2017 00:16:38 HHH10001007: JDBC isolation level: <unknown>
+INFO  12-05-2017 00:16:38 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  12-05-2017 00:16:38 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  12-05-2017 00:16:38 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  12-05-2017 00:16:38 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5bcb12f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 00:16:38 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@47dadae8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 00:16:38 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  12-05-2017 00:24:22 Data import successfully completed from file: D:\JSON_skipped\char255\2013q2\drug-event-0006-of-0009.json
+INFO  12-05-2017 00:24:22 Importing file: D:\JSON_skipped\char255\2013q2\drug-event-0008-of-0009.json
+INFO  12-05-2017 00:24:32 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  12-05-2017 00:24:32 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  12-05-2017 00:24:32 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  12-05-2017 00:24:32 HHH10001003: Autocommit mode: false
+INFO  12-05-2017 00:24:32 HHH10001007: JDBC isolation level: <unknown>
+INFO  12-05-2017 00:24:32 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  12-05-2017 00:24:32 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  12-05-2017 00:24:32 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  12-05-2017 00:24:32 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6a154869] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 00:24:32 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@72184162] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 00:24:33 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  12-05-2017 01:29:31 Data import successfully completed from file: D:\JSON_skipped\char255\2013q2\drug-event-0008-of-0009.json
+INFO  12-05-2017 01:29:31 Importing file: D:\JSON_skipped\char255\2013q2\drug-event-0009-of-0009.json
+INFO  12-05-2017 01:29:40 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  12-05-2017 01:29:40 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  12-05-2017 01:29:40 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  12-05-2017 01:29:40 HHH10001003: Autocommit mode: false
+INFO  12-05-2017 01:29:40 HHH10001007: JDBC isolation level: <unknown>
+INFO  12-05-2017 01:29:40 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  12-05-2017 01:29:40 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  12-05-2017 01:29:40 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  12-05-2017 01:29:40 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2994d428] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 01:29:41 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6f0aa93b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 01:29:41 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  12-05-2017 02:26:10 Data import successfully completed from file: D:\JSON_skipped\char255\2013q2\drug-event-0009-of-0009.json
+INFO  12-05-2017 02:26:10 Importing file: D:\JSON_skipped\char255\2013q3\drug-event-0001-of-0010.json
+INFO  12-05-2017 02:26:10 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  12-05-2017 02:26:10 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  12-05-2017 02:26:10 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  12-05-2017 02:26:10 HHH10001003: Autocommit mode: false
+INFO  12-05-2017 02:26:10 HHH10001007: JDBC isolation level: <unknown>
+INFO  12-05-2017 02:26:10 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  12-05-2017 02:26:11 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  12-05-2017 02:26:11 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  12-05-2017 02:26:11 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@79806d25] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 02:26:11 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3a370305] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 02:26:11 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  12-05-2017 02:27:06 Data import successfully completed from file: D:\JSON_skipped\char255\2013q3\drug-event-0001-of-0010.json
+INFO  12-05-2017 02:27:07 Importing file: D:\JSON_skipped\char255\2013q3\drug-event-0003-of-0010.json
+INFO  12-05-2017 02:27:08 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  12-05-2017 02:27:08 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  12-05-2017 02:27:08 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  12-05-2017 02:27:08 HHH10001003: Autocommit mode: false
+INFO  12-05-2017 02:27:08 HHH10001007: JDBC isolation level: <unknown>
+INFO  12-05-2017 02:27:08 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  12-05-2017 02:27:08 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  12-05-2017 02:27:08 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  12-05-2017 02:27:08 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7454104] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 02:27:08 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6f3aaa83] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 02:27:08 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  12-05-2017 02:32:53 Data import successfully completed from file: D:\JSON_skipped\char255\2013q3\drug-event-0003-of-0010.json
+INFO  12-05-2017 02:32:53 Importing file: D:\JSON_skipped\char255\2013q3\drug-event-0004-of-0010.json
+INFO  12-05-2017 02:32:54 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  12-05-2017 02:32:54 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  12-05-2017 02:32:54 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  12-05-2017 02:32:54 HHH10001003: Autocommit mode: false
+INFO  12-05-2017 02:32:54 HHH10001007: JDBC isolation level: <unknown>
+INFO  12-05-2017 02:32:54 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  12-05-2017 02:32:54 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  12-05-2017 02:32:54 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  12-05-2017 02:32:55 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7c29a79e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 02:32:55 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@608b9a28] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 02:32:55 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  12-05-2017 02:38:36 Data import successfully completed from file: D:\JSON_skipped\char255\2013q3\drug-event-0004-of-0010.json
+INFO  12-05-2017 02:38:36 Importing file: D:\JSON_skipped\char255\2013q3\drug-event-0009-of-0010.json
+INFO  12-05-2017 02:38:55 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  12-05-2017 02:38:55 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  12-05-2017 02:38:55 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  12-05-2017 02:38:55 HHH10001003: Autocommit mode: false
+INFO  12-05-2017 02:38:55 HHH10001007: JDBC isolation level: <unknown>
+INFO  12-05-2017 02:38:55 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  12-05-2017 02:38:55 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  12-05-2017 02:38:55 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  12-05-2017 02:38:55 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4426ecc8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 02:38:56 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@32ddfb8d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 02:38:56 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  12-05-2017 03:52:44 Data import successfully completed from file: D:\JSON_skipped\char255\2013q3\drug-event-0009-of-0010.json
+INFO  12-05-2017 03:52:44 Importing file: D:\JSON_skipped\char255\2014q1\drug-event-0001-of-0013.json
+INFO  12-05-2017 03:52:44 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  12-05-2017 03:52:44 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  12-05-2017 03:52:44 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  12-05-2017 03:52:44 HHH10001003: Autocommit mode: false
+INFO  12-05-2017 03:52:44 HHH10001007: JDBC isolation level: <unknown>
+INFO  12-05-2017 03:52:44 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  12-05-2017 03:52:45 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  12-05-2017 03:52:45 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  12-05-2017 03:52:45 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4f7fb5ea] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 03:52:45 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2254ec17] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 03:52:46 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  12-05-2017 03:53:41 Data import successfully completed from file: D:\JSON_skipped\char255\2014q1\drug-event-0001-of-0013.json
+INFO  12-05-2017 03:53:41 Importing file: D:\JSON_skipped\char255\problem char500\2007q4\drug-event-0003-of-0004.json
+INFO  12-05-2017 03:53:46 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  12-05-2017 03:53:46 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  12-05-2017 03:53:46 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  12-05-2017 03:53:46 HHH10001003: Autocommit mode: false
+INFO  12-05-2017 03:53:46 HHH10001007: JDBC isolation level: <unknown>
+INFO  12-05-2017 03:53:46 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  12-05-2017 03:53:46 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  12-05-2017 03:53:46 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  12-05-2017 03:53:46 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@19564777] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 03:53:46 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2ca21610] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 03:53:47 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  12-05-2017 04:19:53 Data import successfully completed from file: D:\JSON_skipped\char255\problem char500\2007q4\drug-event-0003-of-0004.json
+INFO  12-05-2017 04:19:53 Importing file: D:\JSON_skipped\char255\problem char500\2012q4\drug-event-0006-of-0010.json
+INFO  12-05-2017 04:19:54 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  12-05-2017 04:19:54 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  12-05-2017 04:19:54 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  12-05-2017 04:19:54 HHH10001003: Autocommit mode: false
+INFO  12-05-2017 04:19:54 HHH10001007: JDBC isolation level: <unknown>
+INFO  12-05-2017 04:19:54 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  12-05-2017 04:19:54 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  12-05-2017 04:19:54 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  12-05-2017 04:19:54 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ab4e388] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 04:19:54 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3fd561f0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 04:19:55 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  12-05-2017 04:25:36 Data import successfully completed from file: D:\JSON_skipped\char255\problem char500\2012q4\drug-event-0006-of-0010.json
+INFO  12-05-2017 04:25:36 Importing file: D:\JSON_skipped\char255\problem char500\2014q1\drug-event-0008-of-0013.json
+INFO  12-05-2017 04:25:38 HHH000130: Instantiating explicit connection provider: org.hibernate.c3p0.internal.C3P0ConnectionProvider
+INFO  12-05-2017 04:25:38 HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://192.168.0.17:5432/faersdb
+INFO  12-05-2017 04:25:38 HHH10001001: Connection properties: {user=faers, password=****}
+INFO  12-05-2017 04:25:38 HHH10001003: Autocommit mode: false
+INFO  12-05-2017 04:25:38 HHH10001007: JDBC isolation level: <unknown>
+INFO  12-05-2017 04:25:38 HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+INFO  12-05-2017 04:25:38 HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+INFO  12-05-2017 04:25:38 HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@44b3606b
+INFO  12-05-2017 04:25:38 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@69368bbc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 04:25:38 HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@8374fa5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  12-05-2017 04:25:38 HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5e3a39cd'
+INFO  12-05-2017 04:34:02 Data import successfully completed from file: D:\JSON_skipped\char255\problem char500\2014q1\drug-event-0008-of-0013.json
