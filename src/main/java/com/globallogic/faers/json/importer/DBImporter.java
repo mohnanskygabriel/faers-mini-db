@@ -1,5 +1,6 @@
-package com.globallogic.faers.json;
+package com.globallogic.faers.json.importer;
 
+import com.globallogic.faers.json.DAO;
 import java.io.File;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -18,15 +19,15 @@ public class DBImporter {
     public void importJson(String json, String ip, String port, String db, String username, String password) {
         Logger logger = LogManager.getLogger(DBImporter.class);
         logger.info("Importing file: " + json);
-        JsonDAO dao = new JsonDAO();
+        DAO dao = new DAO();
         Event event;
         Session session = null;
         SessionFactory factory = null;
         Transaction tx = null;
         try {
-            event = dao.getEventFromJSON(json);            
+            event = dao.getEventFromJSON(json);
             Configuration configuration = new Configuration();
-            configuration.configure("hibernate.cfg.xml");
+            configuration.configure(new File("config/hibernate.cfg.xml"));
             String connectionURL = "jdbc:postgresql://" + ip + ":" + port + "/" + db;
             configuration.getProperties().setProperty("hibernate.connection.username", username);
             configuration.getProperties().setProperty("hibernate.connection.password", password);

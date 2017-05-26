@@ -1,17 +1,16 @@
 package com.globallogic.faers.app;
 
-import com.globallogic.faers.json.JsonDAO;
-import com.globallogic.faers.json.DBImporter;
-import com.globallogic.faers.jsondownloader.Downloader;
-import com.globallogic.faers.jsondownloader.DrugEventList;
-import com.globallogic.faers.jsondownloader.Partition;
-import com.globallogic.faers.zip.Extractor;
+import com.globallogic.faers.json.DAO;
+import com.globallogic.faers.json.importer.DBImporter;
+import com.globallogic.faers.zip.downloader.Downloader;
+import com.globallogic.faers.zip.downloader.DrugEventList;
+import com.globallogic.faers.zip.downloader.Partition;
+import com.globallogic.faers.zip.extractor.Extractor;
 import java.io.File;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Arrays;
 import java.util.List;
-
 import joptsimple.OptionParser;
 import joptsimple.OptionSet;
 import org.apache.logging.log4j.LogManager;
@@ -61,7 +60,7 @@ public class Cli {
             }
             Downloader downloader = new Downloader();
             downloader.download(downloadURL, destDirectory);
-            JsonDAO dao = new JsonDAO();
+            DAO dao = new DAO();
             DrugEventList list = dao.getDrugEventListFromJSON(destDirectory + File.separator + "download.json");
             List<Partition> partitionList = list.getResults().getDrug().getEvent().getPartitions();
             Double downloadSize = 0.0;

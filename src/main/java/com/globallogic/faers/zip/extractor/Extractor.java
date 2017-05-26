@@ -1,4 +1,4 @@
-package com.globallogic.faers.zip;
+package com.globallogic.faers.zip.extractor;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -13,11 +13,10 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.core.LoggerContext;
 
 public class Extractor {
-    
-    private Logger logger = LogManager.getLogger(Extractor.class);
-    
+
     public void extract(File zipFile, File destinationDirectory) {
         Logger logger = LogManager.getLogger(Extractor.class);
         ZipInputStream zipInputStream = null;
@@ -34,12 +33,12 @@ public class Extractor {
                 logger.info("Unzipping file: " + zipFile.getAbsolutePath() + "\n" + "Destination: " + newFile.getAbsolutePath());
                 new File(newFile.getParent()).mkdirs();
                 FileOutputStream fileOutputStream = new FileOutputStream(newFile);
-                
+
                 int len;
                 while ((len = zipInputStream.read(buffer)) > 0) {
                     fileOutputStream.write(buffer, 0, len);
                 }
-                
+
                 fileOutputStream.close();
                 ze = zipInputStream.getNextEntry();
             }
@@ -50,7 +49,7 @@ public class Extractor {
         } finally {
             try {
                 if (zipInputStream != null) {
-                    zipInputStream.close();                    
+                    zipInputStream.close();
                 }
                 logger.info("File unzipped succesfully!");
             } catch (IOException ex) {
@@ -58,7 +57,7 @@ public class Extractor {
             }
         }
     }
-    
+
     public List getAllZipFromDirectory(File sourceDirectory) {
         List<File> zipList = new LinkedList<>();
         Queue<File> directoryQueue = new LinkedList<>();
@@ -75,8 +74,9 @@ public class Extractor {
         }
         return zipList;
     }
-    
+
     public void extractAll(List<File> zipFileList, File destinationDirectory) {
+        Logger logger = LogManager.getLogger(Extractor.class);
         for (File zipFile : zipFileList) {
             String destinationDirectoryCompleteString = destinationDirectory.getAbsolutePath();
             destinationDirectoryCompleteString += File.separator + zipFile.getParentFile().getParentFile().getParentFile().getName();
@@ -87,5 +87,5 @@ public class Extractor {
         }
         logger.info("Unzipping: " + zipFileList.size() + " files successfully completed");
     }
-    
+
 }

@@ -1,4 +1,4 @@
-package com.globallogic.faers.json;
+package com.globallogic.faers.json.importer;
 
 import java.io.Serializable;
 import javax.persistence.Column;

@@ -7,8 +7,8 @@
                 <packaging>*</packaging>
             </packagings>
             <goals>
-                <goal>install</goal>
                 <goal>package</goal>
+                
             </goals>
         </action>
         <action>
@@ -60,7 +60,6 @@
         </action>
         <action>
             <actionName>clean</actionName>
-            <preAction>build-with-dependencies</preAction>
             <packagings>
                 <packaging>*</packaging>
             </packagings>
@@ -70,13 +69,12 @@
         </action>
         <action>
             <actionName>rebuild</actionName>
-            <preAction>build-with-dependencies</preAction>
             <packagings>
                 <packaging>*</packaging>
             </packagings>
             <goals>
                 <goal>clean</goal>
-                <goal>install</goal>
+                <goal>package</goal>
             </goals>
         </action>
     </actions>

@@ -1,21 +1,23 @@
 package com.globallogic.faers.json;
 
-import com.globallogic.faers.jsondownloader.DrugEventList;
+import com.globallogic.faers.json.importer.Event;
+import com.globallogic.faers.zip.downloader.DrugEventList;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonToken;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.core.LoggerContext;
 
-public class JsonDAO {
-
-    Logger logger = LogManager.getLogger(JsonDAO.class);
+public class DAO {
 
     public Event getEventFromJSON(String json) {
+        Logger logger = LogManager.getLogger(DAO.class);
         try {
             FileReader fR = new FileReader(json);
             Gson gson = new GsonBuilder().create();
@@ -38,6 +40,7 @@ public class JsonDAO {
     }
 
     public DrugEventList getDrugEventListFromJSON(String json) {
+        Logger logger = LogManager.getLogger(DAO.class);
         try {
             FileReader fR = new FileReader(json);
             Gson gson = new GsonBuilder().create();
