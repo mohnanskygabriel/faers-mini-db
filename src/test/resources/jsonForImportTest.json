@@ -1,0 +1,175 @@
+{
+    "meta": {
+        "last_updated": "2017-05-05",
+        "terms": "https://open.fda.gov/terms/",
+        "results": {
+            "skip": 19000,
+            "total": 207194,
+            "limit": 19000
+        },
+        "license": "https://open.fda.gov/license/",
+        "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service."
+    },
+    "results": [
+        {
+            "safetyreport": "1234567-8",
+            "receivedate": "20130128",
+            "receivedateformat": "102",
+            "transmissiondate": "20140127",
+            "companynumb": "BE-COVIDIEN/TYCO HEALTHCARE/MALLINCKRODT-T201300293",
+            "occurcountry": "BE",
+            "receiptdate": "20130128",
+            "transmissiondateformat": "102",
+            "receiptdateformat": "102",
+            "duplicate": "1",
+            "seriousnessdeath": "1",
+            "seriousnessdisabling": "1",
+            "seriousnesshospitalization": "1",
+            "seriousnesslifethreatening": "1",
+            "seriousnessother": "1",
+            "serious": "1",
+            "safetyreportversion": "1",
+            "fulfillexpeditecriteria": "1",
+            "safetyreportid": "9034810",
+            "primarysourcecountry": "BE",
+            "seriousnesscongenitalanomali": "1",
+            "drugdoseagetext": "SOME TEXT",
+            "patient": {
+                "patientonsetage": "34",
+                "patientsex": "2",
+                "patientonsetageunit": "801",
+                "patientweight": "78",
+                "reaction": [
+                    {
+                        "reactionmeddrapt": "Accidental poisoning",
+                        "reactionmeddraversionpt": "16.1",
+                        "reactionoutcome": "5"
+                    }
+                ],
+                "patientdeath": {
+                    "patientdeathdate": "20030401",
+                    "patientdeathdateformat": "102"
+                },
+                "drug": [
+                    {
+                        "drugdosagetext": "UNK",
+                        "actiondrug": "1",
+                        "drugadditional": "1",
+                        "drugcumulativedosagenumb": "4100",
+                        "drugcumulativedosageunit": "003",
+                        "drugdosageform": "Tablet",
+                        "drugintervaldosagedefinition": "804",
+                        "drugintervaldosageunitnumb": "1",
+                        "drugrecurreadministration": "3",
+                        "drugseparatedosagenumb": "1",
+                        "drugstructuredosagenumb": "600",
+                        "drugstructuredosageunit": "003",
+                        "drugadministrationroute": "048",
+                        "drugauthorizationnumb": "021223",
+                        "drugbatchnumb": "020113A",
+                        "drugcharacterization": "1",
+                        "drugdoseagetext": "3.5 MG/KG, 1 IN 1 AS NECESSARY, INTRAVENOUS DRIP",
+                        "drugenddate": "20020920",
+                        "drugenddateformat": "102",
+                        "drugindication": "RHEUMATOID ARTHRITIS",
+                        "drugstartdate": "20020903",
+                        "drugstartdateformat": "102",
+                        "drugtreatmentduration": "1",
+                        "drugtreatmentdurationunit": "804",
+                        "medicinalproduct": "ASCORBIC ACID",
+                        "openfda": {
+                            "application_number": [
+                                "NDA022047",
+                                "NDA020639"
+                            ],
+                            "spl_id": [
+                                "f67ce1df-27ea-4c67-a8a3-daf3fb3b9a92",
+                                "72133842-ac3f-4a39-a825-38e01930a0a7"
+                            ],
+                            "product_ndc": [
+                                "0389-0486",
+                                "67457-118"
+                            ],
+                            "route": [
+                                "INTRAMUSCULAR",
+                                "INTRAVENOUS"
+                            ],
+                            "substance_name": [
+                                "ASCORBIC ACID",
+                                "RISEDRONATE SODIUM"
+                            ],
+                            "rxcui": [
+                                "308395",
+                                "721797"
+                            ],
+                            "spl_set_id": [
+                                "a6c36a36-28ee-4a1b-86fe-98ef94064b68",
+                                "d05200cb-cf29-4bc7-bf0c-b42ab2d20958"
+                            ],
+                            "package_ndc": [
+                                "67457-118-50",
+                                "0389-0486-50"
+                            ],
+                            "product_type": [
+                                "HUMAN PRESCRIPTION DRUG",
+                                "HUMAN OTC DRUG"
+                            ],
+                            "generic_name": [
+                                "ASCORBIC ACID",
+                                "LISINOPRIL"
+                            ],
+                            "manufacturer_name": [
+                                "The Torrance Company",
+                                "Mylan Institutional LLC"
+                            ],
+                            "brand_name": [
+                                "ASCORBIC ACID",
+                                "LISINOPRIL"
+                            ],
+                            "nui": [
+                                "N0000175556",
+                                "N0000000161"
+                            ],
+                            "pharm_class_cs": [
+                                "Platinum-containing Compounds [Chemical/Ingredient]",
+                                "Androstanes [Chemical/Ingredient]"
+                            ],
+                            "pharm_class_epc": [
+                                "beta-Adrenergic Blocker [EPC]",
+                                "Kinase Inhibitor [EPC]"
+                            ],
+                            "pharm_class_moa": [
+                                "Protein Kinase Inhibitors [MoA]",
+                                "Cytochrome P450 2C8 Inducers [MoA]"
+                            ],
+                            "pharm_class_pe": [
+                                "Microtubule Inhibition [PE]",
+                                "Decreased Immunologically Active Molecule Activity [PE]"
+                            ],
+                            "unii": [
+                                "2S3PL1B6UJ",
+                                "E7199S1YWR"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "sender": {
+                "senderorganization": "FDA-Public Use",
+                "sendertype": "2"
+            },
+            "primarysource": {
+                "reportercountry": "BE",
+                "qualification": "3"
+            },
+            "reportduplicate": {
+                "duplicatenumb": "BE-COVIDIEN/TYCO HEALTHCARE/MALLINCKRODT-T201300293",
+                "duplicatesource": "COVIDIEN"
+            },
+            "receiver": {
+                "receiverorganization": "FDA",
+                "receivertype": "6"
+            }
+        }
+    ]
+}

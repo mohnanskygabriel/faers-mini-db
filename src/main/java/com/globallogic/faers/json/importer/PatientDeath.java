@@ -2,7 +2,7 @@ package com.globallogic.faers.json.importer;
 
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
-import java.util.Date;
+import java.util.Objects;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -21,11 +21,11 @@ public class PatientDeath implements Serializable {
 
     @SerializedName("patientdeathdate")
     @Column(name = "death_date", columnDefinition = "date")
-    private Date patientDeathDate;
+    private String patientDeathDate;
 
     @SerializedName("patientdeathdateformat")
     @Column(name = "date_format", columnDefinition = "smallint")
-    private Integer patientDeathDateFormat;
+    private String patientDeathDateFormat;
 
     public Long getId() {
         return id;
@@ -35,20 +35,53 @@ public class PatientDeath implements Serializable {
         this.id = id;
     }
 
-    public Date getPatientDeathDate() {
+    public String getPatientDeathDate() {
         return patientDeathDate;
     }
 
-    public void setPatientDeathDate(Date patientDeathDate) {
+    public void setPatientDeathDate(String patientDeathDate) {
         this.patientDeathDate = patientDeathDate;
     }
 
-    public Integer getPatientDeathDateFormat() {
+    public String getPatientDeathDateFormat() {
         return patientDeathDateFormat;
     }
 
-    public void setPatientDeathDateFormat(Integer patientDeathDateFormat) {
+    public void setPatientDeathDateFormat(String patientDeathDateFormat) {
         this.patientDeathDateFormat = patientDeathDateFormat;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 67 * hash + Objects.hashCode(this.id);
+        hash = 67 * hash + Objects.hashCode(this.patientDeathDate);
+        hash = 67 * hash + Objects.hashCode(this.patientDeathDateFormat);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final PatientDeath other = (PatientDeath) obj;
+        if (!Objects.equals(this.patientDeathDate, other.patientDeathDate)) {
+            return false;
+        }
+        if (!Objects.equals(this.id, other.id)) {
+            return false;
+        }
+        if (!Objects.equals(this.patientDeathDateFormat, other.patientDeathDateFormat)) {
+            return false;
+        }
+        return true;
     }
 
 }

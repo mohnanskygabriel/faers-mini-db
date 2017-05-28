@@ -3,6 +3,7 @@ package com.globallogic.faers.json.importer;
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 import java.util.List;
+import java.util.Objects;
 import javax.persistence.CollectionTable;
 import javax.persistence.Column;
 import javax.persistence.ElementCollection;
@@ -272,5 +273,104 @@ public class OpenFDA implements Serializable {
     public void setUnii(List<String> unii) {
         this.unii = unii;
     }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 29 * hash + Objects.hashCode(this.id);
+        hash = 29 * hash + Objects.hashCode(this.splID);
+        hash = 29 * hash + Objects.hashCode(this.applicationNumber);
+        hash = 29 * hash + Objects.hashCode(this.productNDC);
+        hash = 29 * hash + Objects.hashCode(this.route);
+        hash = 29 * hash + Objects.hashCode(this.nui);
+        hash = 29 * hash + Objects.hashCode(this.substanceName);
+        hash = 29 * hash + Objects.hashCode(this.rxcui);
+        hash = 29 * hash + Objects.hashCode(this.spl_Set_ID);
+        hash = 29 * hash + Objects.hashCode(this.packageNDC);
+        hash = 29 * hash + Objects.hashCode(this.productType);
+        hash = 29 * hash + Objects.hashCode(this.genericName);
+        hash = 29 * hash + Objects.hashCode(this.manufacturerName);
+        hash = 29 * hash + Objects.hashCode(this.brand_Name);
+        hash = 29 * hash + Objects.hashCode(this.pharmClassCS);
+        hash = 29 * hash + Objects.hashCode(this.pharmClassEPC);
+        hash = 29 * hash + Objects.hashCode(this.pharmClassPE);
+        hash = 29 * hash + Objects.hashCode(this.pharmClassMOA);
+        hash = 29 * hash + Objects.hashCode(this.unii);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final OpenFDA other = (OpenFDA) obj;
+        if (!Objects.equals(this.id, other.id)) {
+            return false;
+        }
+        if (!Objects.equals(this.splID, other.splID)) {
+            return false;
+        }
+        if (!Objects.equals(this.applicationNumber, other.applicationNumber)) {
+            return false;
+        }
+        if (!Objects.equals(this.productNDC, other.productNDC)) {
+            return false;
+        }
+        if (!Objects.equals(this.route, other.route)) {
+            return false;
+        }
+        if (!Objects.equals(this.nui, other.nui)) {
+            return false;
+        }
+        if (!Objects.equals(this.substanceName, other.substanceName)) {
+            return false;
+        }
+        if (!Objects.equals(this.rxcui, other.rxcui)) {
+            return false;
+        }
+        if (!Objects.equals(this.spl_Set_ID, other.spl_Set_ID)) {
+            return false;
+        }
+        if (!Objects.equals(this.packageNDC, other.packageNDC)) {
+            return false;
+        }
+        if (!Objects.equals(this.productType, other.productType)) {
+            return false;
+        }
+        if (!Objects.equals(this.genericName, other.genericName)) {
+            return false;
+        }
+        if (!Objects.equals(this.manufacturerName, other.manufacturerName)) {
+            return false;
+        }
+        if (!Objects.equals(this.brand_Name, other.brand_Name)) {
+            return false;
+        }
+        if (!Objects.equals(this.pharmClassCS, other.pharmClassCS)) {
+            return false;
+        }
+        if (!Objects.equals(this.pharmClassEPC, other.pharmClassEPC)) {
+            return false;
+        }
+        if (!Objects.equals(this.pharmClassPE, other.pharmClassPE)) {
+            return false;
+        }
+        if (!Objects.equals(this.pharmClassMOA, other.pharmClassMOA)) {
+            return false;
+        }
+        if (!Objects.equals(this.unii, other.unii)) {
+            return false;
+        }
+        return true;
+    }
+    
+    
 
 }

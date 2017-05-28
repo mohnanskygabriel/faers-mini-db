@@ -1,2 +1,0 @@
-INFO  26-05-2017 19:20:21 Cli started with args: [-import, D:/JSON/EXTRACTED, -db, faersdb, -ip, 192.168.0.17, -port, 5432, -user, faers, -pass, *]
-INFO  26-05-2017 19:20:21 Importing file: D:\JSON\EXTRACTED\drug\event\2011q4\drug-event-0006-of-0007.json

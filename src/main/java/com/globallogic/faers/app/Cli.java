@@ -65,13 +65,13 @@ public class Cli {
             List<Partition> partitionList = list.getResults().getDrug().getEvent().getPartitions();
             Double downloadSize = 0.0;
             for (Partition partition : partitionList) {
-                downloadSize += partition.getSizeMB();
+                downloadSize += Double.parseDouble(partition.getSizeMB());
             }
             int i = 1;
             for (Partition partition : partitionList) {
                 logger.info("Downloading partition: " + i + "(" + partition.getSizeMB() + " MB)" + File.separator + partitionList.size());
                 downloader.download(partition.getFileURL(), destDirectory);
-                downloadSize -= partition.getSizeMB();
+                downloadSize -=  Double.parseDouble(partition.getSizeMB());
                 Double dowloadSizeTruncated = BigDecimal.valueOf(downloadSize).setScale(2, RoundingMode.HALF_UP).doubleValue();
                 logger.info("Partition downloaded, remaining: " + dowloadSizeTruncated + " MB");
                 i++;

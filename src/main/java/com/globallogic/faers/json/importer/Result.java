@@ -2,6 +2,7 @@ package com.globallogic.faers.json.importer;
 
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
+import java.util.Objects;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,8 +10,6 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
@@ -90,7 +89,7 @@ public class Result implements Serializable {
     private String safetyReportID;
 
     @Column(columnDefinition = "smallint")
-    private Integer duplicate;
+    private String duplicate;
 
     @SerializedName("occurcountry")
     @Column(name = "occur_country")
@@ -265,11 +264,11 @@ public class Result implements Serializable {
         this.safetyReportID = safetyReportID;
     }
 
-    public Integer getDuplicate() {
+    public String getDuplicate() {
         return duplicate;
     }
 
-    public void setDuplicate(Integer duplicate) {
+    public void setDuplicate(String duplicate) {
         this.duplicate = duplicate;
     }
 
@@ -335,6 +334,135 @@ public class Result implements Serializable {
 
     public void setReceiver(Receiver receiver) {
         this.receiver = receiver;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 37 * hash + Objects.hashCode(this.id);
+        hash = 37 * hash + Objects.hashCode(this.safetyReport);
+        hash = 37 * hash + Objects.hashCode(this.safetyReportversion);
+        hash = 37 * hash + Objects.hashCode(this.receiveDate);
+        hash = 37 * hash + Objects.hashCode(this.seriousnessCongenitalAnomali);
+        hash = 37 * hash + Objects.hashCode(this.seriousnessDeath);
+        hash = 37 * hash + Objects.hashCode(this.seriousnessDisabling);
+        hash = 37 * hash + Objects.hashCode(this.seriousnessHospitalization);
+        hash = 37 * hash + Objects.hashCode(this.seriousnessLifeThreatening);
+        hash = 37 * hash + Objects.hashCode(this.seriousnessOther);
+        hash = 37 * hash + Objects.hashCode(this.receiptDate);
+        hash = 37 * hash + Objects.hashCode(this.transmissionDate);
+        hash = 37 * hash + Objects.hashCode(this.transmissionDateFormat);
+        hash = 37 * hash + Objects.hashCode(this.receiptDateFormat);
+        hash = 37 * hash + Objects.hashCode(this.serious);
+        hash = 37 * hash + Objects.hashCode(this.receiveDateFormat);
+        hash = 37 * hash + Objects.hashCode(this.fulfillExpediteCriteria);
+        hash = 37 * hash + Objects.hashCode(this.safetyReportID);
+        hash = 37 * hash + Objects.hashCode(this.duplicate);
+        hash = 37 * hash + Objects.hashCode(this.occurCountry);
+        hash = 37 * hash + Objects.hashCode(this.primarySourceCountry);
+        hash = 37 * hash + Objects.hashCode(this.companyNumb);
+        hash = 37 * hash + Objects.hashCode(this.patient);
+        hash = 37 * hash + Objects.hashCode(this.sender);
+        hash = 37 * hash + Objects.hashCode(this.primarySource);
+        hash = 37 * hash + Objects.hashCode(this.reportDuplicate);
+        hash = 37 * hash + Objects.hashCode(this.receiver);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Result other = (Result) obj;
+        if (!Objects.equals(this.safetyReport, other.safetyReport)) {
+            return false;
+        }
+        if (!Objects.equals(this.safetyReportversion, other.safetyReportversion)) {
+            return false;
+        }
+        if (!Objects.equals(this.receiveDate, other.receiveDate)) {
+            return false;
+        }
+        if (!Objects.equals(this.seriousnessCongenitalAnomali, other.seriousnessCongenitalAnomali)) {
+            return false;
+        }
+        if (!Objects.equals(this.seriousnessDeath, other.seriousnessDeath)) {
+            return false;
+        }
+        if (!Objects.equals(this.seriousnessDisabling, other.seriousnessDisabling)) {
+            return false;
+        }
+        if (!Objects.equals(this.seriousnessHospitalization, other.seriousnessHospitalization)) {
+            return false;
+        }
+        if (!Objects.equals(this.seriousnessLifeThreatening, other.seriousnessLifeThreatening)) {
+            return false;
+        }
+        if (!Objects.equals(this.seriousnessOther, other.seriousnessOther)) {
+            return false;
+        }
+        if (!Objects.equals(this.receiptDate, other.receiptDate)) {
+            return false;
+        }
+        if (!Objects.equals(this.transmissionDate, other.transmissionDate)) {
+            return false;
+        }
+        if (!Objects.equals(this.transmissionDateFormat, other.transmissionDateFormat)) {
+            return false;
+        }
+        if (!Objects.equals(this.receiptDateFormat, other.receiptDateFormat)) {
+            return false;
+        }
+        if (!Objects.equals(this.serious, other.serious)) {
+            return false;
+        }
+        if (!Objects.equals(this.receiveDateFormat, other.receiveDateFormat)) {
+            return false;
+        }
+        if (!Objects.equals(this.fulfillExpediteCriteria, other.fulfillExpediteCriteria)) {
+            return false;
+        }
+        if (!Objects.equals(this.safetyReportID, other.safetyReportID)) {
+            return false;
+        }
+        if (!Objects.equals(this.occurCountry, other.occurCountry)) {
+            return false;
+        }
+        if (!Objects.equals(this.primarySourceCountry, other.primarySourceCountry)) {
+            return false;
+        }
+        if (!Objects.equals(this.companyNumb, other.companyNumb)) {
+            return false;
+        }
+        if (!Objects.equals(this.id, other.id)) {
+            return false;
+        }
+        if (!Objects.equals(this.duplicate, other.duplicate)) {
+            return false;
+        }
+        if (!Objects.equals(this.patient, other.patient)) {
+            return false;
+        }
+        if (!Objects.equals(this.sender, other.sender)) {
+            return false;
+        }
+        if (!Objects.equals(this.primarySource, other.primarySource)) {
+            return false;
+        }
+        if (!Objects.equals(this.reportDuplicate, other.reportDuplicate)) {
+            return false;
+        }
+        if (!Objects.equals(this.receiver, other.receiver)) {
+            return false;
+        }
+        return true;
     }
 
 }

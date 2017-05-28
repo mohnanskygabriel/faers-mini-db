@@ -2,6 +2,7 @@ package com.globallogic.faers.json.importer;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Objects;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -53,6 +54,39 @@ public class Event implements Serializable {
 
     public void setResults(List<Result> results) {
         this.results = results;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 89 * hash + Objects.hashCode(this.id);
+        hash = 89 * hash + Objects.hashCode(this.meta);
+        hash = 89 * hash + Objects.hashCode(this.results);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Event other = (Event) obj;
+        if (!Objects.equals(this.id, other.id)) {
+            return false;
+        }
+        if (!Objects.equals(this.meta, other.meta)) {
+            return false;
+        }
+        if (!Objects.equals(this.results, other.results)) {
+            return false;
+        }
+        return true;
     }
 
 }

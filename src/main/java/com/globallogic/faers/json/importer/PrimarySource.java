@@ -2,6 +2,7 @@ package com.globallogic.faers.json.importer;
 
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
+import java.util.Objects;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -23,7 +24,7 @@ public class PrimarySource implements Serializable {
     private String reporterCountry;
 
     @Column(columnDefinition = "smallint")
-    private Integer qualification;
+    private String qualification;
 
     public Long getId() {
         return id;
@@ -41,12 +42,45 @@ public class PrimarySource implements Serializable {
         this.reporterCountry = reporterCountry;
     }
 
-    public Integer getQualification() {
+    public String getQualification() {
         return qualification;
     }
 
-    public void setQualification(Integer qualification) {
+    public void setQualification(String qualification) {
         this.qualification = qualification;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 31 * hash + Objects.hashCode(this.id);
+        hash = 31 * hash + Objects.hashCode(this.reporterCountry);
+        hash = 31 * hash + Objects.hashCode(this.qualification);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final PrimarySource other = (PrimarySource) obj;
+        if (!Objects.equals(this.reporterCountry, other.reporterCountry)) {
+            return false;
+        }
+        if (!Objects.equals(this.id, other.id)) {
+            return false;
+        }
+        if (!Objects.equals(this.qualification, other.qualification)) {
+            return false;
+        }
+        return true;
     }
 
 }

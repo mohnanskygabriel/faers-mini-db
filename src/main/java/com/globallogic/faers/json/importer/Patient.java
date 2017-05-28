@@ -3,6 +3,7 @@ package com.globallogic.faers.json.importer;
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 import java.util.List;
+import java.util.Objects;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -27,19 +28,19 @@ public class Patient implements Serializable {
 
     @SerializedName("patientonsetage")
     @Column(name = "onset_age")
-    private Integer patientOnsetAge;
+    private String patientOnsetAge;
 
     @SerializedName("patientonsetageunit")
     @Column(name = "onset_age_unit", columnDefinition = "smallint")
-    private Integer patientOnsetAgeUnit;
+    private String patientOnsetAgeUnit;
 
     @SerializedName("patientsex")
     @Column(name = "sex", columnDefinition = "smallint")
-    private Integer patientSex;
+    private String patientSex;
 
     @SerializedName("patientweight")
     @Column(name = "weight", columnDefinition = "real")
-    private Double patientWeight;
+    private String patientWeight;
 
     @SerializedName("patientdeath")
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
@@ -61,35 +62,35 @@ public class Patient implements Serializable {
         this.id = id;
     }
 
-    public Integer getPatientOnsetAge() {
+    public String getPatientOnsetAge() {
         return patientOnsetAge;
     }
 
-    public void setPatientOnsetAge(Integer patientOnsetAge) {
+    public void setPatientOnsetAge(String patientOnsetAge) {
         this.patientOnsetAge = patientOnsetAge;
     }
 
-    public Integer getPatientOnsetAgeUnit() {
+    public String getPatientOnsetAgeUnit() {
         return patientOnsetAgeUnit;
     }
 
-    public void setPatientOnsetAgeUnit(Integer patientOnsetAgeUnit) {
+    public void setPatientOnsetAgeUnit(String patientOnsetAgeUnit) {
         this.patientOnsetAgeUnit = patientOnsetAgeUnit;
     }
 
-    public Integer getPatientSex() {
+    public String getPatientSex() {
         return patientSex;
     }
 
-    public void setPatientSex(Integer patientSex) {
+    public void setPatientSex(String patientSex) {
         this.patientSex = patientSex;
     }
 
-    public Double getPatientWeight() {
+    public String getPatientWeight() {
         return patientWeight;
     }
 
-    public void setPatientWeight(Double patientWeight) {
+    public void setPatientWeight(String patientWeight) {
         this.patientWeight = patientWeight;
     }
 
@@ -115,6 +116,59 @@ public class Patient implements Serializable {
 
     public void setReaction(List<Reaction> reaction) {
         this.reaction = reaction;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 97 * hash + Objects.hashCode(this.id);
+        hash = 97 * hash + Objects.hashCode(this.patientOnsetAge);
+        hash = 97 * hash + Objects.hashCode(this.patientOnsetAgeUnit);
+        hash = 97 * hash + Objects.hashCode(this.patientSex);
+        hash = 97 * hash + Objects.hashCode(this.patientWeight);
+        hash = 97 * hash + Objects.hashCode(this.patientDeath);
+        hash = 97 * hash + Objects.hashCode(this.drug);
+        hash = 97 * hash + Objects.hashCode(this.reaction);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Patient other = (Patient) obj;
+        if (!Objects.equals(this.id, other.id)) {
+            return false;
+        }
+        if (!Objects.equals(this.patientOnsetAge, other.patientOnsetAge)) {
+            return false;
+        }
+        if (!Objects.equals(this.patientOnsetAgeUnit, other.patientOnsetAgeUnit)) {
+            return false;
+        }
+        if (!Objects.equals(this.patientSex, other.patientSex)) {
+            return false;
+        }
+        if (!Objects.equals(this.patientWeight, other.patientWeight)) {
+            return false;
+        }
+        if (!Objects.equals(this.patientDeath, other.patientDeath)) {
+            return false;
+        }
+        if (!Objects.equals(this.drug, other.drug)) {
+            return false;
+        }
+        if (!Objects.equals(this.reaction, other.reaction)) {
+            return false;
+        }
+        return true;
     }
 
 }

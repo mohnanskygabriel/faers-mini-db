@@ -2,6 +2,7 @@ package com.globallogic.faers.json.importer;
 
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
+import java.util.Objects;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -24,11 +25,11 @@ public class Reaction implements Serializable {
 
     @SerializedName("reactionmeddraversionpt")
     @Column(name = "meddra_version_pt", columnDefinition = "real")
-    private Double reactionMedDRAVersionPT;
+    private String reactionMedDRAVersionPT;
 
     @SerializedName("reactionoutcome")
     @Column(name = "outcome", columnDefinition = "smallint")
-    private Integer reactionOutcome;
+    private String reactionOutcome;
 
     public Long getId() {
         return id;
@@ -46,20 +47,57 @@ public class Reaction implements Serializable {
         this.reactionMedDRAPT = reactionMedDRAPT;
     }
 
-    public Double getReactionMedDRAVersionPT() {
+    public String getReactionMedDRAVersionPT() {
         return reactionMedDRAVersionPT;
     }
 
-    public void setReactionMedDRAVersionPT(Double reactionMedDRAVersionPT) {
+    public void setReactionMedDRAVersionPT(String reactionMedDRAVersionPT) {
         this.reactionMedDRAVersionPT = reactionMedDRAVersionPT;
     }
 
-    public Integer getReactionOutcome() {
+    public String getReactionOutcome() {
         return reactionOutcome;
     }
 
-    public void setReactionOutcome(Integer reactionOutcome) {
+    public void setReactionOutcome(String reactionOutcome) {
         this.reactionOutcome = reactionOutcome;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 83 * hash + Objects.hashCode(this.id);
+        hash = 83 * hash + Objects.hashCode(this.reactionMedDRAPT);
+        hash = 83 * hash + Objects.hashCode(this.reactionMedDRAVersionPT);
+        hash = 83 * hash + Objects.hashCode(this.reactionOutcome);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Reaction other = (Reaction) obj;
+        if (!Objects.equals(this.reactionMedDRAPT, other.reactionMedDRAPT)) {
+            return false;
+        }
+        if (!Objects.equals(this.id, other.id)) {
+            return false;
+        }
+        if (!Objects.equals(this.reactionMedDRAVersionPT, other.reactionMedDRAVersionPT)) {
+            return false;
+        }
+        if (!Objects.equals(this.reactionOutcome, other.reactionOutcome)) {
+            return false;
+        }
+        return true;
     }
 
 }

@@ -2,6 +2,7 @@ package com.globallogic.faers.json.importer;
 
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
+import java.util.Objects;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -23,19 +24,19 @@ public class Drug implements Serializable {
 
     @SerializedName("actiondrug")
     @Column(name = "action_drug", columnDefinition = "smallint")
-    private Integer actionDrug;
+    private String actionDrug;
 
     @SerializedName("drugadditional")
     @Column(name = "additional", columnDefinition = "smallint")
-    private Integer drugAdditional;
+    private String drugAdditional;
 
     @SerializedName("drugcumulativedosagenumb")
     @Column(name = "cumulative_dosage_numb")
-    private Double drugCumulativeDosageNumb;
+    private String drugCumulativeDosageNumb;
 
     @SerializedName("drugcumulativedosageunit")
     @Column(name = "cumulative_dosage_unit", columnDefinition = "smallint")
-    private Integer drugCumulativeDosageUnit;
+    private String drugCumulativeDosageUnit;
 
     @SerializedName("drugdosageform")
     @Column(name = "dosage_form", columnDefinition = "text")
@@ -43,19 +44,19 @@ public class Drug implements Serializable {
 
     @SerializedName("drugintervaldosagedefinition")
     @Column(name = "interval_dosage_definition", columnDefinition = "smallint")
-    private Integer drugIntervalDosageDefinition;
+    private String drugIntervalDosageDefinition;
 
     @SerializedName("drugintervaldosageunitnumb")
     @Column(name = "interval_dosage_unit_numb")
-    private Integer drugIntervalDosageUnitNumb;
+    private String drugIntervalDosageUnitNumb;
 
     @SerializedName("drugrecurreadministration")
     @Column(name = "recurre_administration", columnDefinition = "smallint")
-    private Integer drugRecurreAdministration;
+    private String drugRecurreAdministration;
 
     @SerializedName("drugseparatedosagenumb")
     @Column(name = "separate_dosage_numb")
-    private Integer drugSeparateDosageNumb;
+    private String drugSeparateDosageNumb;
 
     @SerializedName("drugstructuredosagenumb")
     @Column(name = "structure_dosage_numb", columnDefinition = "text")
@@ -63,11 +64,11 @@ public class Drug implements Serializable {
 
     @SerializedName("drugstructuredosageunit")
     @Column(name = "structure_dosage_unit", columnDefinition = "smallint")
-    private Integer drugStructureDosageUnit;
+    private String drugStructureDosageUnit;
 
     @SerializedName("drugadministrationroute")
     @Column(name = "administration_route", columnDefinition = "smallint")
-    private Integer drugAdministrationRoute;
+    private String drugAdministrationRoute;
 
     @SerializedName("drugauthorizationnumb")
     @Column(name = "authorization_numb", columnDefinition = "text")
@@ -79,7 +80,7 @@ public class Drug implements Serializable {
 
     @SerializedName("drugcharacterization")
     @Column(name = "characterization", columnDefinition = "smallint")
-    private Integer drugCharacterization;
+    private String drugCharacterization;
 
     @SerializedName("drugdoseagetext")
     @Column(name = "doseage_text", columnDefinition = "text")
@@ -91,7 +92,7 @@ public class Drug implements Serializable {
 
     @SerializedName("drugenddateformat")
     @Column(name = "end_date_format", columnDefinition = "smallint")
-    private Integer drugEndDateFormat;
+    private String drugEndDateFormat;
 
     @SerializedName("drugindication")
     @Column(name = "indication", columnDefinition = "text")
@@ -103,7 +104,7 @@ public class Drug implements Serializable {
 
     @SerializedName("drugstartdateformat")
     @Column(name = "start_date_format", columnDefinition = "smallint")
-    private Integer drugStartDateFormat;
+    private String drugStartDateFormat;
 
     @SerializedName("drugtreatmentduration")
     @Column(name = "treatment_duration", columnDefinition = "text")
@@ -111,7 +112,7 @@ public class Drug implements Serializable {
 
     @SerializedName("drugtreatmentdurationunit")
     @Column(name = "treatment_duration_unit", columnDefinition = "smallint")
-    private Integer drugTreatmentDurationUnit;
+    private String drugTreatmentDurationUnit;
 
     @SerializedName("medicinalproduct")
     @Column(name = "medicinal_product", columnDefinition = "text")
@@ -129,35 +130,35 @@ public class Drug implements Serializable {
         this.id = id;
     }
 
-    public Integer getActionDrug() {
+    public String getActionDrug() {
         return actionDrug;
     }
 
-    public void setActionDrug(Integer actionDrug) {
+    public void setActionDrug(String actionDrug) {
         this.actionDrug = actionDrug;
     }
 
-    public Integer getDrugAdditional() {
+    public String getDrugAdditional() {
         return drugAdditional;
     }
 
-    public void setDrugAdditional(Integer drugAdditional) {
+    public void setDrugAdditional(String drugAdditional) {
         this.drugAdditional = drugAdditional;
     }
 
-    public Double getDrugCumulativeDosageNumb() {
+    public String getDrugCumulativeDosageNumb() {
         return drugCumulativeDosageNumb;
     }
 
-    public void setDrugCumulativeDosageNumb(Double drugCumulativeDosageNumb) {
+    public void setDrugCumulativeDosageNumb(String drugCumulativeDosageNumb) {
         this.drugCumulativeDosageNumb = drugCumulativeDosageNumb;
     }
 
-    public Integer getDrugCumulativeDosageUnit() {
+    public String getDrugCumulativeDosageUnit() {
         return drugCumulativeDosageUnit;
     }
 
-    public void setDrugCumulativeDosageUnit(Integer drugCumulativeDosageUnit) {
+    public void setDrugCumulativeDosageUnit(String drugCumulativeDosageUnit) {
         this.drugCumulativeDosageUnit = drugCumulativeDosageUnit;
     }
 
@@ -169,35 +170,35 @@ public class Drug implements Serializable {
         this.drugDosageForm = drugDosageForm;
     }
 
-    public Integer getDrugIntervalDosageDefinition() {
+    public String getDrugIntervalDosageDefinition() {
         return drugIntervalDosageDefinition;
     }
 
-    public void setDrugIntervalDosageDefinition(Integer drugIntervalDosageDefinition) {
+    public void setDrugIntervalDosageDefinition(String drugIntervalDosageDefinition) {
         this.drugIntervalDosageDefinition = drugIntervalDosageDefinition;
     }
 
-    public Integer getDrugIntervalDosageUnitNumb() {
+    public String getDrugIntervalDosageUnitNumb() {
         return drugIntervalDosageUnitNumb;
     }
 
-    public void setDrugIntervalDosageUnitNumb(Integer drugIntervalDosageUnitNumb) {
+    public void setDrugIntervalDosageUnitNumb(String drugIntervalDosageUnitNumb) {
         this.drugIntervalDosageUnitNumb = drugIntervalDosageUnitNumb;
     }
 
-    public Integer getDrugRecurreAdministration() {
+    public String getDrugRecurreAdministration() {
         return drugRecurreAdministration;
     }
 
-    public void setDrugRecurreAdministration(Integer drugRecurreAdministration) {
+    public void setDrugRecurreAdministration(String drugRecurreAdministration) {
         this.drugRecurreAdministration = drugRecurreAdministration;
     }
 
-    public Integer getDrugSeparateDosageNumb() {
+    public String getDrugSeparateDosageNumb() {
         return drugSeparateDosageNumb;
     }
 
-    public void setDrugSeparateDosageNumb(Integer drugSeparateDosageNumb) {
+    public void setDrugSeparateDosageNumb(String drugSeparateDosageNumb) {
         this.drugSeparateDosageNumb = drugSeparateDosageNumb;
     }
 
@@ -209,19 +210,19 @@ public class Drug implements Serializable {
         this.drugStructureDosageNumb = drugStructureDosageNumb;
     }
 
-    public Integer getDrugStructureDosageUnit() {
+    public String getDrugStructureDosageUnit() {
         return drugStructureDosageUnit;
     }
 
-    public void setDrugStructureDosageUnit(Integer drugStructureDosageUnit) {
+    public void setDrugStructureDosageUnit(String drugStructureDosageUnit) {
         this.drugStructureDosageUnit = drugStructureDosageUnit;
     }
 
-    public Integer getDrugAdministrationRoute() {
+    public String getDrugAdministrationRoute() {
         return drugAdministrationRoute;
     }
 
-    public void setDrugAdministrationRoute(Integer drugAdministrationRoute) {
+    public void setDrugAdministrationRoute(String drugAdministrationRoute) {
         this.drugAdministrationRoute = drugAdministrationRoute;
     }
 
@@ -241,11 +242,11 @@ public class Drug implements Serializable {
         this.drugBatchNumb = drugBatchNumb;
     }
 
-    public Integer getDrugCharacterization() {
+    public String getDrugCharacterization() {
         return drugCharacterization;
     }
 
-    public void setDrugCharacterization(Integer drugCharacterization) {
+    public void setDrugCharacterization(String drugCharacterization) {
         this.drugCharacterization = drugCharacterization;
     }
 
@@ -265,11 +266,11 @@ public class Drug implements Serializable {
         this.drugEndDate = drugEndDate;
     }
 
-    public Integer getDrugEndDateFormat() {
+    public String getDrugEndDateFormat() {
         return drugEndDateFormat;
     }
 
-    public void setDrugEndDateFormat(Integer drugEndDateFormat) {
+    public void setDrugEndDateFormat(String drugEndDateFormat) {
         this.drugEndDateFormat = drugEndDateFormat;
     }
 
@@ -289,11 +290,11 @@ public class Drug implements Serializable {
         this.drugStartDate = drugStartDate;
     }
 
-    public Integer getDrugStartDateFormat() {
+    public String getDrugStartDateFormat() {
         return drugStartDateFormat;
     }
 
-    public void setDrugStartDateFormat(Integer drugStartDateFormat) {
+    public void setDrugStartDateFormat(String drugStartDateFormat) {
         this.drugStartDateFormat = drugStartDateFormat;
     }
 
@@ -305,11 +306,11 @@ public class Drug implements Serializable {
         this.drugTreatmentDuration = drugTreatmentDuration;
     }
 
-    public Integer getDrugTreatmentDurationUnit() {
+    public String getDrugTreatmentDurationUnit() {
         return drugTreatmentDurationUnit;
     }
 
-    public void setDrugTreatmentDurationUnit(Integer drugTreatmentDurationUnit) {
+    public void setDrugTreatmentDurationUnit(String drugTreatmentDurationUnit) {
         this.drugTreatmentDurationUnit = drugTreatmentDurationUnit;
     }
 
@@ -327,6 +328,105 @@ public class Drug implements Serializable {
 
     public void setOpenfda(OpenFDA openfda) {
         this.openFDA_Drug_Info = openfda;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Drug other = (Drug) obj;
+        if (!Objects.equals(this.drugDosageForm, other.drugDosageForm)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugStructureDosageNumb, other.drugStructureDosageNumb)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugAuthorizationNumb, other.drugAuthorizationNumb)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugBatchNumb, other.drugBatchNumb)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugDoseageText, other.drugDoseageText)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugEndDate, other.drugEndDate)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugIndication, other.drugIndication)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugStartDate, other.drugStartDate)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugTreatmentDuration, other.drugTreatmentDuration)) {
+            return false;
+        }
+        if (!Objects.equals(this.medicinalProduct, other.medicinalProduct)) {
+            return false;
+        }
+        if (!Objects.equals(this.id, other.id)) {
+            return false;
+        }
+        if (!Objects.equals(this.actionDrug, other.actionDrug)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugAdditional, other.drugAdditional)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugCumulativeDosageNumb, other.drugCumulativeDosageNumb)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugCumulativeDosageUnit, other.drugCumulativeDosageUnit)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugIntervalDosageDefinition, other.drugIntervalDosageDefinition)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugIntervalDosageUnitNumb, other.drugIntervalDosageUnitNumb)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugRecurreAdministration, other.drugRecurreAdministration)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugSeparateDosageNumb, other.drugSeparateDosageNumb)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugStructureDosageUnit, other.drugStructureDosageUnit)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugAdministrationRoute, other.drugAdministrationRoute)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugCharacterization, other.drugCharacterization)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugEndDateFormat, other.drugEndDateFormat)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugStartDateFormat, other.drugStartDateFormat)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugTreatmentDurationUnit, other.drugTreatmentDurationUnit)) {
+            return false;
+        }
+        if (!Objects.equals(this.openFDA_Drug_Info, other.openFDA_Drug_Info)) {
+            return false;
+        }
+        return true;
     }
 
 }

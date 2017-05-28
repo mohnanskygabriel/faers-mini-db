@@ -2,6 +2,7 @@ package com.globallogic.faers.json.importer;
 
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
+import java.util.Objects;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -48,6 +49,39 @@ public class ReportDuplicate implements Serializable {
 
     public void setDuplicateNumb(String duplicateNumb) {
         this.duplicateNumb = duplicateNumb;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 29 * hash + Objects.hashCode(this.id);
+        hash = 29 * hash + Objects.hashCode(this.duplicateSource);
+        hash = 29 * hash + Objects.hashCode(this.duplicateNumb);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final ReportDuplicate other = (ReportDuplicate) obj;
+        if (!Objects.equals(this.duplicateSource, other.duplicateSource)) {
+            return false;
+        }
+        if (!Objects.equals(this.duplicateNumb, other.duplicateNumb)) {
+            return false;
+        }
+        if (!Objects.equals(this.id, other.id)) {
+            return false;
+        }
+        return true;
     }
 
 }

@@ -2,6 +2,7 @@ package com.globallogic.faers.json.importer;
 
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
+import java.util.Objects;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,7 +21,7 @@ public class Receiver implements Serializable {
 
     @SerializedName("receivertype")
     @Column(name = "type", columnDefinition = "smallint")
-    private Integer receiverType;
+    private String receiverType;
 
     @SerializedName("receiverorganization")
     @Column(name = "organization")
@@ -34,11 +35,11 @@ public class Receiver implements Serializable {
         this.id = id;
     }
 
-    public Integer getReceiverType() {
+    public String getReceiverType() {
         return receiverType;
     }
 
-    public void setReceiverType(Integer receiverType) {
+    public void setReceiverType(String receiverType) {
         this.receiverType = receiverType;
     }
 
@@ -48,6 +49,39 @@ public class Receiver implements Serializable {
 
     public void setReceiverOrganization(String receiverOrganization) {
         this.receiverOrganization = receiverOrganization;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 59 * hash + Objects.hashCode(this.id);
+        hash = 59 * hash + Objects.hashCode(this.receiverType);
+        hash = 59 * hash + Objects.hashCode(this.receiverOrganization);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Receiver other = (Receiver) obj;
+        if (!Objects.equals(this.receiverOrganization, other.receiverOrganization)) {
+            return false;
+        }
+        if (!Objects.equals(this.id, other.id)) {
+            return false;
+        }
+        if (!Objects.equals(this.receiverType, other.receiverType)) {
+            return false;
+        }
+        return true;
     }
 
 }

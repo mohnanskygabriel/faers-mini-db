@@ -2,6 +2,7 @@ package com.globallogic.faers.json.importer;
 
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
+import java.util.Objects;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -48,6 +49,39 @@ public class Sender implements Serializable {
 
     public void setSenderOrganization(String senderOrganization) {
         this.senderOrganization = senderOrganization;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 97 * hash + Objects.hashCode(this.id);
+        hash = 97 * hash + Objects.hashCode(this.senderType);
+        hash = 97 * hash + Objects.hashCode(this.senderOrganization);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Sender other = (Sender) obj;
+        if (!Objects.equals(this.senderType, other.senderType)) {
+            return false;
+        }
+        if (!Objects.equals(this.senderOrganization, other.senderOrganization)) {
+            return false;
+        }
+        if (!Objects.equals(this.id, other.id)) {
+            return false;
+        }
+        return true;
     }
 
 }
