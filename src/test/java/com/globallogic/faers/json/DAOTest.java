@@ -49,7 +49,7 @@ public class DAOTest {
         result.setReceiptDate("20130128");
         result.setTransmissionDateFormat("102");
         result.setReceiptDateFormat("102");
-        result.setDuplicate("1");
+        result.setDuplicate(1);
         result.setSeriousnessDeath("1");
         result.setSeriousnessDisabling("1");
         result.setSeriousnessHospitalization("1");
@@ -64,51 +64,51 @@ public class DAOTest {
 
         Patient patient = new Patient();
         patient.setPatientOnsetAge("34");
-        patient.setPatientSex("2");
-        patient.setPatientOnsetAgeUnit("801");
-        patient.setPatientWeight("78");
+        patient.setPatientSex(2);
+        patient.setPatientOnsetAgeUnit(801);
+        patient.setPatientWeight(78.0);
 
         List<Reaction> reactionList = new LinkedList<>();
 
         Reaction reaction = new Reaction();
         reaction.setReactionMedDRAPT("Accidental poisoning");
-        reaction.setReactionMedDRAVersionPT("16.1");
-        reaction.setReactionOutcome("5");
+        reaction.setReactionMedDRAVersionPT(16.1);
+        reaction.setReactionOutcome(5);
 
         reactionList.add(reaction);
         patient.setReaction(reactionList);
 
         PatientDeath patientDeath = new PatientDeath();
         patientDeath.setPatientDeathDate("20030401");
-        patientDeath.setPatientDeathDateFormat("102");
+        patientDeath.setPatientDeathDateFormat(102);
         patient.setPatientDeath(patientDeath);
 
         Drug drug = new Drug();
         drug.setDrugDoseageText("UNK");
-        drug.setActionDrug("1");
-        drug.setDrugAdditional("1");
+        drug.setActionDrug(1);
+        drug.setDrugAdditional(1);
         drug.setDrugCumulativeDosageNumb("4100");
-        drug.setDrugCumulativeDosageUnit("003");
+        drug.setDrugCumulativeDosageUnit(003);
         drug.setDrugDosageForm("Tablet");
         drug.setDrugDoseageText("SOME TEXT");
-        drug.setDrugIntervalDosageDefinition("804");
+        drug.setDrugIntervalDosageDefinition(804);
         drug.setDrugIntervalDosageUnitNumb("1");
-        drug.setDrugRecurreAdministration("3");
+        drug.setDrugRecurreAdministration(3);
         drug.setDrugSeparateDosageNumb("1");
         drug.setDrugStructureDosageNumb("600");
-        drug.setDrugStructureDosageUnit("003");
-        drug.setDrugAdministrationRoute("048");
+        drug.setDrugStructureDosageUnit(003);
+        drug.setDrugAdministrationRoute(48);
         drug.setDrugAuthorizationNumb("021223");
         drug.setDrugBatchNumb("020113A");
-        drug.setDrugCharacterization("1");
+        drug.setDrugCharacterization(1);
         drug.setDrugDoseageText("3.5 MG/KG, 1 IN 1 AS NECESSARY, INTRAVENOUS DRIP");
         drug.setDrugEndDate("20020920");
-        drug.setDrugEndDateFormat("102");
+        drug.setDrugEndDateFormat(102);
         drug.setDrugIndication("RHEUMATOID ARTHRITIS");
         drug.setDrugStartDate("20020903");
-        drug.setDrugStartDateFormat("102");
+        drug.setDrugStartDateFormat(102);
         drug.setDrugTreatmentDuration("1");
-        drug.setDrugTreatmentDurationUnit("804");
+        drug.setDrugTreatmentDurationUnit(804);
         drug.setMedicinalProduct("ASCORBIC ACID");
 
         OpenFDA openFDA = new OpenFDA();
@@ -173,7 +173,7 @@ public class DAOTest {
         patient.setDrug(drugList);
 
         PrimarySource primarySource = new PrimarySource();
-        primarySource.setQualification("3");
+        primarySource.setQualification(3);
         primarySource.setReporterCountry("BE");
         result.setPrimarySource(primarySource);
 
@@ -189,7 +189,7 @@ public class DAOTest {
 
         Receiver receiver = new Receiver();
         receiver.setReceiverOrganization("FDA");
-        receiver.setReceiverType("6");
+        receiver.setReceiverType(6);
         result.setReceiver(receiver);
 
         eventCreatedManually.setMeta(meta);

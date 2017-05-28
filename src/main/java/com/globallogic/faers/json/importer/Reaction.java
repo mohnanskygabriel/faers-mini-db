@@ -25,11 +25,11 @@ public class Reaction implements Serializable {
 
     @SerializedName("reactionmeddraversionpt")
     @Column(name = "meddra_version_pt", columnDefinition = "real")
-    private String reactionMedDRAVersionPT;
+    private Double reactionMedDRAVersionPT;
 
     @SerializedName("reactionoutcome")
     @Column(name = "outcome", columnDefinition = "smallint")
-    private String reactionOutcome;
+    private Integer reactionOutcome;
 
     public Long getId() {
         return id;
@@ -47,19 +47,19 @@ public class Reaction implements Serializable {
         this.reactionMedDRAPT = reactionMedDRAPT;
     }
 
-    public String getReactionMedDRAVersionPT() {
+    public Double getReactionMedDRAVersionPT() {
         return reactionMedDRAVersionPT;
     }
 
-    public void setReactionMedDRAVersionPT(String reactionMedDRAVersionPT) {
+    public void setReactionMedDRAVersionPT(Double reactionMedDRAVersionPT) {
         this.reactionMedDRAVersionPT = reactionMedDRAVersionPT;
     }
 
-    public String getReactionOutcome() {
+    public Integer getReactionOutcome() {
         return reactionOutcome;
     }
 
-    public void setReactionOutcome(String reactionOutcome) {
+    public void setReactionOutcome(Integer reactionOutcome) {
         this.reactionOutcome = reactionOutcome;
     }
 

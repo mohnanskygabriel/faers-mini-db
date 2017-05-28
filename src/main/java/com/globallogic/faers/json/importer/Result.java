@@ -89,7 +89,7 @@ public class Result implements Serializable {
     private String safetyReportID;
 
     @Column(columnDefinition = "smallint")
-    private String duplicate;
+    private Integer duplicate;
 
     @SerializedName("occurcountry")
     @Column(name = "occur_country")
@@ -264,11 +264,11 @@ public class Result implements Serializable {
         this.safetyReportID = safetyReportID;
     }
 
-    public String getDuplicate() {
+    public Integer getDuplicate() {
         return duplicate;
     }
 
-    public void setDuplicate(String duplicate) {
+    public void setDuplicate(Integer duplicate) {
         this.duplicate = duplicate;
     }
 

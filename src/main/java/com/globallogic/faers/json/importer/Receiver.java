@@ -21,7 +21,7 @@ public class Receiver implements Serializable {
 
     @SerializedName("receivertype")
     @Column(name = "type", columnDefinition = "smallint")
-    private String receiverType;
+    private Integer receiverType;
 
     @SerializedName("receiverorganization")
     @Column(name = "organization")
@@ -35,11 +35,11 @@ public class Receiver implements Serializable {
         this.id = id;
     }
 
-    public String getReceiverType() {
+    public Integer getReceiverType() {
         return receiverType;
     }
 
-    public void setReceiverType(String receiverType) {
+    public void setReceiverType(Integer receiverType) {
         this.receiverType = receiverType;
     }
 

@@ -24,7 +24,7 @@ public class PrimarySource implements Serializable {
     private String reporterCountry;
 
     @Column(columnDefinition = "smallint")
-    private String qualification;
+    private Integer qualification;
 
     public Long getId() {
         return id;
@@ -42,11 +42,11 @@ public class PrimarySource implements Serializable {
         this.reporterCountry = reporterCountry;
     }
 
-    public String getQualification() {
+    public Integer getQualification() {
         return qualification;
     }
 
-    public void setQualification(String qualification) {
+    public void setQualification(Integer qualification) {
         this.qualification = qualification;
     }
 

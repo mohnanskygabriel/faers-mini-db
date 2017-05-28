@@ -24,11 +24,11 @@ public class Drug implements Serializable {
 
     @SerializedName("actiondrug")
     @Column(name = "action_drug", columnDefinition = "smallint")
-    private String actionDrug;
+    private Integer actionDrug;
 
     @SerializedName("drugadditional")
     @Column(name = "additional", columnDefinition = "smallint")
-    private String drugAdditional;
+    private Integer drugAdditional;
 
     @SerializedName("drugcumulativedosagenumb")
     @Column(name = "cumulative_dosage_numb")
@@ -36,7 +36,7 @@ public class Drug implements Serializable {
 
     @SerializedName("drugcumulativedosageunit")
     @Column(name = "cumulative_dosage_unit", columnDefinition = "smallint")
-    private String drugCumulativeDosageUnit;
+    private Integer drugCumulativeDosageUnit;
 
     @SerializedName("drugdosageform")
     @Column(name = "dosage_form", columnDefinition = "text")
@@ -44,7 +44,7 @@ public class Drug implements Serializable {
 
     @SerializedName("drugintervaldosagedefinition")
     @Column(name = "interval_dosage_definition", columnDefinition = "smallint")
-    private String drugIntervalDosageDefinition;
+    private Integer drugIntervalDosageDefinition;
 
     @SerializedName("drugintervaldosageunitnumb")
     @Column(name = "interval_dosage_unit_numb")
@@ -52,7 +52,7 @@ public class Drug implements Serializable {
 
     @SerializedName("drugrecurreadministration")
     @Column(name = "recurre_administration", columnDefinition = "smallint")
-    private String drugRecurreAdministration;
+    private Integer drugRecurreAdministration;
 
     @SerializedName("drugseparatedosagenumb")
     @Column(name = "separate_dosage_numb")
@@ -64,11 +64,11 @@ public class Drug implements Serializable {
 
     @SerializedName("drugstructuredosageunit")
     @Column(name = "structure_dosage_unit", columnDefinition = "smallint")
-    private String drugStructureDosageUnit;
+    private Integer drugStructureDosageUnit;
 
     @SerializedName("drugadministrationroute")
     @Column(name = "administration_route", columnDefinition = "smallint")
-    private String drugAdministrationRoute;
+    private Integer drugAdministrationRoute;
 
     @SerializedName("drugauthorizationnumb")
     @Column(name = "authorization_numb", columnDefinition = "text")
@@ -80,7 +80,7 @@ public class Drug implements Serializable {
 
     @SerializedName("drugcharacterization")
     @Column(name = "characterization", columnDefinition = "smallint")
-    private String drugCharacterization;
+    private Integer drugCharacterization;
 
     @SerializedName("drugdoseagetext")
     @Column(name = "doseage_text", columnDefinition = "text")
@@ -92,7 +92,7 @@ public class Drug implements Serializable {
 
     @SerializedName("drugenddateformat")
     @Column(name = "end_date_format", columnDefinition = "smallint")
-    private String drugEndDateFormat;
+    private Integer drugEndDateFormat;
 
     @SerializedName("drugindication")
     @Column(name = "indication", columnDefinition = "text")
@@ -104,7 +104,7 @@ public class Drug implements Serializable {
 
     @SerializedName("drugstartdateformat")
     @Column(name = "start_date_format", columnDefinition = "smallint")
-    private String drugStartDateFormat;
+    private Integer drugStartDateFormat;
 
     @SerializedName("drugtreatmentduration")
     @Column(name = "treatment_duration", columnDefinition = "text")
@@ -112,7 +112,7 @@ public class Drug implements Serializable {
 
     @SerializedName("drugtreatmentdurationunit")
     @Column(name = "treatment_duration_unit", columnDefinition = "smallint")
-    private String drugTreatmentDurationUnit;
+    private Integer drugTreatmentDurationUnit;
 
     @SerializedName("medicinalproduct")
     @Column(name = "medicinal_product", columnDefinition = "text")
@@ -130,19 +130,19 @@ public class Drug implements Serializable {
         this.id = id;
     }
 
-    public String getActionDrug() {
+    public Integer getActionDrug() {
         return actionDrug;
     }
 
-    public void setActionDrug(String actionDrug) {
+    public void setActionDrug(Integer actionDrug) {
         this.actionDrug = actionDrug;
     }
 
-    public String getDrugAdditional() {
+    public Integer getDrugAdditional() {
         return drugAdditional;
     }
 
-    public void setDrugAdditional(String drugAdditional) {
+    public void setDrugAdditional(Integer drugAdditional) {
         this.drugAdditional = drugAdditional;
     }
 
@@ -154,11 +154,11 @@ public class Drug implements Serializable {
         this.drugCumulativeDosageNumb = drugCumulativeDosageNumb;
     }
 
-    public String getDrugCumulativeDosageUnit() {
+    public Integer getDrugCumulativeDosageUnit() {
         return drugCumulativeDosageUnit;
     }
 
-    public void setDrugCumulativeDosageUnit(String drugCumulativeDosageUnit) {
+    public void setDrugCumulativeDosageUnit(Integer drugCumulativeDosageUnit) {
         this.drugCumulativeDosageUnit = drugCumulativeDosageUnit;
     }
 
@@ -170,11 +170,11 @@ public class Drug implements Serializable {
         this.drugDosageForm = drugDosageForm;
     }
 
-    public String getDrugIntervalDosageDefinition() {
+    public Integer getDrugIntervalDosageDefinition() {
         return drugIntervalDosageDefinition;
     }
 
-    public void setDrugIntervalDosageDefinition(String drugIntervalDosageDefinition) {
+    public void setDrugIntervalDosageDefinition(Integer drugIntervalDosageDefinition) {
         this.drugIntervalDosageDefinition = drugIntervalDosageDefinition;
     }
 
@@ -186,11 +186,11 @@ public class Drug implements Serializable {
         this.drugIntervalDosageUnitNumb = drugIntervalDosageUnitNumb;
     }
 
-    public String getDrugRecurreAdministration() {
+    public Integer getDrugRecurreAdministration() {
         return drugRecurreAdministration;
     }
 
-    public void setDrugRecurreAdministration(String drugRecurreAdministration) {
+    public void setDrugRecurreAdministration(Integer drugRecurreAdministration) {
         this.drugRecurreAdministration = drugRecurreAdministration;
     }
 
@@ -210,19 +210,19 @@ public class Drug implements Serializable {
         this.drugStructureDosageNumb = drugStructureDosageNumb;
     }
 
-    public String getDrugStructureDosageUnit() {
+    public Integer getDrugStructureDosageUnit() {
         return drugStructureDosageUnit;
     }
 
-    public void setDrugStructureDosageUnit(String drugStructureDosageUnit) {
+    public void setDrugStructureDosageUnit(Integer drugStructureDosageUnit) {
         this.drugStructureDosageUnit = drugStructureDosageUnit;
     }
 
-    public String getDrugAdministrationRoute() {
+    public Integer getDrugAdministrationRoute() {
         return drugAdministrationRoute;
     }
 
-    public void setDrugAdministrationRoute(String drugAdministrationRoute) {
+    public void setDrugAdministrationRoute(Integer drugAdministrationRoute) {
         this.drugAdministrationRoute = drugAdministrationRoute;
     }
 
@@ -242,11 +242,11 @@ public class Drug implements Serializable {
         this.drugBatchNumb = drugBatchNumb;
     }
 
-    public String getDrugCharacterization() {
+    public Integer getDrugCharacterization() {
         return drugCharacterization;
     }
 
-    public void setDrugCharacterization(String drugCharacterization) {
+    public void setDrugCharacterization(Integer drugCharacterization) {
         this.drugCharacterization = drugCharacterization;
     }
 
@@ -266,11 +266,11 @@ public class Drug implements Serializable {
         this.drugEndDate = drugEndDate;
     }
 
-    public String getDrugEndDateFormat() {
+    public Integer getDrugEndDateFormat() {
         return drugEndDateFormat;
     }
 
-    public void setDrugEndDateFormat(String drugEndDateFormat) {
+    public void setDrugEndDateFormat(Integer drugEndDateFormat) {
         this.drugEndDateFormat = drugEndDateFormat;
     }
 
@@ -290,11 +290,11 @@ public class Drug implements Serializable {
         this.drugStartDate = drugStartDate;
     }
 
-    public String getDrugStartDateFormat() {
+    public Integer getDrugStartDateFormat() {
         return drugStartDateFormat;
     }
 
-    public void setDrugStartDateFormat(String drugStartDateFormat) {
+    public void setDrugStartDateFormat(Integer drugStartDateFormat) {
         this.drugStartDateFormat = drugStartDateFormat;
     }
 
@@ -306,11 +306,11 @@ public class Drug implements Serializable {
         this.drugTreatmentDuration = drugTreatmentDuration;
     }
 
-    public String getDrugTreatmentDurationUnit() {
+    public Integer getDrugTreatmentDurationUnit() {
         return drugTreatmentDurationUnit;
     }
 
-    public void setDrugTreatmentDurationUnit(String drugTreatmentDurationUnit) {
+    public void setDrugTreatmentDurationUnit(Integer drugTreatmentDurationUnit) {
         this.drugTreatmentDurationUnit = drugTreatmentDurationUnit;
     }
 

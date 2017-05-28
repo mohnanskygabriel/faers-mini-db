@@ -20,12 +20,12 @@ public class PatientDeath implements Serializable {
     private Long id;
 
     @SerializedName("patientdeathdate")
-    @Column(name = "death_date", columnDefinition = "date")
+    @Column(name = "death_date")
     private String patientDeathDate;
 
     @SerializedName("patientdeathdateformat")
     @Column(name = "date_format", columnDefinition = "smallint")
-    private String patientDeathDateFormat;
+    private Integer patientDeathDateFormat;
 
     public Long getId() {
         return id;
@@ -43,11 +43,11 @@ public class PatientDeath implements Serializable {
         this.patientDeathDate = patientDeathDate;
     }
 
-    public String getPatientDeathDateFormat() {
+    public Integer getPatientDeathDateFormat() {
         return patientDeathDateFormat;
     }
 
-    public void setPatientDeathDateFormat(String patientDeathDateFormat) {
+    public void setPatientDeathDateFormat(Integer patientDeathDateFormat) {
         this.patientDeathDateFormat = patientDeathDateFormat;
     }
 

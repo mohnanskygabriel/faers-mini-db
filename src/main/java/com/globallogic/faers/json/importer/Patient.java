@@ -32,15 +32,15 @@ public class Patient implements Serializable {
 
     @SerializedName("patientonsetageunit")
     @Column(name = "onset_age_unit", columnDefinition = "smallint")
-    private String patientOnsetAgeUnit;
+    private Integer patientOnsetAgeUnit;
 
     @SerializedName("patientsex")
     @Column(name = "sex", columnDefinition = "smallint")
-    private String patientSex;
+    private Integer patientSex;
 
     @SerializedName("patientweight")
     @Column(name = "weight", columnDefinition = "real")
-    private String patientWeight;
+    private Double patientWeight;
 
     @SerializedName("patientdeath")
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
@@ -70,27 +70,27 @@ public class Patient implements Serializable {
         this.patientOnsetAge = patientOnsetAge;
     }
 
-    public String getPatientOnsetAgeUnit() {
+    public Integer getPatientOnsetAgeUnit() {
         return patientOnsetAgeUnit;
     }
 
-    public void setPatientOnsetAgeUnit(String patientOnsetAgeUnit) {
+    public void setPatientOnsetAgeUnit(Integer patientOnsetAgeUnit) {
         this.patientOnsetAgeUnit = patientOnsetAgeUnit;
     }
 
-    public String getPatientSex() {
+    public Integer getPatientSex() {
         return patientSex;
     }
 
-    public void setPatientSex(String patientSex) {
+    public void setPatientSex(Integer patientSex) {
         this.patientSex = patientSex;
     }
 
-    public String getPatientWeight() {
+    public Double getPatientWeight() {
         return patientWeight;
     }
 
-    public void setPatientWeight(String patientWeight) {
+    public void setPatientWeight(Double patientWeight) {
         this.patientWeight = patientWeight;
     }
 

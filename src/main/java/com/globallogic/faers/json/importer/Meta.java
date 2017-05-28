@@ -24,7 +24,7 @@ public class Meta implements Serializable {
     private Long id;
 
     @SerializedName("last_updated")
-    @Column(name = "last_updated", columnDefinition = "date")
+    @Column(name = "last_updated")
     private String lastUpdated;
 
     private String terms;
