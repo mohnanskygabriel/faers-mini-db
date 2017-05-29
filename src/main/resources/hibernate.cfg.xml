@@ -8,15 +8,14 @@
             org.hibernate.dialect.PostgreSQLDialect </property>
         <property name="hibernate.connection.driver_class">
             org.postgresql.Driver</property>
-        <property name="hibernate.hbm2ddl.auto">create</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
         <property name="show_sql">false</property>
         <property name="hibernate.connection.provider_class">org.hibernate.c3p0.internal.C3P0ConnectionProvider</property>
         <property name="hibernate.c3p0.min_size">1</property>
         <property name="hibernate.c3p0.max_size">5</property>
         <property name="hibernate.c3p0.max_statements">200</property>
-        <property name="hibernate.auto_close_session">false</property>
         <property name="hibernate.c3p0.acquireRetryAttempts">30</property>
-         <property name="hibernate.c3p0.acquireRetryDelay">2000</property>
+        <property name="hibernate.c3p0.acquireRetryDelay">2000</property>
         <mapping class="com.globallogic.faers.json.importer.Drug" />
         <mapping class="com.globallogic.faers.json.importer.Event" />
         <mapping class="com.globallogic.faers.json.importer.Meta" />
