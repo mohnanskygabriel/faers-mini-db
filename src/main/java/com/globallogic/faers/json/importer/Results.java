@@ -14,6 +14,7 @@ import javax.persistence.Table;
 
 public class Results implements Serializable {
 
+    static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false)

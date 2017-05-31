@@ -2,7 +2,6 @@ package com.globallogic.faers.json.importer;
 
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
-import java.util.Date;
 import java.util.Objects;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -18,6 +17,7 @@ import javax.persistence.Table;
 @Table(name = "META")
 public class Meta implements Serializable {
 
+    static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", unique = true, nullable = false)

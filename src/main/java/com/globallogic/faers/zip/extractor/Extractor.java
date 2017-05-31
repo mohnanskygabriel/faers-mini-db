@@ -20,25 +20,31 @@ public class Extractor {
         Logger logger = LogManager.getLogger(Extractor.class);
         ZipInputStream zipInputStream = null;
         byte[] buffer = new byte[1024];
-        if (!destinationDirectory.exists()) {
-            destinationDirectory.mkdirs();
-        }
         try {
+            if (!destinationDirectory.exists()) {
+                if (!destinationDirectory.mkdirs()) {
+                    logger.error("Cannot create directory " + destinationDirectory.getAbsolutePath());
+                    throw new IOException();
+                }
+            }
             zipInputStream = new ZipInputStream(new FileInputStream(zipFile));
             ZipEntry ze = zipInputStream.getNextEntry();
             while (ze != null) {
                 String fileName = ze.getName();
                 File newFile = new File(destinationDirectory.getAbsolutePath() + File.separator + fileName);
                 logger.info("Unzipping file: " + zipFile.getAbsolutePath() + "\n" + "Destination: " + newFile.getAbsolutePath());
-                new File(newFile.getParent()).mkdirs();
-                FileOutputStream fileOutputStream = new FileOutputStream(newFile);
-
-                int len;
-                while ((len = zipInputStream.read(buffer)) > 0) {
-                    fileOutputStream.write(buffer, 0, len);
+                if (newFile.getParentFile() != null) {
+                    if (!newFile.getParentFile().exists() && !newFile.mkdirs()) {
+                        logger.error("Cannot create directory " + newFile.getParent());
+                        throw new IOException();
+                    }
                 }
-
-                fileOutputStream.close();
+                try (FileOutputStream fileOutputStream = new FileOutputStream(newFile)) {
+                    int len;
+                    while ((len = zipInputStream.read(buffer)) > 0) {
+                        fileOutputStream.write(buffer, 0, len);
+                    }
+                }
                 ze = zipInputStream.getNextEntry();
             }
         } catch (FileNotFoundException ex) {

@@ -17,6 +17,7 @@ import javax.persistence.Table;
 @Table(name = "OPENFDA_DRUG_INFO")
 public class OpenFDA implements Serializable {
 
+    static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false)
@@ -79,7 +80,7 @@ public class OpenFDA implements Serializable {
     @SerializedName("generic_name")
     @ElementCollection(targetClass = String.class)
     @CollectionTable(name = "OPENFDA_DRUG_INFO_GENERIC_NAME")
-    @Column(name = "GENERIC_NAME", columnDefinition="text")
+    @Column(name = "GENERIC_NAME", columnDefinition = "text")
     private List<String> genericName = null;
 
     @SerializedName("manufacturer_name")
@@ -370,7 +371,5 @@ public class OpenFDA implements Serializable {
         }
         return true;
     }
-    
-    
 
 }

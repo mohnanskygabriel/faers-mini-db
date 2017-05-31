@@ -10,7 +10,6 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    
     <build>
         <plugins>
             <plugin>
@@ -52,6 +51,26 @@
                                 <copy file="${basedir}/src/main/resources/hibernate.cfg.xml" tofile="${project.build.directory}/config/hibernate.cfg.xml"/>
                             </tasks>
                         </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.7.9</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                       
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>          
                     </execution>
                 </executions>
             </plugin>

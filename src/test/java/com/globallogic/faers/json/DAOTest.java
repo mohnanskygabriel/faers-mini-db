@@ -25,7 +25,7 @@ public class DAOTest {
     @Test
     public void testGetEventFromJSON() {
         DAO dao = new DAO();
-        String testFilePath = getClass().getResource("/jsonForImportTest.json").getFile().replace("%20", " ");
+        String testFilePath = DAOTest.class.getResource("/jsonForImportTest.json").getFile().replace("%20", " ");
         Event eventFromJson = dao.getEventFromJSON(testFilePath);
         Event eventCreatedManually = new Event();
         Meta meta = new Meta();
@@ -203,7 +203,7 @@ public class DAOTest {
     @Test
     public void testGetDrugEventListFromJSON() {
         DAO dao = new DAO();
-        String testFilePath = getClass().getResource("/jsonForDownloadTest.json").getFile().replace("%20", " ");
+        String testFilePath = DAOTest.class.getResource("/jsonForDownloadTest.json").getFile().replace("%20", " ");
         DrugEventList drugEventListFromJSON = dao.getDrugEventListFromJSON(testFilePath);
         DrugEventList drugEventListCreatedManually = new DrugEventList();
         drugEventListCreatedManually.setMeta(new com.globallogic.faers.zip.downloader.Meta());
