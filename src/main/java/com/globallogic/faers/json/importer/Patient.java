@@ -48,11 +48,11 @@ public class Patient implements Serializable {
     private PatientDeath patientDeath;
 
     @OneToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "PATIENT_DRUG_MAPPING", joinColumns = @JoinColumn(name = "patient_Id"), inverseJoinColumns = @JoinColumn(name = "drug_Id"))
+    @JoinTable(name = "PATIENT_DRUG_MAPPING", joinColumns = @JoinColumn(name = "patient_id"), inverseJoinColumns = @JoinColumn(name = "drug_id"))
     private List<Drug> drug = null;
 
     @OneToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "PATIENT_REACTION_MAPPING", joinColumns = @JoinColumn(name = "patient_Id"), inverseJoinColumns = @JoinColumn(name = "reaction_Id"))
+    @JoinTable(name = "PATIENT_REACTION_MAPPING", joinColumns = @JoinColumn(name = "patient_id"), inverseJoinColumns = @JoinColumn(name = "reaction_id"))
     private List<Reaction> reaction = null;
 
     public Long getId() {
