@@ -8,13 +8,14 @@ import javax.persistence.CollectionTable;
 import javax.persistence.Column;
 import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "OPENFDA_DRUG_INFO")
+@Table(name = "openfda_drug_info")
 public class OpenFDA implements Serializable {
 
     static final long serialVersionUID = 1L;
@@ -25,102 +26,102 @@ public class OpenFDA implements Serializable {
 
     @SerializedName("spl_id")
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_SPL_ID")
+    @CollectionTable(name = "openfda_drug_info_spl_id", foreignKey = @ForeignKey(name="fk_openfda_drug_info_spl_id_openfda_drug_info_id"))
     @Column(name = "SPL_ID")
     private List<String> splID = null;
 
     @SerializedName("application_number")
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_APPLICATION_NUMBER")
-    @Column(name = "APPLICATION_NUMBER")
+    @CollectionTable(name = "openfda_drug_info_application_number", foreignKey = @ForeignKey(name="fk_openfda_drug_info_application_number_openfda_drug_info_id"))
+    @Column(name = "application_number")
     private List<String> applicationNumber = null;
 
     @SerializedName("product_ndc")
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_PRODUCT_NDC")
-    @Column(name = "PRODUCT_NDC")
+    @CollectionTable(name = "openfda_drug_info_product_ndc", foreignKey = @ForeignKey(name="fk_openfda_drug_info_product_ndc_openfda_drug_info_id"))
+    @Column(name = "product_ndc")
     private List<String> productNDC = null;
 
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_ROUTE")
+    @CollectionTable(name = "openfda_drug_info_route", foreignKey = @ForeignKey(name="fk_openfda_drug_info_route_openfda_drug_info_id"))
     private List<String> route = null;
 
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_NUI")
+    @CollectionTable(name = "openfda_drug_info_nui", foreignKey = @ForeignKey(name="fk_openfda_drug_info_nui_openfda_drug_info_id"))
     private List<String> nui = null;
 
     @SerializedName("substance_name")
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_SUBSTANCE_NAME")
-    @Column(name = "SUBSTANCE_NAME")
+    @CollectionTable(name = "openfda_drug_info_substance_name", foreignKey = @ForeignKey(name="fk_openfda_drug_info_substance_name_openfda_drug_info_id"))
+    @Column(name = "substance_name")
     private List<String> substanceName = null;
 
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_RXCUI")
+    @CollectionTable(name = "openfda_drug_info_rxcui", foreignKey = @ForeignKey(name="fk_openfda_drug_info_rxcui_openfda_drug_info_id"))
     private List<String> rxcui = null;
 
     @SerializedName("spl_set_id")
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_SPL_SET_ID")
-    @Column(name = "SPL_SET_ID")
+    @CollectionTable(name = "openfda_drug_info_spl_set_id", foreignKey = @ForeignKey(name="fk_openfda_drug_info_spl_set_id_openfda_drug_info_id"))
+    @Column(name = "spl_set_id")
     private List<String> spl_Set_ID = null;
 
     @SerializedName("package_ndc")
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_PACKAGE_NDC")
-    @Column(name = "PACKAGE_NDC")
+    @CollectionTable(name = "openfda_drug_info_package_ndc", foreignKey = @ForeignKey(name="fk_openfda_drug_info_package_ndc_openfda_drug_info_id"))
+    @Column(name = "package_ndc")
     private List<String> packageNDC = null;
 
     @SerializedName("product_type")
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_PRODUCT_TYPE")
-    @Column(name = "PRODUCT_TYPE")
+    @CollectionTable(name = "openfda_drug_info_product_type", foreignKey = @ForeignKey(name="fk_openfda_drug_info_product_type_openfda_drug_info_id"))
+    @Column(name = "product_type")
     private List<String> productType = null;
 
     @SerializedName("generic_name")
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_GENERIC_NAME")
-    @Column(name = "GENERIC_NAME", columnDefinition = "text")
+    @CollectionTable(name = "openfda_drug_info_generic_name", foreignKey = @ForeignKey(name="fk_openfda_drug_info_generic_name_openfda_drug_info_id"))
+    @Column(name = "generic_name", columnDefinition = "text")
     private List<String> genericName = null;
 
     @SerializedName("manufacturer_name")
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_MANUFACTURER_NAME")
-    @Column(name = "MANUFACTURER_NAME")
+    @CollectionTable(name = "openfda_drug_info_manufacturer_name", foreignKey = @ForeignKey(name="fk_openfda_drug_info_manufacturer_name_openfda_drug_info_id"))
+    @Column(name = "manufacturer_name")
     private List<String> manufacturerName = null;
 
     @SerializedName("brand_name")
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_BRAND_NAME")
-    @Column(name = "BRAND_NAME")
+    @CollectionTable(name = "openfda_drug_info_brand_name", foreignKey = @ForeignKey(name="fk_openfda_drug_info_brand_name_openfda_drug_info_id"))
+    @Column(name = "brand_name")
     private List<String> brand_Name = null;
 
     @SerializedName("pharm_class_cs")
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_PHARM_CLASS_CS")
-    @Column(name = "PHARM_CLASS_CS")
+    @CollectionTable(name = "openfda_drug_info_pharm_class_cs", foreignKey = @ForeignKey(name="fk_openfda_drug_info_pharm_class_cs_openfda_drug_info_id"))
+    @Column(name = "pharm_class_cs")
     private List<String> pharmClassCS = null;
 
     @SerializedName("pharm_class_epc")
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_PHARM_CLASS_EPC")
-    @Column(name = "PHARM_CLASS_EPC")
+    @CollectionTable(name = "openfda_drug_info_pharm_class_epc", foreignKey = @ForeignKey(name="fk_openfda_drug_info_pharm_class_epc_openfda_drug_info_id"))
+    @Column(name = "pharm_class_epc")
     private List<String> pharmClassEPC = null;
 
     @SerializedName("pharm_class_pe")
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_PHARM_CLASS_PE")
-    @Column(name = "PHARM_CLASS_PE")
+    @CollectionTable(name = "openfda_drug_info_pharm_class_pe", foreignKey = @ForeignKey(name="fk_openfda_drug_info_pharm_class_pe_openfda_drug_info_id"))
+    @Column(name = "pharm_class_pe")
     private List<String> pharmClassPE = null;
 
     @SerializedName("pharm_class_moa")
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_PHARM_CLASS_MOA")
-    @Column(name = "PHARM_CLASS_MOA")
+    @CollectionTable(name = "openfda_drug_info_pharm_class_moa", foreignKey = @ForeignKey(name="fk_openfda_drug_info_pharm_class_moa_openfda_drug_info_id"))
+    @Column(name = "pharm_class_moa")
     private List<String> pharmClassMOA = null;
 
     @ElementCollection(targetClass = String.class)
-    @CollectionTable(name = "OPENFDA_DRUG_INFO_UNII")
+    @CollectionTable(name = "openfda_drug_info_unii", foreignKey = @ForeignKey(name="fk_openfda_drug_info_unii_openfda_drug_info_id"))
     private List<String> unii = null;
 
     public Long getId() {

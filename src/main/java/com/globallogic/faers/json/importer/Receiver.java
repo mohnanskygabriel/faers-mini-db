@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "RECEIVER")
+@Table(name = "receiver")
 public class Receiver implements Serializable {
 
     static final long serialVersionUID = 1L;

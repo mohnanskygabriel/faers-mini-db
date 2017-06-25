@@ -7,6 +7,7 @@ import javax.persistence.CascadeType;
 import javax.persistence.Id;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.JoinColumn;
@@ -15,7 +16,7 @@ import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "FAERS_USER")
+@Table(name = "faers_user")
 public class User implements Serializable {
 
     static final long serialVersionUID = 1L;
@@ -35,7 +36,7 @@ public class User implements Serializable {
     private String mail;
 
     @ManyToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "preferred_drug", joinColumns = @JoinColumn(name = "faers_user_id"), inverseJoinColumns = @JoinColumn(name = "drug_id"))
+    @JoinTable(name = "preferred_drug", joinColumns = @JoinColumn(name = "faers_user_id", foreignKey = @ForeignKey(name="fk_preferred_drug_faers_user_id_faers_user_id_id")), inverseJoinColumns = @JoinColumn(name = "drug_id", foreignKey = @ForeignKey(name="fk_preferred_drug_drug_id_drug_id")))
     private List<Drug> preferredDrug;
 
     public Long getId() {

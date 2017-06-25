@@ -7,6 +7,7 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -17,7 +18,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "EVENT")
+@Table(name = "event")
 public class Event implements Serializable {
 
     static final long serialVersionUID = 1L;
@@ -27,10 +28,11 @@ public class Event implements Serializable {
     private Long id;
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(foreignKey = @ForeignKey(name="fk_event_meta_id_meta_id"))
     private Meta meta;
 
     @OneToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "EVENT_RESULT_MAPPING", joinColumns = @JoinColumn(name = "event_Id"), inverseJoinColumns = @JoinColumn(name = "result_Id"))
+    @JoinTable(name = "event_result_mapping", joinColumns = @JoinColumn(name = "event_id", foreignKey = @ForeignKey(name="fk_event_result_mapping_event_id_event_id")), inverseJoinColumns = @JoinColumn(name = "result_id", foreignKey = @ForeignKey(name="fk_event_result_mapping_result_id_result_id")))
     private List<Result> results = null;
 
     public Long getId() {

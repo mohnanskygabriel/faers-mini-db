@@ -8,17 +8,19 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "PATIENT")
+@Table(name = "patient")
 public class Patient implements Serializable {
 
     static final long serialVersionUID = 1L;
@@ -45,14 +47,15 @@ public class Patient implements Serializable {
 
     @SerializedName("patientdeath")
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(name = "patient_death_id", foreignKey = @ForeignKey(name = "fk_patient_patient_death_id_patient_death_id"))
     private PatientDeath patientDeath;
 
     @OneToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "PATIENT_DRUG_MAPPING", joinColumns = @JoinColumn(name = "patient_id"), inverseJoinColumns = @JoinColumn(name = "drug_id"))
+    @JoinTable(name = "patient_drug_mapping", joinColumns = @JoinColumn(name = "patient_id", foreignKey = @ForeignKey(name = "fk_patient_drug_mapping_patient_id_patient_id")), inverseJoinColumns = @JoinColumn(name = "drug_id", foreignKey = @ForeignKey(name = "fk_patient_drug_mapping_drug_id_drug_id")))
     private List<Drug> drug = null;
 
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "PATIENT_REACTION_MAPPING", joinColumns = @JoinColumn(name = "patient_id"), inverseJoinColumns = @JoinColumn(name = "reaction_id"))
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(name = "patient_reaction_mapping", joinColumns = @JoinColumn(name = "patient_id", foreignKey = @ForeignKey(name = "fk_patient_reaction_mapping_patient_id_patient_id")), inverseJoinColumns = @JoinColumn(name = "reaction_id", foreignKey = @ForeignKey(name = "fk_patient_reaction_mapping_reaction_id_reaction_id")))
     private List<Reaction> reaction = null;
 
     public Long getId() {

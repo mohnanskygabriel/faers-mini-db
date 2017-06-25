@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "REACTION")
+@Table(name = "reaction")
 public class Reaction implements Serializable {
 
     static final long serialVersionUID = 1L;

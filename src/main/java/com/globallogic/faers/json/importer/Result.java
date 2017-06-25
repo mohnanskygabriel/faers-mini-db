@@ -7,14 +7,16 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "EVENT_RESULT")
+@Table(name = "event_result")
 public class Result implements Serializable {
 
     static final long serialVersionUID = 1L;
@@ -105,20 +107,25 @@ public class Result implements Serializable {
     private String companyNumb;
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(foreignKey = @ForeignKey(name = "fk_result_patient_id_patient_id"))
     private Patient patient;
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(foreignKey = @ForeignKey(name = "fk_result_sender_id_sender_id"))
     private Sender sender;
 
     @SerializedName("primarysource")
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(name = "primary_source_id", foreignKey = @ForeignKey(name = "fk_result_primary_source_id_primary_source_id"))
     private PrimarySource primarySource;
 
     @SerializedName("reportduplicate")
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(name = "report_duplicate_id", foreignKey = @ForeignKey(name = "fk_result_report_duplicate_id_report_duplicate_id"))
     private ReportDuplicate reportDuplicate;
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(foreignKey = @ForeignKey(name = "fk_result_receiver_id_receiver_id"))
     private Receiver receiver;
 
     public Long getId() {

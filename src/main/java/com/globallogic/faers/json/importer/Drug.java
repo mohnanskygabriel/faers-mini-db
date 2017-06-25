@@ -7,14 +7,16 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "DRUG")
+@Table(name = "drug")
 public class Drug implements Serializable {
 
     static final long serialVersionUID = 1L;
@@ -121,7 +123,13 @@ public class Drug implements Serializable {
 
     @SerializedName("openfda")
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(foreignKey = @ForeignKey(name = "fk_drug_openfda_drug_info_id_openfda_drug_info_id"))
     private OpenFDA openFDA_Drug_Info;
+    
+    @SerializedName("activesubstance")
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(foreignKey = @ForeignKey(name = "fk_drug_active_substance_id_active_substance_id"))
+    private ActiveSubstance active_Substance;
 
     public Long getId() {
         return id;
@@ -331,9 +339,44 @@ public class Drug implements Serializable {
         this.openFDA_Drug_Info = openfda;
     }
 
+    public ActiveSubstance getActive_Substance() {
+        return active_Substance;
+    }
+
+    public void setActive_Substance(ActiveSubstance active_Substance) {
+        this.active_Substance = active_Substance;
+    }
+
     @Override
     public int hashCode() {
-        int hash = 3;
+        int hash = 5;
+        hash = 97 * hash + Objects.hashCode(this.id);
+        hash = 97 * hash + Objects.hashCode(this.actionDrug);
+        hash = 97 * hash + Objects.hashCode(this.drugAdditional);
+        hash = 97 * hash + Objects.hashCode(this.drugCumulativeDosageNumb);
+        hash = 97 * hash + Objects.hashCode(this.drugCumulativeDosageUnit);
+        hash = 97 * hash + Objects.hashCode(this.drugDosageForm);
+        hash = 97 * hash + Objects.hashCode(this.drugIntervalDosageDefinition);
+        hash = 97 * hash + Objects.hashCode(this.drugIntervalDosageUnitNumb);
+        hash = 97 * hash + Objects.hashCode(this.drugRecurreAdministration);
+        hash = 97 * hash + Objects.hashCode(this.drugSeparateDosageNumb);
+        hash = 97 * hash + Objects.hashCode(this.drugStructureDosageNumb);
+        hash = 97 * hash + Objects.hashCode(this.drugStructureDosageUnit);
+        hash = 97 * hash + Objects.hashCode(this.drugAdministrationRoute);
+        hash = 97 * hash + Objects.hashCode(this.drugAuthorizationNumb);
+        hash = 97 * hash + Objects.hashCode(this.drugBatchNumb);
+        hash = 97 * hash + Objects.hashCode(this.drugCharacterization);
+        hash = 97 * hash + Objects.hashCode(this.drugDoseageText);
+        hash = 97 * hash + Objects.hashCode(this.drugEndDate);
+        hash = 97 * hash + Objects.hashCode(this.drugEndDateFormat);
+        hash = 97 * hash + Objects.hashCode(this.drugIndication);
+        hash = 97 * hash + Objects.hashCode(this.drugStartDate);
+        hash = 97 * hash + Objects.hashCode(this.drugStartDateFormat);
+        hash = 97 * hash + Objects.hashCode(this.drugTreatmentDuration);
+        hash = 97 * hash + Objects.hashCode(this.drugTreatmentDurationUnit);
+        hash = 97 * hash + Objects.hashCode(this.medicinalProduct);
+        hash = 97 * hash + Objects.hashCode(this.openFDA_Drug_Info);
+        hash = 97 * hash + Objects.hashCode(this.active_Substance);
         return hash;
     }
 
@@ -349,7 +392,16 @@ public class Drug implements Serializable {
             return false;
         }
         final Drug other = (Drug) obj;
+        if (!Objects.equals(this.drugCumulativeDosageNumb, other.drugCumulativeDosageNumb)) {
+            return false;
+        }
         if (!Objects.equals(this.drugDosageForm, other.drugDosageForm)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugIntervalDosageUnitNumb, other.drugIntervalDosageUnitNumb)) {
+            return false;
+        }
+        if (!Objects.equals(this.drugSeparateDosageNumb, other.drugSeparateDosageNumb)) {
             return false;
         }
         if (!Objects.equals(this.drugStructureDosageNumb, other.drugStructureDosageNumb)) {
@@ -388,22 +440,13 @@ public class Drug implements Serializable {
         if (!Objects.equals(this.drugAdditional, other.drugAdditional)) {
             return false;
         }
-        if (!Objects.equals(this.drugCumulativeDosageNumb, other.drugCumulativeDosageNumb)) {
-            return false;
-        }
         if (!Objects.equals(this.drugCumulativeDosageUnit, other.drugCumulativeDosageUnit)) {
             return false;
         }
         if (!Objects.equals(this.drugIntervalDosageDefinition, other.drugIntervalDosageDefinition)) {
             return false;
         }
-        if (!Objects.equals(this.drugIntervalDosageUnitNumb, other.drugIntervalDosageUnitNumb)) {
-            return false;
-        }
         if (!Objects.equals(this.drugRecurreAdministration, other.drugRecurreAdministration)) {
-            return false;
-        }
-        if (!Objects.equals(this.drugSeparateDosageNumb, other.drugSeparateDosageNumb)) {
             return false;
         }
         if (!Objects.equals(this.drugStructureDosageUnit, other.drugStructureDosageUnit)) {
@@ -427,7 +470,13 @@ public class Drug implements Serializable {
         if (!Objects.equals(this.openFDA_Drug_Info, other.openFDA_Drug_Info)) {
             return false;
         }
+        if (!Objects.equals(this.active_Substance, other.active_Substance)) {
+            return false;
+        }
         return true;
     }
+       
+
+
 
 }

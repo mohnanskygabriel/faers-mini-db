@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "PRIMARY_SOURCE")
+@Table(name = "primary_source")
 public class PrimarySource implements Serializable {
 
     static final long serialVersionUID = 1L;

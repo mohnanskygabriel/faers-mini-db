@@ -16,6 +16,7 @@
         <property name="hibernate.c3p0.max_statements">200</property>
         <property name="hibernate.c3p0.acquireRetryAttempts">30</property>
         <property name="hibernate.c3p0.acquireRetryDelay">2000</property>
+        <mapping class="com.globallogic.faers.json.importer.ActiveSubstance" />  
         <mapping class="com.globallogic.faers.json.importer.Drug" />
         <mapping class="com.globallogic.faers.json.importer.Event" />
         <mapping class="com.globallogic.faers.json.importer.Meta" />
@@ -29,6 +30,6 @@
         <mapping class="com.globallogic.faers.json.importer.Result" />
         <mapping class="com.globallogic.faers.json.importer.Results" />
         <mapping class="com.globallogic.faers.json.importer.Sender" /> 
-        <mapping class="com.globallogic.faers.usertables.User" />    
+        <mapping class="com.globallogic.faers.usertables.User" />
     </session-factory>
 </hibernate-configuration>

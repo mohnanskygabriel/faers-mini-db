@@ -7,14 +7,16 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "META")
+@Table(name = "meta")
 public class Meta implements Serializable {
 
     static final long serialVersionUID = 1L;
@@ -30,6 +32,7 @@ public class Meta implements Serializable {
     private String terms;
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(foreignKey = @ForeignKey(name="fk_meta_results_id_results_id"))
     private Results results;
 
     private String license;

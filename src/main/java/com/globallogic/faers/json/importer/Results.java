@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "META_RESULTS")
+@Table(name = "meta_results")
 
 public class Results implements Serializable {
 

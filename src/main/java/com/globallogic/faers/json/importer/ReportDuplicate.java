@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "REPORT_DUPLICATE")
+@Table(name = "report_duplicate")
 public class ReportDuplicate implements Serializable {
 
     static final long serialVersionUID = 1L;
