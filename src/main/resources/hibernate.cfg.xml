@@ -30,6 +30,6 @@
         <mapping class="com.globallogic.faers.json.importer.Result" />
         <mapping class="com.globallogic.faers.json.importer.Results" />
         <mapping class="com.globallogic.faers.json.importer.Sender" /> 
-        <mapping class="com.globallogic.faers.usertables.User" />
+        <mapping class="com.globallogic.faers.user.User" />
     </session-factory>
 </hibernate-configuration>

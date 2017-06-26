@@ -1,4 +1,4 @@
-package com.globallogic.faers.usertables;
+package com.globallogic.faers.user;
 
 import com.globallogic.faers.json.importer.Drug;
 import java.io.Serializable;
@@ -27,7 +27,7 @@ public class User implements Serializable {
 
     private String login;
 
-    @Column(columnDefinition = "character varying(32) NOT NULL")
+    @Column(columnDefinition = "bytea")
     private String salt;
 
     @Column(columnDefinition = "character varying(64) NOT NULL")
