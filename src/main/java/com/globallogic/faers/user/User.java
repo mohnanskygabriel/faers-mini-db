@@ -27,7 +27,7 @@ public class User implements Serializable {
 
     private String login;
 
-    @Column(columnDefinition = "bytea")
+    @Column(columnDefinition = "character varying(64) NOT NULL")
     private String salt;
 
     @Column(columnDefinition = "character varying(64) NOT NULL")
