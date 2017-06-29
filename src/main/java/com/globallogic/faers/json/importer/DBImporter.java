@@ -59,7 +59,11 @@ public class DBImporter {
     public List getAllJsonFromDirectory(File sourceDirectory) {
         List<File> jsonList = new LinkedList<>();
         Queue<File> directoryQueue = new LinkedList<>();
-        List<File> fileList = Arrays.asList(sourceDirectory.listFiles());
+        File[] abstractPathnames = sourceDirectory.listFiles();
+        if (abstractPathnames == null) {
+            abstractPathnames = new File[0];
+        }
+        List<File> fileList = Arrays.asList(abstractPathnames);
         for (File file : fileList) {
             if (file.isDirectory()) {
                 directoryQueue.add(file);

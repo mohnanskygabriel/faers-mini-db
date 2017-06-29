@@ -66,7 +66,11 @@ public class Extractor {
     public List getAllZipFromDirectory(File sourceDirectory) {
         List<File> zipList = new LinkedList<>();
         Queue<File> directoryQueue = new LinkedList<>();
-        List<File> fileList = Arrays.asList(sourceDirectory.listFiles());
+        File[] abstractPathnames = sourceDirectory.listFiles();
+        if (abstractPathnames == null) {
+            abstractPathnames = new File[0];
+        }
+        List<File> fileList = Arrays.asList(abstractPathnames);
         for (File file : fileList) {
             if (file.isDirectory()) {
                 directoryQueue.add(file);
