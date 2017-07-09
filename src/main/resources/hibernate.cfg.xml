@@ -9,6 +9,7 @@
         <property name="hibernate.connection.driver_class">
             org.postgresql.Driver</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.default_schema">faers</property>
         <property name="show_sql">false</property>
         <property name="hibernate.connection.provider_class">org.hibernate.c3p0.internal.C3P0ConnectionProvider</property>
         <property name="hibernate.c3p0.min_size">1</property>
