@@ -56,7 +56,7 @@ public class DBImporter {
         }
     }
 
-    public List getAllJsonFromDirectory(File sourceDirectory) {
+    public List<File> getAllJsonFromDirectory(File sourceDirectory) {
         List<File> jsonList = new LinkedList<>();
         Queue<File> directoryQueue = new LinkedList<>();
         File[] abstractPathnames = sourceDirectory.listFiles();

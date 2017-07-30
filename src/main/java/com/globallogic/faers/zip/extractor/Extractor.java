@@ -63,7 +63,7 @@ public class Extractor {
         }
     }
 
-    public List getAllZipFromDirectory(File sourceDirectory) {
+    public List<File> getAllZipFromDirectory(File sourceDirectory) {
         List<File> zipList = new LinkedList<>();
         Queue<File> directoryQueue = new LinkedList<>();
         File[] abstractPathnames = sourceDirectory.listFiles();

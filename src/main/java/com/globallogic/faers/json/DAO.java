@@ -16,50 +16,68 @@ import org.apache.logging.log4j.Logger;
 
 public class DAO {
 
-    public Event getEventFromJSON(String json) {
-        Logger logger = LogManager.getLogger(DAO.class);
-        try {
-            InputStreamReader isr = new InputStreamReader(new FileInputStream(json), StandardCharsets.UTF_8);
-            Gson gson = new GsonBuilder().create();
-            JsonReader jReader = new JsonReader(isr);
-            jReader.setLenient(true);
-            while (jReader.hasNext()) {
-                if (jReader.peek() == JsonToken.END_DOCUMENT) {
-                    jReader.close();
-                    return null;
-                }
-                return gson.fromJson(jReader, Event.class);
-            }
+	public Event getEventFromJSON(String json) {
+		Logger logger = LogManager.getLogger(DAO.class);
+		JsonReader jReader = null;
+		try {
+			InputStreamReader isr = new InputStreamReader(new FileInputStream(json), StandardCharsets.UTF_8);
+			Gson gson = new GsonBuilder().create();
+			jReader = new JsonReader(isr);
+			jReader.setLenient(true);
+			while (jReader.hasNext()) {
+				if (jReader.peek() == JsonToken.END_DOCUMENT) {
+					jReader.close();
+					return null;
+				}
+				return gson.fromJson(jReader, Event.class);
+			}
 
-        } catch (FileNotFoundException fileNotFoundException) {
-            logger.catching(fileNotFoundException);
-        } catch (IOException ioException) {
-            logger.catching(ioException);
-        }
-        return null;
-    }
+		} catch (FileNotFoundException fileNotFoundException) {
+			logger.catching(fileNotFoundException);
+		} catch (IOException ioException) {
+			logger.catching(ioException);
+		} finally {
+			if (jReader != null) {
+				try {
+					jReader.close();
+				} catch (IOException e) {
+					logger.catching(e);
+				}
+			}
+		}
+		return null;
+	}
 
-    public DrugEventList getDrugEventListFromJSON(String json) {
-        Logger logger = LogManager.getLogger(DAO.class);
-        try {
-            InputStreamReader isr = new InputStreamReader(new FileInputStream(json), StandardCharsets.UTF_8);
-            Gson gson = new GsonBuilder().create();
-            JsonReader jReader = new JsonReader(isr);
-            jReader.setLenient(true);
-            while (jReader.hasNext()) {
-                if (jReader.peek() == JsonToken.END_DOCUMENT) {
-                    jReader.close();
-                    return null;
-                }
-                return gson.fromJson(jReader, DrugEventList.class);
-            }
+	public DrugEventList getDrugEventListFromJSON(String json) {
+		Logger logger = LogManager.getLogger(DAO.class);
+		JsonReader jReader = null;
+		try {
+			InputStreamReader isr = new InputStreamReader(new FileInputStream(json), StandardCharsets.UTF_8);
+			Gson gson = new GsonBuilder().create();
+			jReader = new JsonReader(isr);
+			jReader.setLenient(true);
+			while (jReader.hasNext()) {
+				if (jReader.peek() == JsonToken.END_DOCUMENT) {
+					jReader.close();
+					return null;
+				}
+				return gson.fromJson(jReader, DrugEventList.class);
+			}
 
-        } catch (FileNotFoundException fileNotFoundException) {
-            logger.catching(fileNotFoundException);
-        } catch (IOException ioException) {
-            logger.catching(ioException);
-        }
-        return null;
-    }
+		} catch (FileNotFoundException fileNotFoundException) {
+			logger.catching(fileNotFoundException);
+		} catch (IOException ioException) {
+			logger.catching(ioException);
+		} finally {
+			if (jReader != null) {
+				try {
+					jReader.close();
+				} catch (IOException e) {
+					logger.catching(e);
+				}
+			}
+		}
+		return null;
+	}
 
 }
