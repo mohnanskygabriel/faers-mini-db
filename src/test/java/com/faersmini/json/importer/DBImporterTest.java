@@ -1,4 +1,4 @@
-package com.globallogic.faers.json.importer;
+package com.faersmini.json.importer;
 
 import org.junit.Test;
 

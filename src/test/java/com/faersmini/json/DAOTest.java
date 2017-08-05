@@ -1,13 +1,15 @@
-package com.globallogic.faers.json;
+package com.faersmini.json;
 
-import com.globallogic.faers.json.importer.Drug;
-import com.globallogic.faers.json.importer.Event;
-import com.globallogic.faers.json.importer.OpenFDA;
-import com.globallogic.faers.json.importer.Patient;
-import com.globallogic.faers.json.importer.Reaction;
-import com.globallogic.faers.json.importer.Result;
-import com.globallogic.faers.zip.downloader.DrugEventList;
-import com.globallogic.faers.zip.downloader.Partition;
+import com.faersmini.json.DAO;
+import com.faersmini.json.importer.Drug;
+import com.faersmini.json.importer.Event;
+import com.faersmini.json.importer.OpenFDA;
+import com.faersmini.json.importer.Patient;
+import com.faersmini.json.importer.Reaction;
+import com.faersmini.json.importer.Result;
+import com.faersmini.zip.downloader.DrugEventList;
+import com.faersmini.zip.downloader.Partition;
+
 import java.util.LinkedList;
 import java.util.List;
 import org.junit.Assert;
@@ -74,15 +76,15 @@ public class DAOTest {
 		String testFilePath = DAOTest.class.getResource("/jsonForDownloadTest.json").getFile().replace("%20", " ");
 		DrugEventList drugEventListFromJSON = dao.getDrugEventListFromJSON(testFilePath);
 		DrugEventList drugEventListCreatedManually = new DrugEventList();
-		drugEventListCreatedManually.setMeta(new com.globallogic.faers.zip.downloader.Meta());
+		drugEventListCreatedManually.setMeta(new com.faersmini.zip.downloader.Meta());
 		drugEventListCreatedManually.getMeta().setDisclaimer(
 				"Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.");
 		drugEventListCreatedManually.getMeta().setLastUpdated("2017-05-05");
 		drugEventListCreatedManually.getMeta().setLicense("https://open.fda.gov/license/");
 		drugEventListCreatedManually.getMeta().setTerms("https://open.fda.gov/terms/");
-		drugEventListCreatedManually.setResults(new com.globallogic.faers.zip.downloader.Results());
-		drugEventListCreatedManually.getResults().setDrug(new com.globallogic.faers.zip.downloader.Drug());
-		drugEventListCreatedManually.getResults().getDrug().setEvent(new com.globallogic.faers.zip.downloader.Event());
+		drugEventListCreatedManually.setResults(new com.faersmini.zip.downloader.Results());
+		drugEventListCreatedManually.getResults().setDrug(new com.faersmini.zip.downloader.Drug());
+		drugEventListCreatedManually.getResults().getDrug().setEvent(new com.faersmini.zip.downloader.Event());
 		drugEventListCreatedManually.getResults().getDrug().getEvent().setExportDate("2017-05-05");
 		drugEventListCreatedManually.getResults().getDrug().getEvent().setTotalRecords("7132687");
 		drugEventListCreatedManually.getResults().getDrug().getEvent().setPartitions(new LinkedList<>());

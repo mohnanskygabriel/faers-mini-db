@@ -1,4 +1,4 @@
-package com.globallogic.faers.zip.extractor;
+package com.faersmini.zip.extractor;
 
 import java.io.File;
 import java.io.FileInputStream;

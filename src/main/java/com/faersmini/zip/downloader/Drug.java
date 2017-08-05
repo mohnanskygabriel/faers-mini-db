@@ -1,23 +1,23 @@
-package com.globallogic.faers.zip.downloader;
+package com.faersmini.zip.downloader;
 
 import java.util.Objects;
 
-public class Results {
+public class Drug {
 
-    private Drug drug;
+    private Event event;
 
-    public Drug getDrug() {
-        return drug;
+    public Event getEvent() {
+        return event;
     }
 
-    public void setDrug(Drug drug) {
-        this.drug = drug;
+    public void setEvent(Event event) {
+        this.event = event;
     }
 
     @Override
     public int hashCode() {
-        int hash = 3;
-        hash = 41 * hash + Objects.hashCode(this.drug);
+        int hash = 5;
+        hash = 79 * hash + Objects.hashCode(this.event);
         return hash;
     }
 
@@ -32,8 +32,8 @@ public class Results {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Results other = (Results) obj;
-        if (!Objects.equals(this.drug, other.drug)) {
+        final Drug other = (Drug) obj;
+        if (!Objects.equals(this.event, other.event)) {
             return false;
         }
         return true;

@@ -1,4 +1,4 @@
-package com.globallogic.faers.json.importer;
+package com.faersmini.json.importer;
 
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;

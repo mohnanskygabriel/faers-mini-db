@@ -1,4 +1,4 @@
-package com.globallogic.faers.zip.downloader;
+package com.faersmini.zip.downloader;
 
 import com.google.gson.annotations.SerializedName;
 import java.util.Objects;

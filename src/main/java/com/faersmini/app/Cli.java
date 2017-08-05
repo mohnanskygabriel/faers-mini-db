@@ -1,11 +1,12 @@
-package com.globallogic.faers.app;
+package com.faersmini.app;
 
-import com.globallogic.faers.json.DAO;
-import com.globallogic.faers.json.importer.DBImporter;
-import com.globallogic.faers.zip.downloader.Downloader;
-import com.globallogic.faers.zip.downloader.DrugEventList;
-import com.globallogic.faers.zip.downloader.Partition;
-import com.globallogic.faers.zip.extractor.Extractor;
+import com.faersmini.json.DAO;
+import com.faersmini.json.importer.DBImporter;
+import com.faersmini.zip.downloader.Downloader;
+import com.faersmini.zip.downloader.DrugEventList;
+import com.faersmini.zip.downloader.Partition;
+import com.faersmini.zip.extractor.Extractor;
+
 import java.io.File;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -18,9 +19,6 @@ import org.apache.logging.log4j.Logger;
 
 public class Cli {
 
-    //-download https://api.fda.gov/download.json -directory D:/X -extract D:/JSON/ -extractDestination D:/JSON/EXTRACTED -import D:/JSON/EXTRACTED -db faers -ip 192.168.0.17 -port 5432 -user faers -pass brutepass
-    //-import D:/JSON/EXTRACTED -db faersdb -ip 192.168.0.17 -port 5432 -user faers -pass mnhb2016
-    //VM Options: -Xmx5000M
     /**
      * @param args the command line arguments
      */
@@ -118,9 +116,6 @@ public class Cli {
             }
 
             DBImporter importer = new DBImporter();
-            /*Import a file:
-            importer.importJson("D:/filepath/drug-event-0001-of-0004.json", ip, port, db, user, password);
-             */
             importer.importAllJsonFromDirectory(new File(importSource), ip, port, db, user, password);
         }
 

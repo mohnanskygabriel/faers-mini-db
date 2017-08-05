@@ -1,4 +1,4 @@
-package com.globallogic.faers.zip.downloader;
+package com.faersmini.zip.downloader;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

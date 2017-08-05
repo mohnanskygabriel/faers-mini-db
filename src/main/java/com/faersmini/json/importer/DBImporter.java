@@ -1,6 +1,5 @@
-package com.globallogic.faers.json.importer;
+package com.faersmini.json.importer;
 
-import com.globallogic.faers.json.DAO;
 import java.io.File;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -13,6 +12,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+
+import com.faersmini.json.DAO;
 
 public class DBImporter {
 

@@ -1,7 +1,7 @@
-package com.globallogic.faers.json;
+package com.faersmini.json;
 
-import com.globallogic.faers.json.importer.Event;
-import com.globallogic.faers.zip.downloader.DrugEventList;
+import com.faersmini.json.importer.Event;
+import com.faersmini.zip.downloader.DrugEventList;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonReader;

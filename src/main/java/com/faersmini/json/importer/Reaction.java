@@ -1,21 +1,17 @@
-package com.globallogic.faers.json.importer;
+package com.faersmini.json.importer;
 
+import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "event_result")
-public class Result implements Serializable {
+@Table(name = "reaction")
+public class Reaction implements Serializable {
 
 	static final long serialVersionUID = 1L;
 	@Id
@@ -23,9 +19,9 @@ public class Result implements Serializable {
 	@Column(name = "id", unique = true, nullable = false)
 	private Long id;
 
-	@OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	@JoinColumn(foreignKey = @ForeignKey(name = "fk_result_patient_id_patient_id"))
-	private Patient patient;
+	@SerializedName("reactionmeddrapt")
+	@Column(name = "meddra_pt")
+	private String reactionMedDRAPT;
 
 	public Long getId() {
 		return id;
@@ -35,12 +31,12 @@ public class Result implements Serializable {
 		this.id = id;
 	}
 
-	public Patient getPatient() {
-		return patient;
+	public String getReactionMedDRAPT() {
+		return reactionMedDRAPT;
 	}
 
-	public void setPatient(Patient patient) {
-		this.patient = patient;
+	public void setReactionMedDRAPT(String reactionMedDRAPT) {
+		this.reactionMedDRAPT = reactionMedDRAPT;
 	}
 
 	@Override
@@ -48,7 +44,7 @@ public class Result implements Serializable {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
-		result = prime * result + ((patient == null) ? 0 : patient.hashCode());
+		result = prime * result + ((reactionMedDRAPT == null) ? 0 : reactionMedDRAPT.hashCode());
 		return result;
 	}
 
@@ -60,20 +56,18 @@ public class Result implements Serializable {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Result other = (Result) obj;
+		Reaction other = (Reaction) obj;
 		if (id == null) {
 			if (other.id != null)
 				return false;
 		} else if (!id.equals(other.id))
 			return false;
-		if (patient == null) {
-			if (other.patient != null)
+		if (reactionMedDRAPT == null) {
+			if (other.reactionMedDRAPT != null)
 				return false;
-		} else if (!patient.equals(other.patient))
+		} else if (!reactionMedDRAPT.equals(other.reactionMedDRAPT))
 			return false;
 		return true;
 	}
 
-	
-	
 }
