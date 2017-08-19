@@ -23,7 +23,6 @@ public class DAOTest {
 		String testFilePath = DAOTest.class.getResource("/jsonForImportTest.json").getFile().replace("%20", " ");
 		Event eventFromJson = dao.getEventFromJSON(testFilePath);
 		Event eventCreatedManually = new Event();
-
 		Result result = new Result();
 
 		Patient patient = new Patient();
@@ -34,7 +33,7 @@ public class DAOTest {
 
 		List<Reaction> reactionList = new LinkedList<>();
 		Reaction reaction = new Reaction();
-		reaction.setReactionMedDRAPT("Accidental poisoning");
+		reaction.setReactionMedDRAPT("ACCIDENTAL POISONING");
 		reactionList.add(reaction);
 		patient.setReaction(reactionList);
 
@@ -66,8 +65,8 @@ public class DAOTest {
 		eventCreatedManually.setResults(new LinkedList<>());
 		result.setPatient(patient);
 		eventCreatedManually.getResults().add(result);
-
 		Assert.assertEquals(eventCreatedManually, eventFromJson);
+
 	}
 
 	@Test

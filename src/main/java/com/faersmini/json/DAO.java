@@ -1,6 +1,7 @@
 package com.faersmini.json;
 
 import com.faersmini.json.importer.Event;
+import com.faersmini.json.importer.Reaction;
 import com.faersmini.zip.downloader.DrugEventList;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -21,7 +22,7 @@ public class DAO {
 		JsonReader jReader = null;
 		try {
 			InputStreamReader isr = new InputStreamReader(new FileInputStream(json), StandardCharsets.UTF_8);
-			Gson gson = new GsonBuilder().create();
+			Gson gson = new GsonBuilder().registerTypeAdapter(Reaction.class, new ReactionTypeAdapter()).create();
 			jReader = new JsonReader(isr);
 			jReader.setLenient(true);
 			while (jReader.hasNext()) {

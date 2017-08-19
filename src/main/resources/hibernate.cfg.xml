@@ -18,10 +18,8 @@
         <property name="hibernate.c3p0.acquireRetryAttempts">30</property>
         <property name="hibernate.c3p0.acquireRetryDelay">2000</property>
         <mapping class="com.faersmini.json.importer.Drug" />
-        <mapping class="com.faersmini.json.importer.Event" />
         <mapping class="com.faersmini.json.importer.OpenFDA" />
         <mapping class="com.faersmini.json.importer.Patient" />
         <mapping class="com.faersmini.json.importer.Reaction" />
-        <mapping class="com.faersmini.json.importer.Result" />
     </session-factory>
 </hibernate-configuration>

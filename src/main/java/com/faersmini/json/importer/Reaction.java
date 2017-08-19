@@ -39,6 +39,8 @@ public class Reaction implements Serializable {
 		this.reactionMedDRAPT = reactionMedDRAPT;
 	}
 
+	
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
